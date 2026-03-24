@@ -16526,11 +16526,11 @@ export const electionData: ElectionData = {
             { no: 1, name: "ANUP GHOSAL", gender: "M", category: "GEN", party: "AITC", generalVotes: 104586, postalVotes: 167, totalVotes: 104753, percentage: 59.8 },
             { no: 2, name: "PROF. DR. SRUTINATH PRAHARAJ", gender: "M", category: "GEN", party: "CPM", generalVotes: 61182, postalVotes: 378, totalVotes: 61560, percentage: 35.1 },
             { no: 3, name: "PRANAB CHAKRABORTY", gender: "M", category: "GEN", party: "BJP", generalVotes: 6159, postalVotes: 2, totalVotes: 6161, percentage: 3.5 },
-            { no: 4, name: "DR. RISHIKESH SINGH", gender: "M", category: "GEN", party: "JD(U)", generalVotes: 2794, postalVotes: 0, totalVotes: 2794, percentage: 1.6 },
-         },
+        { no: 4, name: "DR. RISHIKESH SINGH", gender: "M", category: "GEN", party: "JD(U)", generalVotes: 2794, postalVotes: 0, totalVotes: 2794, percentage: 1.6 }
+      ], 
     },
-  ], 
-}; 
+  ],
+};
 
 
 for (let i = 4; i <= 294; i++) {
