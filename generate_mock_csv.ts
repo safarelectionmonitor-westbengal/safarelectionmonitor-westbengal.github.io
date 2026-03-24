@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-// Importing your existing constituencies
-import { WEST_BENGAL_CONSTITUENCIES } from './src/data/constituencies.ts';
+// Removed the .ts extension here to prevent module resolution errors
+import { WEST_BENGAL_CONSTITUENCIES } from './src/data/constituencies';
 
 // Setup paths for ES modules
 const __filename = fileURLToPath(import.meta.url);
@@ -12,16 +12,16 @@ const PARTIES = ['AITC', 'BJP', 'INC', 'CPIM', 'OTH'];
 const CANDIDATE_NAMES = ['Aarav', 'Vivaan', 'Aditya', 'Vihaan', 'Arjun', 'Sai', 'Reyansh', 'Ayaan', 'Krishna', 'Ishaan', 'Diya', 'Saanvi', 'Aanya', 'Priya', 'Riya'];
 
 // Helper to get random number between min and max
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const getRandomInt = (min: number, max: number) => Math.floor(Math.random() * (max - min + 1)) + min;
 
 // Helper to pick a random item from an array
-const getRandomItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const getRandomItem = (arr: any[]) => arr[Math.floor(Math.random() * arr.length)];
 
-function generateMockCSV(year) {
+function generateMockCSV(year: number) {
   const header = ['Constituency', 'No', 'Name', 'Gender', 'Category', 'Party', 'General Vote', 'Postal Vote', 'Total', 'PctVotes'];
   const lines = [header.join(',')];
 
-  WEST_BENGAL_CONSTITUENCIES.forEach(constituency => {
+  WEST_BENGAL_CONSTITUENCIES.forEach((constituency) => {
     // Generate 3 to 5 candidates per constituency
     const numCandidates = getRandomInt(3, 5);
     const totalVoters = getRandomInt(150000, 250000);
@@ -30,7 +30,6 @@ function generateMockCSV(year) {
     const candidatesData = [];
 
     for (let i = 1; i <= numCandidates; i++) {
-      // For the last candidate, give them whatever votes are left. Otherwise, give a random chunk.
       let votes = i === numCandidates ? votesRemaining : getRandomInt(1000, Math.floor(votesRemaining / 2));
       votesRemaining -= votes;
 
@@ -43,7 +42,7 @@ function generateMockCSV(year) {
         Name: `${getRandomItem(CANDIDATE_NAMES)} Chatterjee`,
         Gender: getRandomItem(['M', 'F']),
         Category: getRandomItem(['GEN', 'SC', 'ST']),
-        Party: i === 1 ? PARTIES[0] : i === 2 ? PARTIES[1] : getRandomItem(PARTIES), // Ensure major parties are represented
+        Party: i === 1 ? PARTIES[0] : i === 2 ? PARTIES[1] : getRandomItem(PARTIES), 
         GeneralVote: general,
         PostalVote: postal,
         Total: votes
