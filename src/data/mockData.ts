@@ -16527,16 +16527,15 @@ export const electionData: ElectionData = {
             { no: 2, name: "PROF. DR. SRUTINATH PRAHARAJ", gender: "M", category: "GEN", party: "CPM", generalVotes: 61182, postalVotes: 378, totalVotes: 61560, percentage: 35.1 },
             { no: 3, name: "PRANAB CHAKRABORTY", gender: "M", category: "GEN", party: "BJP", generalVotes: 6159, postalVotes: 2, totalVotes: 6161, percentage: 3.5 },
             { no: 4, name: "DR. RISHIKESH SINGH", gender: "M", category: "GEN", party: "JD(U)", generalVotes: 2794, postalVotes: 0, totalVotes: 2794, percentage: 1.6 },
-          ],
-        },
-      },
+         },
     },
-  ] 
+  ], 
+}; 
 
 
 for (let i = 4; i <= 294; i++) {
   const name = `Constituency ${i}`;
-  const district = ["North 24 Parganas", "South 24 Parganas", "Nadia", "Murshidabad", "Malda", "Howrah", "Hooghly"][i % 7];
+const district = ["North 24 Parganas", "South 24 Parganas", "Nadia", "Murshidabad", "Malda", "Howrah", "Hooghly"][i % 7];
   
   const history: Record<number, any> = {};
   [2011, 2016, 2021, 2026].forEach(year => {
