@@ -5,7 +5,7 @@ export const WEST_BENGAL_CONSTITUENCIES = [
   { id: 4, name: "Cooch Behar Dakshin", district: "Cooch Behar" },
   { id: 5, name: "Sitalkuchi", district: "Cooch Behar" },
   { id: 6, name: "Sitai", district: "Cooch Behar" },
-  { id: 7, name: "Dinhata", district: "Cooch Behar" },
+  { id: 7, name: "Dinhata", district: "CoochBehar" },
   { id: 8, name: "Natabari", district: "Cooch Behar" },
   { id: 9, name: "Tufanganj", district: "Cooch Behar" },
   { id: 10, name: "Kumargram", district: "Alipurduar" },
@@ -291,6 +291,6 @@ export const WEST_BENGAL_CONSTITUENCIES = [
   { id: 290, name: "Kalyani", district: "Nadia" },
   { id: 291, name: "Nalhati", district: "Birbhum" },
   { id: 292, name: "Murarai", district: "Birbhum" }, 
-  { id: 293, name: "Behala Purba", district:Kolkata"Birbhum" },
+  { id: 293, name: "Behala Purba", district: "Kolkata" },
   { id: 294, name: "Behala Paschim", district: "Kolkata" }
 ];
