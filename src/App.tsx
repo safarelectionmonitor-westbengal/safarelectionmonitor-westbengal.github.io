@@ -260,8 +260,16 @@ export default function App() {
 
   if (!electionData) return null;
 
-  const currentYearSummary = electionData.years[selectedYear];
+if (!currentYearSummary && view === 'summary') {
+    return (
+       <div className="min-h-screen flex items-center justify-center bg-[#F8FAFC]">
+          <p className="text-slate-500 font-medium">No summary data available for {selectedYear}.</p>
+       </div>
+    );
+  }
 
+  return (
+    <div className="min-h-screen pb-20 bg-slate-50">
   return (
     <div className="min-h-screen pb-20 bg-slate-50">
       {/* Global Header */}
