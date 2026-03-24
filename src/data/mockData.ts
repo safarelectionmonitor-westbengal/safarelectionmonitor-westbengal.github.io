@@ -7,7 +7,7 @@ export const PARTY_COLORS: Record<Party, string> = {
   CPIM: "#e11d48", // Rose 600 (Deep Crimson/Red)
   ISF: "#7c3aed", // Violet 600 (Deep Purple)
   IND: "#64748b", // Slate 500
-  OTH: "#94a3b8", // Slate 400
+  OTH: "#94a3b8", // Slate 40
 };
  
 // PARTY NAME NORMALIZATION MAP
@@ -106,7 +106,7 @@ export function normalizePartyName(rawParty: string): Party {
 
 export const electionData: ElectionData = {
   
-years: {
+constituencies: [
       id: 1,
       name: "Alipurduars",
       district: "Alipurduar",
