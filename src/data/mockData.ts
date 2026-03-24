@@ -106,8 +106,8 @@ export function normalizePartyName(rawParty: string): Party {
 
 export const electionData: ElectionData = {
   
-constituencies: [
-{
+  constituencies: [
+    {
       id: 1,
       name: "Alipurduars",
       district: "Alipurduar",
