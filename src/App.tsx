@@ -15,7 +15,7 @@ import {
   Activity,
   Loader2
 } from 'lucide-react';
-import { PARTY_COLORS } from './data/mockData';
+import { PARTY_COLORS, normalizePartyName } from './data/mockData';
 import { Party, Constituency, CandidateResult, ElectionData, ElectionYearSummary, ConstituencyYearData } from './types';
 import { SVGLineChart } from './components/SVGLineChart';
 import { WEST_BENGAL_CONSTITUENCIES } from './data/constituencies';
@@ -36,8 +36,14 @@ interface CSVRow {
   PctVotes: string;
 }
 
+// Normalize constituency names for matching: lowercase, collapse whitespace, normalize hyphens
+function normalizeConstituencyName(name: string): string {
+  return name.toLowerCase().replace(/[\s-]+/g, ' ').trim();
+}
+
 export default function App() {
-  const [selectedYear, setSelectedYear] = useState<number>(2026);
+  // FIX: Default to 2021 since 2026 has no data yet
+  const [selectedYear, setSelectedYear] = useState<number>(2021);
   const [selectedID, setSelectedID] = useState<number | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [activeParties, setActiveParties] = useState<Party[]>(['AITC', 'BJP', 'INC', 'CPIM']);
@@ -56,7 +62,8 @@ export default function App() {
 
         const constituencyMap = new Map<number, Constituency>();
 
-        // Initialize with all 294 constituencies from our master list
+        // Build a normalized name lookup for constituency matching
+        const normalizedLookup = new Map<string, { id: number; name: string; district: string }>();
         WEST_BENGAL_CONSTITUENCIES.forEach(c => {
           constituencyMap.set(c.id, {
             id: c.id,
@@ -64,9 +71,9 @@ export default function App() {
             district: c.district,
             history: {}
           });
+          normalizedLookup.set(normalizeConstituencyName(c.name), c);
         });
 
-        // We'll try to load CSVs for each year
         const yearsToLoad = [2026, 2021, 2016, 2011];
         
         for (const year of yearsToLoad) {
@@ -75,7 +82,11 @@ export default function App() {
             if (!response.ok) continue;
             
             const csvText = await response.text();
+            if (csvText.trim().split('\n').length <= 1) continue; // Skip empty CSVs (header only)
+            
             const parsed = Papa.parse<CSVRow>(csvText, { header: true, skipEmptyLines: true });
+            
+            if (!parsed.data || parsed.data.length === 0) continue;
             
             const yearSummary: ElectionYearSummary = {
               year,
@@ -98,26 +109,25 @@ export default function App() {
             });
 
             Object.entries(constituencyGroups).forEach(([name, rows]) => {
-              const matchedConstituency = WEST_BENGAL_CONSTITUENCIES.find(
-                c => c.name.toLowerCase() === name.toLowerCase()
-              );
+              // FIX: Use normalized name matching to handle case differences and hyphen variations
+              const normalizedName = normalizeConstituencyName(name);
+              const matchedConstituency = normalizedLookup.get(normalizedName);
               
               if (!matchedConstituency) {
-                console.warn(`Constituency ${name} not found in master list`);
+                console.warn(`Constituency "${name}" not found in master list (normalized: "${normalizedName}")`);
                 return;
               }
               
               const id = matchedConstituency.id;
-             const sortedCandidates = rows.sort((a, b) => (parseInt(b.Total) || 0) - (parseInt(a.Total) || 0));
+              const sortedCandidates = rows.sort((a, b) => (parseInt(b.Total) || 0) - (parseInt(a.Total) || 0));
               const winner = sortedCandidates[0];
               const runnerUp = sortedCandidates[1];
               if (!winner) return;
               
-              const totalVotes = rows.reduce((sum, r) => sum + parseInt(r.Total || '0'), 0);
+              const totalVotes = rows.reduce((sum, r) => sum + (parseInt(r.Total) || 0), 0);
               
               totalYearVotes += totalVotes;
               
-              // Update constituency map
               if (!constituencyMap.has(id)) {
                 constituencyMap.set(id, {
                   id,
@@ -128,48 +138,58 @@ export default function App() {
               }
 
               const constituency = constituencyMap.get(id)!;
+              
+              // FIX: Normalize party names from CSV to canonical Party type
+              const winnerPartyNormalized = normalizePartyName(winner.Party);
+              
               constituency.history[year] = {
                 winner: winner.Name,
-                party: winner.Party as Party,
-                margin: parseInt(winner.Total) - (runnerUp ? parseInt(runnerUp.Total) : 0),
-                marginPercent: ((parseInt(winner.Total) - (runnerUp ? parseInt(runnerUp.Total) : 0)) / totalVotes) * 100,
+                party: winnerPartyNormalized,
+                margin: (parseInt(winner.Total) || 0) - (runnerUp ? (parseInt(runnerUp.Total) || 0) : 0),
+                marginPercent: totalVotes > 0 ? (((parseInt(winner.Total) || 0) - (runnerUp ? (parseInt(runnerUp.Total) || 0) : 0)) / totalVotes) * 100 : 0,
                 totalVotes,
                 candidates: sortedCandidates.map((c, index) => ({
                   no: c.No ? parseInt(c.No) : index + 1,
                   name: c.Name,
                   gender: c.Gender || 'M',
                   category: c.Category || 'GEN',
-                  party: c.Party as Party,
-                  generalVotes: c['General Vote'] ? parseInt(c['General Vote']) : parseInt(c.Total),
+                  party: normalizePartyName(c.Party),
+                  generalVotes: c['General Vote'] ? parseInt(c['General Vote']) : (parseInt(c.Total) || 0),
                   postalVotes: c['Postal Vote'] ? parseInt(c['Postal Vote']) : 0,
-                  totalVotes: parseInt(c.Total),
-                  percentage: parseFloat(c.PctVotes) || ((parseInt(c.Total) / totalVotes) * 100)
+                  totalVotes: parseInt(c.Total) || 0,
+                  percentage: parseFloat(c.PctVotes) || (totalVotes > 0 ? ((parseInt(c.Total) || 0) / totalVotes) * 100 : 0)
                 }))
               };
 
-              // Aggregate party stats
-              const winnerParty = winner.Party;
-              partySeats[winnerParty] = (partySeats[winnerParty] || 0) + 1;
+              // Aggregate party stats using NORMALIZED party names
+              partySeats[winnerPartyNormalized] = (partySeats[winnerPartyNormalized] || 0) + 1;
               
               rows.forEach(r => {
-                partyVotes[r.Party] = (partyVotes[r.Party] || 0) + parseInt(r.Total);
+                const normalizedParty = normalizePartyName(r.Party);
+                partyVotes[normalizedParty] = (partyVotes[normalizedParty] || 0) + (parseInt(r.Total) || 0);
               });
             });
 
             // Build year summary
-            yearSummary.partyResults = Object.entries(partyVotes).map(([party, votes]) => ({
-              party: party as Party,
-              seats: partySeats[party] || 0,
-              voteShare: (votes / totalYearVotes) * 100,
-              color: PARTY_COLORS[party as Party] || PARTY_COLORS.OTH
-            })).sort((a, b) => b.seats - a.seats);
+            if (totalYearVotes > 0) {
+              yearSummary.partyResults = Object.entries(partyVotes).map(([party, votes]) => ({
+                party: party as Party,
+                seats: partySeats[party] || 0,
+                voteShare: (votes / totalYearVotes) * 100,
+                color: PARTY_COLORS[party as Party] || PARTY_COLORS.OTH
+              })).sort((a, b) => b.seats - a.seats);
 
-            allData.years[year] = yearSummary;
+              allData.years[year] = yearSummary;
+            }
           } catch (e) {
             console.warn(`Failed to load data for year ${year}`, e);
           }
         }
 
+        // Set constituencies from the map
+        allData.constituencies = Array.from(constituencyMap.values());
+
+        // If selected year has no data, pick the first available year
         const loadedYears = Object.keys(allData.years).map(Number).sort((a, b) => b - a);
         if (loadedYears.length > 0 && !loadedYears.includes(selectedYear)) {
           setSelectedYear(loadedYears[0]);
@@ -185,6 +205,12 @@ export default function App() {
 
     loadData();
   }, []);
+
+  // Current year summary - with safety check
+  const currentYearSummary = useMemo(() => {
+    if (!electionData) return null;
+    return electionData.years[selectedYear] || null;
+  }, [electionData, selectedYear]);
 
   // Filtered constituencies for the table
   const filteredConstituencies = useMemo(() => {
@@ -221,7 +247,7 @@ export default function App() {
         const year = parseInt(yearStr);
         return {
           year,
-          value: electionData.years[year].partyResults.find(r => r.party === party)?.voteShare || 0
+          value: electionData.years[year]?.partyResults.find(r => r.party === party)?.voteShare || 0
         };
       });
     });
@@ -259,11 +285,58 @@ export default function App() {
 
   if (!electionData) return null;
 
-if (!currentYearSummary && view === 'summary') {
+  // FIX: Graceful handling when no data for selected year
+  if (!currentYearSummary && view === 'summary') {
     return (
-       <div className="min-h-screen flex items-center justify-center bg-[#F8FAFC]">
-          <p className="text-slate-500 font-medium">No summary data available for {selectedYear}.</p>
-       </div>
+      <div className="min-h-screen pb-20 bg-slate-50">
+        <header className="bg-white border-b border-slate-200 px-4 md:px-6 py-3 md:py-4 sticky top-0 z-50 shadow-sm">
+          <div className="max-w-[1600px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4 md:gap-6">
+            <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 text-center sm:text-left">
+              <div className="w-10 h-10 rounded-xl bg-slate-900 flex items-center justify-center shadow-sm shrink-0">
+                <LayoutDashboard className="w-5 h-5 text-white" />
+              </div>
+              <h1 className="text-xl md:text-2xl font-bold tracking-tight text-slate-900">
+                SAFAR: <span className="text-slate-500 block sm:inline">West Bengal Assembly Election Tracker</span>
+              </h1>
+            </div>
+            <div className="flex items-center gap-1 sm:gap-2 bg-slate-100 p-1 rounded-xl">
+              {Object.keys(electionData.years).concat(
+                YEARS.filter(y => !electionData.years[y]).map(String)
+              ).sort((a, b) => parseInt(b) - parseInt(a)).filter((v, i, a) => a.indexOf(v) === i).map(yearStr => {
+                const year = parseInt(yearStr);
+                return (
+                  <button
+                    key={year}
+                    onClick={() => setSelectedYear(year)}
+                    className={`px-3 sm:px-5 py-1.5 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold transition-all duration-200 ${
+                      selectedYear === year 
+                        ? 'bg-white text-slate-900 shadow-sm' 
+                        : 'text-slate-600 hover:text-slate-900 hover:bg-slate-200'
+                    }`}
+                  >
+                    {year}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        </header>
+        <div className="max-w-[1600px] mx-auto px-4 md:px-6 pt-24 flex flex-col items-center justify-center">
+          <div className="text-center">
+            <div className="text-6xl font-bold text-slate-200 mb-4">{selectedYear}</div>
+            <p className="text-slate-500 font-medium text-lg">No election data available for {selectedYear} yet.</p>
+            <p className="text-slate-400 text-sm mt-2">Data will be added once the election results are announced.</p>
+            {Object.keys(electionData.years).length > 0 && (
+              <button 
+                onClick={() => setSelectedYear(parseInt(Object.keys(electionData.years).sort((a, b) => parseInt(b) - parseInt(a))[0]))}
+                className="mt-6 px-6 py-2.5 bg-slate-900 text-white rounded-lg text-sm font-semibold hover:bg-slate-800 transition-colors"
+              >
+                View Latest Available Results
+              </button>
+            )}
+          </div>
+        </div>
+      </div>
     );
   }
 
@@ -283,22 +356,19 @@ if (!currentYearSummary && view === 'summary') {
 
           <div className="flex items-center gap-4 md:gap-8 w-full md:w-auto overflow-x-auto pb-2 md:pb-0 hide-scrollbar">
             <div className="flex items-center gap-1 sm:gap-2 bg-slate-100 p-1 rounded-xl mx-auto md:mx-0 min-w-max">
-              {Object.keys(electionData.years).sort((a,b) => parseInt(b) - parseInt(a)).map(yearStr => {
-                const year = parseInt(yearStr);
-                return (
-                  <button
-                    key={year}
-                    onClick={() => setSelectedYear(year)}
-                    className={`px-3 sm:px-5 py-1.5 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold transition-all duration-200 ${
-                      selectedYear === year 
-                        ? 'bg-white text-slate-900 shadow-sm' 
-                        : 'text-slate-600 hover:text-slate-900 hover:bg-slate-200'
-                    }`}
-                  >
-                    {year}
-                  </button>
-                );
-              })}
+              {YEARS.map(year => (
+                <button
+                  key={year}
+                  onClick={() => setSelectedYear(year)}
+                  className={`px-3 sm:px-5 py-1.5 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold transition-all duration-200 ${
+                    selectedYear === year 
+                      ? 'bg-white text-slate-900 shadow-sm' 
+                      : 'text-slate-600 hover:text-slate-900 hover:bg-slate-200'
+                  }`}
+                >
+                  {year}
+                </button>
+              ))}
             </div>
           </div>
         </div>
@@ -323,69 +393,71 @@ if (!currentYearSummary && view === 'summary') {
                 </div>
 
                 {/* Stacked Progress Bar */}
-                <div className="relative h-8 md:h-12 w-full bg-slate-100 rounded-full overflow-hidden flex mb-6 md:mb-8 shadow-inner">
-                  {currentYearSummary.partyResults
-                    .sort((a, b) => b.seats - a.seats)
-                    .map(result => (
-                      <div 
-                        key={result.party}
-                        style={{ 
-                          width: `${(result.seats / 294) * 100}%`,
-                          backgroundColor: result.color
-                        }}
-                        className="h-full transition-all duration-1000 border-r border-white/20 last:border-0"
-                      />
-                    ))
-                  }
-                  {/* Majority Marker */}
-                  <div 
-                    className="absolute top-0 bottom-0 w-0 border-l-2 border-slate-900 z-10"
-                    style={{ left: `${(148 / 294) * 100}%` }}
-                  >
-                    <div className="absolute -top-6 md:-top-8 left-1/2 -translate-x-1/2 bg-slate-900 text-white text-[8px] md:text-[10px] font-bold px-1.5 md:px-2 py-0.5 md:py-1 rounded-md uppercase tracking-wider whitespace-nowrap shadow-sm">
-                      Majority (148)
+                {currentYearSummary && (
+                  <>
+                    <div className="relative h-8 md:h-12 w-full bg-slate-100 rounded-full overflow-hidden flex mb-6 md:mb-8 shadow-inner">
+                      {currentYearSummary.partyResults
+                        .sort((a, b) => b.seats - a.seats)
+                        .filter(r => r.seats > 0)
+                        .map(result => (
+                          <div 
+                            key={result.party}
+                            style={{ 
+                              width: `${(result.seats / 294) * 100}%`,
+                              backgroundColor: result.color
+                            }}
+                            className="h-full transition-all duration-1000 border-r border-white/20 last:border-0"
+                            title={`${result.party}: ${result.seats} seats`}
+                          />
+                        ))
+                      }
                     </div>
-                  </div>
-                </div>
 
-                {/* Party Seat Grid */}
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 md:gap-4">
-                  {currentYearSummary.partyResults
-                    .sort((a, b) => b.seats - a.seats)
-                    .map(result => (
-                      <div key={result.party} className="p-3 md:p-5 rounded-xl border border-slate-100 bg-slate-50 hover:shadow-sm hover:border-slate-200 transition-all duration-200">
-                        <div className="flex items-center gap-2 mb-1 md:mb-2">
-                          <div className="w-2.5 h-2.5 md:w-3 md:h-3 rounded-full shadow-sm shrink-0" style={{ backgroundColor: result.color }} />
-                          <span className="text-[10px] md:text-xs font-semibold text-slate-600 uppercase tracking-wider truncate">{result.party}</span>
-                        </div>
-                        <div className="text-2xl md:text-3xl font-bold text-slate-900">{result.seats}</div>
-                      </div>
-                    ))
-                  }
-                </div>
+                    {/* Party Legend */}
+                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 md:gap-4">
+                      {currentYearSummary.partyResults
+                        .filter(r => r.seats > 0 || ['AITC', 'BJP', 'INC', 'CPIM'].includes(r.party))
+                        .sort((a, b) => b.seats - a.seats)
+                        .map(result => (
+                          <div key={result.party} className="p-3 md:p-4 bg-slate-50 rounded-xl border border-slate-100">
+                            <div className="flex items-center gap-2 mb-2">
+                              <div className="w-3 h-3 rounded-full shadow-sm" style={{ backgroundColor: result.color }} />
+                              <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">{result.party}</span>
+                            </div>
+                            <div className="text-2xl md:text-3xl font-bold text-slate-900 font-mono">{result.seats}</div>
+                            <div className="text-xs text-slate-500 mt-1">{result.voteShare.toFixed(1)}% votes</div>
+                          </div>
+                        ))
+                      }
+                    </div>
+                  </>
+                )}
               </section>
 
-              {/* Constituency Explorer */}
+              {/* Constituency Table */}
               <section className="modern-card !p-0 overflow-hidden">
-                <div className="p-6 border-b border-slate-200 flex flex-col md:flex-row items-center justify-between gap-4 bg-white">
-                  <h3 className="text-xl font-bold text-slate-900">Constituency Explorer</h3>
-                  <div className="relative w-full md:w-80">
-                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-4 h-4" />
-                    <input 
-                      type="text" 
-                      placeholder="Search name or district..."
+                <div className="p-4 sm:p-6 border-b border-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+                  <div>
+                    <h3 className="text-lg font-bold text-slate-900">All Constituencies</h3>
+                    <p className="text-sm text-slate-500 mt-1">Click on any row to see detailed results</p>
+                  </div>
+                  <div className="relative w-full sm:w-auto">
+                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+                    <input
+                      type="text"
+                      placeholder="Search constituency or district..."
                       value={searchTerm}
                       onChange={(e) => setSearchTerm(e.target.value)}
-                      className="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm font-medium text-slate-900 focus:outline-none focus:ring-2 focus:ring-slate-500/20 focus:border-slate-500 transition-all"
+                      className="w-full sm:w-72 pl-10 pr-4 py-2.5 bg-slate-100 rounded-xl text-sm font-medium placeholder:text-slate-400 border-0 focus:ring-2 focus:ring-slate-900 outline-none transition-all"
                     />
                   </div>
                 </div>
 
-                <div className="overflow-x-auto max-h-[600px]">
+                <div className="overflow-x-auto">
                   <table className="w-full text-left border-collapse">
-                    <thead className="sticky top-0 bg-slate-50 border-b border-slate-200 z-20">
-                      <tr>
-                        <th className="px-6 py-4 text-[11px] font-semibold text-slate-500 uppercase tracking-wider">S.No</th>
+                    <thead>
+                      <tr className="bg-slate-50 border-b border-slate-200">
+                        <th className="px-6 py-4 text-[11px] font-semibold text-slate-500 uppercase tracking-wider">#</th>
                         <th className="px-6 py-4 text-[11px] font-semibold text-slate-500 uppercase tracking-wider">Constituency & District</th>
                         <th className="px-6 py-4 text-[11px] font-semibold text-slate-500 uppercase tracking-wider">Winner & Party</th>
                         <th className="px-6 py-4 text-[11px] font-semibold text-slate-500 uppercase tracking-wider text-right">Win %</th>
@@ -412,7 +484,7 @@ if (!currentYearSummary && view === 'summary') {
                                 <div className="flex items-center gap-3">
                                   <div 
                                     className="px-2.5 py-1 rounded-md text-[10px] font-bold text-white uppercase tracking-wider shadow-sm"
-                                    style={{ backgroundColor: PARTY_COLORS[yearData.party] }}
+                                    style={{ backgroundColor: PARTY_COLORS[yearData.party] || PARTY_COLORS.OTH }}
                                   >
                                     {yearData.party}
                                   </div>
@@ -503,22 +575,19 @@ if (!currentYearSummary && view === 'summary') {
                   Back to Dashboard
                 </button>
                 <div className="flex flex-wrap items-center gap-1 sm:gap-2 bg-slate-100 p-1 rounded-xl w-full sm:w-auto">
-                  {Object.keys(electionData.years).sort((a,b) => parseInt(b) - parseInt(a)).map(yearStr => {
-                    const year = parseInt(yearStr);
-                    return (
-                      <button
-                        key={year}
-                        onClick={() => setSelectedYear(year)}
-                        className={`px-3 sm:px-4 py-1.5 rounded-lg text-xs sm:text-sm font-semibold transition-all duration-200 flex-1 sm:flex-none text-center ${
-                          selectedYear === year 
-                            ? 'bg-white text-slate-900 shadow-sm' 
-                            : 'text-slate-600 hover:text-slate-900 hover:bg-slate-200'
-                        }`}
-                      >
-                        {year}
-                      </button>
-                    );
-                  })}
+                  {YEARS.map(year => (
+                    <button
+                      key={year}
+                      onClick={() => setSelectedYear(year)}
+                      className={`px-3 sm:px-4 py-1.5 rounded-lg text-xs sm:text-sm font-semibold transition-all duration-200 flex-1 sm:flex-none text-center ${
+                        selectedYear === year 
+                          ? 'bg-white text-slate-900 shadow-sm'
+                          : 'text-slate-600 hover:text-slate-900 hover:bg-slate-200'
+                      }`}
+                    >
+                      {year}
+                    </button>
+                  ))}
                 </div>
               </div>
 
