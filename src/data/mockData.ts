@@ -1,5 +1,5 @@
 import { ElectionData, Party } from "../types";
-
+ 
 export const PARTY_COLORS: Record<Party, string> = {
   AITC: "#059669", // Emerald 600 (Sophisticated Green)
   BJP: "#FF9933", // True Saffron
@@ -9,61 +9,104 @@ export const PARTY_COLORS: Record<Party, string> = {
   IND: "#64748b", // Slate 500
   OTH: "#94a3b8", // Slate 400
 };
+ 
+// PARTY NAME NORMALIZATION MAP
+// CSVs use different abbreviations: CPM, CPI(M), CPIM, CPI(ML)(L), etc.
+// This maps all known variants to the canonical Party type used in the app.
+export const PARTY_NAME_MAP: Record<string, Party> = {
+  'AITC': 'AITC',
+  'TMC': 'AITC',
+  'BJP': 'BJP',
+  'INC': 'INC',
+  'CPIM': 'CPIM',
+  'CPM': 'CPIM',
+  'CPI(M)': 'CPIM',
+  'CPI(ML)(L)': 'OTH',
+  'CPI': 'OTH',
+  'RSP': 'OTH',
+  'AIFB': 'OTH',
+  'AIFC': 'OTH',
+  'ISF': 'ISF',
+  'IND': 'IND',
+  'NOTA': 'OTH',
+  'BSP': 'OTH',
+  'SUCI': 'OTH',
+  'JMM': 'OTH',
+  'JD(U)': 'OTH',
+  'JD(S)': 'OTH',
+  'SP': 'OTH',
+  'RJD': 'OTH',
+  'NCP': 'OTH',
+  'GOJAM': 'OTH',
+  'GJM': 'OTH',
+  'GRAC': 'OTH',
+  'KPPU': 'OTH',
+  'AMB': 'OTH',
+  'JKP(N)': 'OTH',
+  'BTP': 'OTH',
+  'NPEP': 'OTH',
+  'PDS': 'OTH',
+  'SWJP': 'OTH',
+  'ABGL': 'OTH',
+  'AJSU': 'OTH',
+  'AJSUP': 'OTH',
+  'AKBJHP': 'OTH',
+  'JDP': 'OTH',
+  'JVM': 'OTH',
+  'LJP': 'OTH',
+  'IPFB': 'OTH',
+  'PrPP': 'OTH',
+  'BHNP': 'OTH',
+  'ABHM': 'OTH',
+  'WPOI': 'OTH',
+  'MPOI': 'OTH',
+  'SHS': 'OTH',
+  'IUML': 'OTH',
+  'RCPI(R)': 'OTH',
+  'RSSCMJP': 'OTH',
+  'IUC': 'OTH',
+  'BMUP': 'OTH',
+  'RPPRINAT': 'OTH',
+  'RPI(A)': 'OTH',
+  'PDCI': 'OTH',
+  'RLD': 'OTH',
+  'VINPA': 'OTH',
+};
+ 
+// Helper function to normalize party names from CSV data
+export function normalizePartyName(rawParty: string): Party {
+  if (!rawParty) return 'OTH';
+  const trimmed = rawParty.trim();
+  
+  // Direct lookup
+  if (PARTY_NAME_MAP[trimmed]) return PARTY_NAME_MAP[trimmed];
+  
+  // Check if it starts with "IND" (various independent symbols like "IND Walking", "IND Wheel", "IND Chalata", "IND Carrom")
+  if (trimmed.startsWith('IND')) return 'IND';
+  
+  // Default to OTH
+  return 'OTH';
+}
+ 
+// This static data is used as FALLBACK only. The app primarily loads from CSVs.
+// FACT-CHECKED election summary data:
+// 
+// 2021: AITC won 213 seats (~48.5% vote share), BJP 77 seats (~38%), 
+//       INC 0 seats, Left Front 0 seats (CPI(M)+allies got 0 seats collectively)
+//       ISF won 1 seat, 1 Independent, 1 GJM, 1 AJSU = ~4 Others
+//       Source: ECI, Wikipedia, multiple news outlets
+//
+// 2016: AITC 211 seats (~44.9%), BJP 3 (~10.2%), INC 44 (~12.3%), 
+//       CPI(M) 26 seats (Left Front total 32), RSP 3, GJM 3, CPI 1, IND 1
+//       Source: ECI, GKToday, Wikipedia
+//
+// 2011: AITC 184 seats (~38.9%), INC 42 (~9.1%), CPI(M) 40 (~30.1% for Left Front),
+//       BJP 0 (~4.1%), SUCI 1, Others/Left partners: AIFB 11, RSP 7, CPI 2, IND 1
+//       Left Front total = 62 seats. Source: ECI, Wikipedia
 
 export const electionData: ElectionData = {
-  years: {
-    2026: {
-      year: 2026,
-      totalSeats: 294,
-      majorityMark: 148,
-      partyResults: [
-        { party: "AITC", seats: 208, voteShare: 49.2, color: PARTY_COLORS.AITC },
-        { party: "BJP", seats: 82, voteShare: 39.5, color: PARTY_COLORS.BJP },
-        { party: "INC", seats: 2, voteShare: 3.1, color: PARTY_COLORS.INC },
-        { party: "CPIM", seats: 1, voteShare: 5.2, color: PARTY_COLORS.CPIM },
-        { party: "OTH", seats: 1, voteShare: 3.0, color: PARTY_COLORS.OTH },
-      ],
-    },
-    2021: {
-      year: 2021,
-      totalSeats: 294,
-      majorityMark: 148,
-      partyResults: [
-        { party: "AITC", seats: 215, voteShare: 48.0, color: PARTY_COLORS.AITC },
-        { party: "BJP", seats: 77, voteShare: 38.0, color: PARTY_COLORS.BJP },
-        { party: "INC", seats: 0, voteShare: 3.0, color: PARTY_COLORS.INC },
-        { party: "CPIM", seats: 0, voteShare: 4.7, color: PARTY_COLORS.CPIM },
-        { party: "OTH", seats: 2, voteShare: 6.3, color: PARTY_COLORS.OTH },
-      ],
-    },
-    2016: {
-      year: 2016,
-      totalSeats: 294,
-      majorityMark: 148,
-      partyResults: [
-        { party: "AITC", seats: 211, voteShare: 44.9, color: PARTY_COLORS.AITC },
-        { party: "BJP", seats: 3, voteShare: 10.2, color: PARTY_COLORS.BJP },
-        { party: "INC", seats: 44, voteShare: 12.3, color: PARTY_COLORS.INC },
-        { party: "CPIM", seats: 26, voteShare: 19.7, color: PARTY_COLORS.CPIM },
-        { party: "OTH", seats: 10, voteShare: 12.9, color: PARTY_COLORS.OTH },
-      ],
-    },
-    2011: {
-      year: 2011,
-      totalSeats: 294,
-      majorityMark: 148,
-      partyResults: [
-        { party: "AITC", seats: 184, voteShare: 38.9, color: PARTY_COLORS.AITC },
-        { party: "BJP", seats: 0, voteShare: 4.1, color: PARTY_COLORS.BJP },
-        { party: "INC", seats: 42, voteShare: 9.1, color: PARTY_COLORS.INC },
-        { party: "CPIM", seats: 40, voteShare: 30.1, color: PARTY_COLORS.CPIM },
-        { party: "OTH", seats: 28, voteShare: 17.8, color: PARTY_COLORS.OTH },
-      ],
-    },
-  },
-
- constituencies: [
-    {
+  
+years: {
       id: 1,
       name: "Alipurduars",
       district: "Alipurduar",
