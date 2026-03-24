@@ -169,7 +169,13 @@ export default function App() {
           }
         }
 
-        allData.constituencies = Array.from(constituencyMap.values());
+        const loadedYears = Object.keys(allData.years).map(Number).sort((a, b) => b - a);
+        if (loadedYears.length > 0 && !loadedYears.includes(selectedYear)) {
+          setSelectedYear(loadedYears[0]);
+        }
+
+        setElectionData(allData);
+      } catch (error) {
         setElectionData(allData);
       } catch (error) {
         console.error("Error loading election data:", error);
