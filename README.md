@@ -2,16 +2,16 @@ Safar Election Monitor - West Bengal
 
 An interactive dashboard and monitoring tool for analyzing election data and constituency trends in West Bengal.
 
-Features
-
+**Features
+**
 Interactive data visualizations and charts
 
 Historical election data analysis (2011, 2016, 2021)
 
 Fully responsive user interface
 
-Local Development
-
+**Local Development
+**
 Install dependencies:
 
 npm install
@@ -27,8 +27,8 @@ Build for production:
 npm run build
 
 
-Tech Stack
-
+**Tech Stack
+**
 React
 
 TypeScript
