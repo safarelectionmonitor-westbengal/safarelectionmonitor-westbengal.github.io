@@ -108,9 +108,10 @@ export default function App() {
               }
               
               const id = matchedConstituency.id;
-              const sortedCandidates = rows.sort((a, b) => parseInt(b.Total) - parseInt(a.Total));
+             const sortedCandidates = rows.sort((a, b) => (parseInt(b.Total) || 0) - (parseInt(a.Total) || 0));
               const winner = sortedCandidates[0];
               const runnerUp = sortedCandidates[1];
+              if (!winner) return;
               
               const totalVotes = rows.reduce((sum, r) => sum + parseInt(r.Total || '0'), 0);
               
