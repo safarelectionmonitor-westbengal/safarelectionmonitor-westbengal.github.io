@@ -1,5 +1,5 @@
-Safar Election Monitor - West Bengal
-
+**Safar Election Monitor - West Bengal
+**
 An interactive dashboard and monitoring tool for analyzing election data and constituency trends in West Bengal.
 
 **Features
