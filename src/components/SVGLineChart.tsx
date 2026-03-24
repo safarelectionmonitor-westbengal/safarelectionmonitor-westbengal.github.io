@@ -23,23 +23,23 @@ export const SVGLineChart: React.FC<SVGLineChartProps> = ({
   showLabels = false
 }) => {
   const years = [2011, 2016, 2021, 2026];
-  const padding = 30; // Increased padding for labels
+  const padding = 30;
   const chartWidth = width - padding * 2;
   const chartHeight = height - padding * 2;
 
   const getX = (year: number) => {
     const index = years.indexOf(year);
+    if (index === -1) return padding;
     return padding + (index / (years.length - 1)) * chartWidth;
   };
 
   const getY = (value: number) => {
-    // Assuming vote share is between 0 and 100
     return height - padding - (value / 100) * chartHeight;
   };
 
   const lines = useMemo(() => {
     return activeParties.map(party => {
-      const points = data[party] || [];
+      const points = (data[party] || []).filter(p => p.value > 0);
       if (points.length < 2) return null;
 
       const pathData = points
@@ -65,7 +65,7 @@ export const SVGLineChart: React.FC<SVGLineChartProps> = ({
   const dots = useMemo(() => {
     return activeParties.flatMap(party => {
       const points = data[party] || [];
-      return points.map(p => (
+      return points.filter(p => p.value > 0).map(p => (
         <g key={`${party}-${p.year}`}>
           <circle
             cx={getX(p.year)}
