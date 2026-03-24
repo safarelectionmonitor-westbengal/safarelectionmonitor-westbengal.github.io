@@ -1,5 +1,7 @@
-name: Deploy to GitHub Pages
-
+- name: Build project
+  run: npm run build
+  env:
+    VITE_ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 on:
   push:
     branches: ["main"]
