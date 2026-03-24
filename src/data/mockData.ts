@@ -24,8 +24,6 @@ export const electionData: ElectionData = {
         { party: "OTH", seats: 1, voteShare: 3.0, color: PARTY_COLORS.OTH },
       ],
     },
-    years: {
-
     2021: {
       year: 2021,
       totalSeats: 294,
