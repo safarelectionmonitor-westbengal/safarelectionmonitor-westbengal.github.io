@@ -242,7 +242,7 @@ export const WEST_BENGAL_CONSTITUENCIES = [
   { id: 241, name: "Para", district: "Purulia" },
   { id: 242, name: "Raghunathpur", district: "Purulia" },
   { id: 243, name: "Saltora", district: "Bankura" },
-  { id: 244, name: "Mejia", district: "Bankura" },
+  { id: 244, name: "Tollygunge", district: "Kolkata" },
   { id: 245, name: "Chhatna", district: "Bankura" },
   { id: 246, name: "Ranibandh", district: "Bankura" },
   { id: 247, name: "Raipur", district: "Bankura" },
@@ -250,7 +250,7 @@ export const WEST_BENGAL_CONSTITUENCIES = [
   { id: 249, name: "Bankura", district: "Bankura" },
   { id: 250, name: "Barjora", district: "Bankura" },
   { id: 251, name: "Onda", district: "Bankura" },
-  { id: 252, name: "Bishnupur", district: "Bankura" },
+  { id: 252, name: "Bishnupur (Bankura)", district: "Bankura" },
   { id: 253, name: "Katulpur", district: "Bankura" },
   { id: 254, name: "Indas", district: "Bankura" },
   { id: 255, name: "Sonamukhi", district: "Bankura" },
@@ -288,9 +288,9 @@ export const WEST_BENGAL_CONSTITUENCIES = [
   { id: 287, name: "Mayureswar", district: "Birbhum" },
   { id: 288, name: "Rampurhat", district: "Birbhum" },
   { id: 289, name: "Hansan", district: "Birbhum" },
-  { id: 290, name: "Murarai", district: "Birbhum" },
+  { id: 290, name: "Kalyani", district: "Nadia" },
   { id: 291, name: "Nalhati", district: "Birbhum" },
   { id: 292, name: "Murarai", district: "Birbhum" }, 
-  { id: 293, name: "Khoirasole", district: "Birbhum" },
-  { id: 294, name: "Rajnagar", district: "Birbhum" }
+  { id: 293, name: "Behala Purba", district:Kolkata"Birbhum" },
+  { id: 294, name: "Behala Paschim", district: "Kolkata" }
 ];
