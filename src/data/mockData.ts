@@ -296,7 +296,7 @@ years: {
           candidates: [
             { no: 1, name: "MADHUSUDAN BAG", gender: "M", category: "SC", party: "BJP", generalVotes: 102518, postalVotes: 590, totalVotes: 103108, percentage: 46.9 },
             { no: 2, name: "SUJATA MONDAL", gender: "F", category: "SC", party: "AITC", generalVotes: 95332, postalVotes: 604, totalVotes: 95936, percentage: 43.6 },
-            { no: 3, name: "SAKTI MOHON MALIK", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 14841, postalVotes: 124, totalVotes: 14965, percentage: 6.8 },
+            { no: 3, name: "SAKTI MOHON MALIK", gender: "M", category: "SC", party: "CPIM", generalVotes: 14841, postalVotes: 124, totalVotes: 14965, percentage: 6.8 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3163, postalVotes: 8, totalVotes: 3171, percentage: 1.4 },
             { no: 5, name: "BANKIM CHANDRA SANTRA", gender: "M", category: "SC", party: "BSP", generalVotes: 2761, postalVotes: 19, totalVotes: 2780, percentage: 1.3 },
           ],
@@ -342,7 +342,7 @@ years: {
           candidates: [
             { no: 1, name: "AGNIMITRA PAUL", gender: "F", category: "GEN", party: "BJP", generalVotes: 87156, postalVotes: 725, totalVotes: 87881, percentage: 45.1 },
             { no: 2, name: "SAYANI GHOSH", gender: "F", category: "GEN", party: "AITC", generalVotes: 82464, postalVotes: 930, totalVotes: 83394, percentage: 42.8 },
-            { no: 3, name: "PRASANTA GHOSH", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 15720, postalVotes: 252, totalVotes: 15972, percentage: 8.2 },
+            { no: 3, name: "PRASANTA GHOSH", gender: "M", category: "GEN", party: "CPIM", generalVotes: 15720, postalVotes: 252, totalVotes: 15972, percentage: 8.2 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3442, postalVotes: 24, totalVotes: 3466, percentage: 1.8 },
             { no: 5, name: "SINGHASAN PASWAN", gender: "M", category: "SC", party: "BSP", generalVotes: 2854, postalVotes: 13, totalVotes: 2867, percentage: 1.5 },
             { no: 6, name: "SHIULI RUIDAS", gender: "F", category: "GEN", party: "BMUP", generalVotes: 1149, postalVotes: 8, totalVotes: 1157, percentage: 0.6 },
@@ -502,7 +502,7 @@ years: {
           candidates: [
             { no: 1, name: "ABHEDANANDA THANDER", gender: "M", category: "SC", party: "AITC", generalVotes: 99837, postalVotes: 555, totalVotes: 100392, percentage: 46.2 },
             { no: 2, name: "KALITA MAJI", gender: "F", category: "SC", party: "BJP", generalVotes: 88262, postalVotes: 315, totalVotes: 88577, percentage: 40.8 },
-            { no: 3, name: "CHANCHAL KUMAR MAJHI", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 20309, postalVotes: 90, totalVotes: 20399, percentage: 9.4 },
+            { no: 3, name: "CHANCHAL KUMAR MAJHI", gender: "M", category: "SC", party: "CPIM", generalVotes: 20309, postalVotes: 90, totalVotes: 20399, percentage: 9.4 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 4037, postalVotes: 2, totalVotes: 4039, percentage: 1.9 },
             { no: 5, name: "MANASA METE", gender: "M", category: "SC", party: "SUCI", generalVotes: 1972, postalVotes: 0, totalVotes: 1972, percentage: 0.9 },
             { no: 6, name: "SRIDAM GOLDAR", gender: "M", category: "SC", party: "BSP", generalVotes: 1700, postalVotes: 1, totalVotes: 1701, percentage: 0.8 },
@@ -719,7 +719,7 @@ years: {
           candidates: [
             { no: 1, name: "Arunava Sen (Raja)", gender: "M", category: "GEN", party: "AITC", generalVotes: 105867, postalVotes: 175, totalVotes: 106042, percentage: 53.0 },
             { no: 2, name: "Anupam Mallik", gender: "M", category: "GEN", party: "BJP", generalVotes: 75781, postalVotes: 141, totalVotes: 75922, percentage: 38.0 },
-            { no: 3, name: "Sk Bosir Ahmed", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 14512, postalVotes: 43, totalVotes: 14555, percentage: 7.3 },
+            { no: 3, name: "Sk Bosir Ahmed", gender: "M", category: "GEN", party: "CPIM", generalVotes: 14512, postalVotes: 43, totalVotes: 14555, percentage: 7.3 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1546, postalVotes: 2, totalVotes: 1548, percentage: 0.8 },
             { no: 5, name: "Sanjit Patra", gender: "M", category: "GEN", party: "IND Walking", generalVotes: 906, postalVotes: 0, totalVotes: 906, percentage: 0.5 },
             { no: 6, name: "Pampa Sarkar Bera", gender: "F", category: "GEN", party: "SUCI", generalVotes: 462, postalVotes: 2, totalVotes: 464, percentage: 0.2 },
@@ -890,7 +890,7 @@ years: {
           candidates: [
             { no: 1, name: "MANORANJAN BAPARI", gender: "M", category: "SC", party: "AITC", generalVotes: 99524, postalVotes: 840, totalVotes: 100364, percentage: 45.6 },
             { no: 2, name: "SUBHAS CHANDRA HALDAR", gender: "M", category: "SC", party: "BJP", generalVotes: 93993, postalVotes: 587, totalVotes: 94580, percentage: 43.0 },
-            { no: 3, name: "MAHAMAYA MONDAL", gender: "F", category: "SC", party: "CPI(M)", generalVotes: 19592, postalVotes: 174, totalVotes: 19766, percentage: 9.0 },
+            { no: 3, name: "MAHAMAYA MONDAL", gender: "F", category: "SC", party: "CPIM", generalVotes: 19592, postalVotes: 174, totalVotes: 19766, percentage: 9.0 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3098, postalVotes: 7, totalVotes: 3105, percentage: 1.4 },
             { no: 5, name: "SUKDEB BISWAS", gender: "M", category: "SC", party: "SUCI", generalVotes: 2133, postalVotes: 9, totalVotes: 2142, percentage: 1.0 },
           ],
@@ -1004,7 +1004,7 @@ years: {
           candidates: [
             { no: 1, name: "RANA CHATTERJEE", gender: "M", category: "GEN", party: "AITC", generalVotes: 53223, postalVotes: 124, totalVotes: 53347, percentage: 42.4 },
             { no: 2, name: "BAISHALI DALMIYA", gender: "F", category: "GEN", party: "BJP", generalVotes: 46992, postalVotes: 118, totalVotes: 47110, percentage: 37.4 },
-            { no: 3, name: "DIPSITA DHAR", gender: "F", category: "GEN", party: "CPI(M)", generalVotes: 21924, postalVotes: 116, totalVotes: 22040, percentage: 17.5 },
+            { no: 3, name: "DIPSITA DHAR", gender: "F", category: "GEN", party: "CPIM", generalVotes: 21924, postalVotes: 116, totalVotes: 22040, percentage: 17.5 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1204, postalVotes: 2, totalVotes: 1206, percentage: 1.0 },
             { no: 5, name: "RAJKUMAR DHANUK", gender: "M", category: "SC", party: "IND", generalVotes: 586, postalVotes: 1, totalVotes: 587, percentage: 0.5 },
             { no: 6, name: "PUTUL CHOWDHURY", gender: "F", category: "GEN", party: "SUCI", generalVotes: 442, postalVotes: 0, totalVotes: 442, percentage: 0.4 },
@@ -1077,7 +1077,7 @@ years: {
           candidates: [
             { no: 1, name: "Subrata Mukherjee", gender: "M", category: "GEN", party: "AITC", generalVotes: 106223, postalVotes: 362, totalVotes: 106585, percentage: 70.6 },
             { no: 2, name: "LOKENATH CHATTERJEE", gender: "M", category: "GEN", party: "BJP", generalVotes: 31054, postalVotes: 172, totalVotes: 31226, percentage: 20.7 },
-            { no: 3, name: "Dr. Fuad Halim", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 8428, postalVotes: 46, totalVotes: 8474, percentage: 5.6 },
+            { no: 3, name: "Dr. Fuad Halim", gender: "M", category: "GEN", party: "CPIM", generalVotes: 8428, postalVotes: 46, totalVotes: 8474, percentage: 5.6 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1314, postalVotes: 3, totalVotes: 1317, percentage: 0.9 },
             { no: 5, name: "Rajendra Ram Das", gender: "M", category: "SC", party: "BSP", generalVotes: 808, postalVotes: 4, totalVotes: 812, percentage: 0.5 },
             { no: 6, name: "KAUSHIK GHOSHAL", gender: "M", category: "GEN", party: "IND", generalVotes: 642, postalVotes: 1, totalVotes: 643, percentage: 0.4 },
@@ -1194,7 +1194,7 @@ years: {
           candidates: [
             { no: 1, name: "RAJIB LOCHAN SAREN", gender: "M", category: "ST", party: "AITC", generalVotes: 112183, postalVotes: 1154, totalVotes: 113337, percentage: 47.0 },
             { no: 2, name: "PARCY MURMU", gender: "M", category: "ST", party: "BJP", generalVotes: 93298, postalVotes: 1208, totalVotes: 94506, percentage: 39.2 },
-            { no: 3, name: "BESRA SUSANTA KUMAR", gender: "M", category: "ST", party: "CPI(M)", generalVotes: 21928, postalVotes: 276, totalVotes: 22204, percentage: 9.2 },
+            { no: 3, name: "BESRA SUSANTA KUMAR", gender: "M", category: "ST", party: "CPIM", generalVotes: 21928, postalVotes: 276, totalVotes: 22204, percentage: 9.2 },
             { no: 4, name: "SIB SANKAR SINGH", gender: "M", category: "ST", party: "IND", generalVotes: 5008, postalVotes: 59, totalVotes: 5067, percentage: 2.1 },
             { no: 5, name: "TIKARAM HEMBRAM", gender: "M", category: "ST", party: "BSP", generalVotes: 2976, postalVotes: 11, totalVotes: 2987, percentage: 1.2 },
             { no: 6, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2939, postalVotes: 15, totalVotes: 2954, percentage: 1.2 },
@@ -1253,7 +1253,7 @@ years: {
           candidates: [
             { no: 1, name: "SWAPAN MAJUMDER", gender: "M", category: "SC", party: "BJP", generalVotes: 96862, postalVotes: 966, totalVotes: 97828, percentage: 47.1 },
             { no: 2, name: "ALO RANI SARKAR", gender: "F", category: "SC", party: "AITC", generalVotes: 94889, postalVotes: 935, totalVotes: 95824, percentage: 46.1 },
-            { no: 3, name: "TAPAS KUMAR BISWAS", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 9894, postalVotes: 175, totalVotes: 10069, percentage: 4.8 },
+            { no: 3, name: "TAPAS KUMAR BISWAS", gender: "M", category: "SC", party: "CPIM", generalVotes: 9894, postalVotes: 175, totalVotes: 10069, percentage: 4.8 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1529, postalVotes: 13, totalVotes: 1542, percentage: 0.7 },
             { no: 5, name: "RABINDRA NATH BARAI", gender: "M", category: "SC", party: "SUCI", generalVotes: 947, postalVotes: 6, totalVotes: 953, percentage: 0.5 },
             { no: 6, name: "PRADIP KUMAR SARKAR", gender: "M", category: "SC", party: "BSP", generalVotes: 818, postalVotes: 2, totalVotes: 820, percentage: 0.4 },
@@ -1307,7 +1307,7 @@ years: {
           candidates: [
             { no: 1, name: "ASHOK KIRTANIA", gender: "M", category: "SC", party: "BJP", generalVotes: 96676, postalVotes: 1085, totalVotes: 97761, percentage: 47.6 },
             { no: 2, name: "SHYAMAL ROY", gender: "M", category: "SC", party: "AITC", generalVotes: 86403, postalVotes: 870, totalVotes: 87273, percentage: 42.5 },
-            { no: 3, name: "PIJUSH KANTI SAHA", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 13780, postalVotes: 271, totalVotes: 14051, percentage: 6.8 },
+            { no: 3, name: "PIJUSH KANTI SAHA", gender: "M", category: "SC", party: "CPIM", generalVotes: 13780, postalVotes: 271, totalVotes: 14051, percentage: 6.8 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1818, postalVotes: 15, totalVotes: 1833, percentage: 0.9 },
             { no: 5, name: "DINESH DAS", gender: "M", category: "SC", party: "IND", generalVotes: 1478, postalVotes: 2, totalVotes: 1480, percentage: 0.7 },
             { no: 6, name: "SUNITI MALLICK", gender: "F", category: "SC", party: "BSP", generalVotes: 1078, postalVotes: 4, totalVotes: 1082, percentage: 0.5 },
@@ -1588,7 +1588,7 @@ years: {
           candidates: [
             { no: 1, name: "KHOKAN DAS", gender: "M", category: "GEN", party: "AITC", generalVotes: 90166, postalVotes: 849, totalVotes: 91015, percentage: 44.3 },
             { no: 2, name: "SANDIP NANDI", gender: "M", category: "GEN", party: "BJP", generalVotes: 82328, postalVotes: 582, totalVotes: 82910, percentage: 40.4 },
-            { no: 3, name: "PRITHA TAH", gender: "F", category: "GEN", party: "CPI(M)", generalVotes: 23056, postalVotes: 290, totalVotes: 23346, percentage: 11.4 },
+            { no: 3, name: "PRITHA TAH", gender: "F", category: "GEN", party: "CPIM", generalVotes: 23056, postalVotes: 290, totalVotes: 23346, percentage: 11.4 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3697, postalVotes: 10, totalVotes: 3707, percentage: 1.8 },
             { no: 5, name: "PUSPA HANSDA", gender: "F", category: "ST", party: "BSP", generalVotes: 1452, postalVotes: 3, totalVotes: 1455, percentage: 0.7 },
             { no: 6, name: "RAJIB PASWAN", gender: "M", category: "GEN", party: "NRPI", generalVotes: 983, postalVotes: 0, totalVotes: 983, percentage: 0.5 },
@@ -1642,7 +1642,7 @@ years: {
           candidates: [
             { no: 1, name: "NISITH KUMAR MALIK", gender: "M", category: "SC", party: "AITC", generalVotes: 110411, postalVotes: 800, totalVotes: 111211, percentage: 46.0 },
             { no: 2, name: "RADHA KANTA ROY", gender: "M", category: "SC", party: "BJP", generalVotes: 93449, postalVotes: 494, totalVotes: 93943, percentage: 38.8 },
-            { no: 3, name: "CHANDI CHORAN LET", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 30817, postalVotes: 211, totalVotes: 31028, percentage: 12.8 },
+            { no: 3, name: "CHANDI CHORAN LET", gender: "M", category: "SC", party: "CPIM", generalVotes: 30817, postalVotes: 211, totalVotes: 31028, percentage: 12.8 },
             { no: 4, name: "RAMKRISHNA MALIK (DEV)", gender: "M", category: "SC", party: "BSP", generalVotes: 3341, postalVotes: 6, totalVotes: 3347, percentage: 1.4 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2388, postalVotes: 8, totalVotes: 2396, percentage: 1.0 },
           ],
@@ -1693,7 +1693,7 @@ years: {
           candidates: [
             { no: 1, name: "ALOK MUKHERJEE", gender: "M", category: "GEN", party: "AITC", generalVotes: 92672, postalVotes: 618, totalVotes: 93290, percentage: 42.5 },
             { no: 2, name: "SUPRITI CHATTERJEE", gender: "F", category: "GEN", party: "BJP", generalVotes: 89460, postalVotes: 561, totalVotes: 90021, percentage: 41.0 },
-            { no: 3, name: "SUJIT CHAKRABORTY", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 25015, postalVotes: 220, totalVotes: 25235, percentage: 11.5 },
+            { no: 3, name: "SUJIT CHAKRABORTY", gender: "M", category: "GEN", party: "CPIM", generalVotes: 25015, postalVotes: 220, totalVotes: 25235, percentage: 11.5 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 4894, postalVotes: 9, totalVotes: 4903, percentage: 2.2 },
             { no: 5, name: "TARANI ROY", gender: "M", category: "SC", party: "IND", generalVotes: 2076, postalVotes: 5, totalVotes: 2081, percentage: 0.9 },
             { no: 6, name: "SATYAM BAURI", gender: "M", category: "GEN", party: "IND", generalVotes: 1390, postalVotes: 1, totalVotes: 1391, percentage: 0.6 },
@@ -1748,7 +1748,7 @@ years: {
           candidates: [
             { no: 1, name: "RAJU CHAKRABORTY (RAJ)", gender: "M", category: "GEN", party: "AITC", generalVotes: 68441, postalVotes: 446, totalVotes: 68887, percentage: 46.5 },
             { no: 2, name: "CHANDRAMANI SHUKLA", gender: "M", category: "GEN", party: "BJP", generalVotes: 59255, postalVotes: 410, totalVotes: 59665, percentage: 40.2 },
-            { no: 3, name: "DEBASISH BHOWMICK", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 15932, postalVotes: 213, totalVotes: 16145, percentage: 10.9 },
+            { no: 3, name: "DEBASISH BHOWMICK", gender: "M", category: "GEN", party: "CPIM", generalVotes: 15932, postalVotes: 213, totalVotes: 16145, percentage: 10.9 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1923, postalVotes: 7, totalVotes: 1930, percentage: 1.3 },
             { no: 5, name: "TAPASH SARKAR", gender: "M", category: "SC", party: "BSP", generalVotes: 955, postalVotes: 15, totalVotes: 970, percentage: 0.7 },
             { no: 6, name: "KUMAR BISHAL YADAB", gender: "M", category: "GEN", party: "IND", generalVotes: 650, postalVotes: 2, totalVotes: 652, percentage: 0.4 },
@@ -1801,7 +1801,7 @@ years: {
           candidates: [
             { no: 1, name: "BIMAN BANERJEE", gender: "M", category: "GEN", party: "AITC", generalVotes: 120184, postalVotes: 822, totalVotes: 121006, percentage: 57.3 },
             { no: 2, name: "DEBOPAM CHATTOPADHYAYA(BABU)", gender: "M", category: "GEN", party: "BJP", generalVotes: 58774, postalVotes: 322, totalVotes: 59096, percentage: 28.0 },
-            { no: 3, name: "MD LAHEK ALI", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 25458, postalVotes: 181, totalVotes: 25639, percentage: 12.1 },
+            { no: 3, name: "MD LAHEK ALI", gender: "M", category: "GEN", party: "CPIM", generalVotes: 25458, postalVotes: 181, totalVotes: 25639, percentage: 12.1 },
             { no: 4, name: "RANESWAR DAS", gender: "M", category: "GEN", party: "IND", generalVotes: 1766, postalVotes: 3, totalVotes: 1769, percentage: 0.8 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1528, postalVotes: 8, totalVotes: 1536, percentage: 0.7 },
             { no: 6, name: "AJIT BAUL", gender: "M", category: "SC", party: "BSP", generalVotes: 910, postalVotes: 2, totalVotes: 912, percentage: 0.4 },
@@ -1859,7 +1859,7 @@ years: {
           candidates: [
             { no: 1, name: "BIVAS SARDAR (VOBO)", gender: "M", category: "SC", party: "AITC", generalVotes: 122337, postalVotes: 906, totalVotes: 123243, percentage: 54.7 },
             { no: 2, name: "CHANDAN MONDAL", gender: "M", category: "SC", party: "BJP", generalVotes: 73238, postalVotes: 364, totalVotes: 73602, percentage: 32.7 },
-            { no: 3, name: "SWAPAN NASKAR", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 21365, postalVotes: 102, totalVotes: 21467, percentage: 9.5 },
+            { no: 3, name: "SWAPAN NASKAR", gender: "M", category: "SC", party: "CPIM", generalVotes: 21365, postalVotes: 102, totalVotes: 21467, percentage: 9.5 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1851, postalVotes: 4, totalVotes: 1855, percentage: 0.8 },
             { no: 5, name: "SNEHASIS SAHA", gender: "M", category: "SC", party: "IND", generalVotes: 1624, postalVotes: 3, totalVotes: 1627, percentage: 0.7 },
             { no: 6, name: "JOYDEV NASKAR", gender: "M", category: "SC", party: "SUCI", generalVotes: 1513, postalVotes: 12, totalVotes: 1525, percentage: 0.7 },
@@ -2074,7 +2074,7 @@ years: {
           candidates: [
             { no: 1, name: "PARTHA CHATTERJEE", gender: "M", category: "GEN", party: "AITC", generalVotes: 113787, postalVotes: 991, totalVotes: 114778, percentage: 49.5 },
             { no: 2, name: "SRABANTI CHATTERJEE", gender: "F", category: "GEN", party: "BJP", generalVotes: 63500, postalVotes: 394, totalVotes: 63894, percentage: 27.6 },
-            { no: 3, name: "NIHAR BHAKTA", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 47156, postalVotes: 353, totalVotes: 47509, percentage: 20.5 },
+            { no: 3, name: "NIHAR BHAKTA", gender: "M", category: "SC", party: "CPIM", generalVotes: 47156, postalVotes: 353, totalVotes: 47509, percentage: 20.5 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2415, postalVotes: 18, totalVotes: 2433, percentage: 1.0 },
             { no: 5, name: "SANAT KUMAR BHAKAT", gender: "M", category: "SC", party: "IND Rubber", generalVotes: 872, postalVotes: 1, totalVotes: 873, percentage: 0.4 },
             { no: 6, name: "AMAL DHALI", gender: "M", category: "SC", party: "BSP", generalVotes: 855, postalVotes: 7, totalVotes: 862, percentage: 0.4 },
@@ -2130,7 +2130,7 @@ years: {
           candidates: [
             { no: 1, name: "Ratna Chatterjee", gender: "F", category: "GEN", party: "AITC", generalVotes: 110294, postalVotes: 674, totalVotes: 110968, percentage: 50.0 },
             { no: 2, name: "Payel Sarkar", gender: "F", category: "GEN", party: "BJP", generalVotes: 73137, postalVotes: 403, totalVotes: 73540, percentage: 33.1 },
-            { no: 3, name: "Samita Har Chowdhury", gender: "F", category: "GEN", party: "CPI(M)", generalVotes: 29945, postalVotes: 227, totalVotes: 30172, percentage: 13.6 },
+            { no: 3, name: "Samita Har Chowdhury", gender: "F", category: "GEN", party: "CPIM", generalVotes: 29945, postalVotes: 227, totalVotes: 30172, percentage: 13.6 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2729, postalVotes: 106, totalVotes: 2835, percentage: 1.3 },
             { no: 5, name: "Rina Roy", gender: "F", category: "SC", party: "BSP", generalVotes: 1158, postalVotes: 17, totalVotes: 1175, percentage: 0.5 },
             { no: 6, name: "Tulsi Rani Pramanik", gender: "F", category: "SC", party: "IND Bread", generalVotes: 1163, postalVotes: 4, totalVotes: 1167, percentage: 0.5 },
@@ -2246,7 +2246,7 @@ years: {
           candidates: [
             { no: 1, name: "PARESH PAUL", gender: "M", category: "GEN", party: "AITC", generalVotes: 102478, postalVotes: 704, totalVotes: 103182, percentage: 65.1 },
             { no: 2, name: "KASHINATH BISWAS", gender: "M", category: "GEN", party: "BJP", generalVotes: 35817, postalVotes: 225, totalVotes: 36042, percentage: 22.7 },
-            { no: 3, name: "RAJIB BISWAS", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 13908, postalVotes: 137, totalVotes: 14045, percentage: 8.9 },
+            { no: 3, name: "RAJIB BISWAS", gender: "M", category: "SC", party: "CPIM", generalVotes: 13908, postalVotes: 137, totalVotes: 14045, percentage: 8.9 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1559, postalVotes: 5, totalVotes: 1564, percentage: 1.0 },
             { no: 5, name: "SURENDAR TEWARI", gender: "M", category: "GEN", party: "IND", generalVotes: 1168, postalVotes: 0, totalVotes: 1168, percentage: 0.7 },
             { no: 6, name: "ARJUN KUMAR DAS", gender: "M", category: "GEN", party: "BSP", generalVotes: 751, postalVotes: 6, totalVotes: 757, percentage: 0.5 },
@@ -2425,7 +2425,7 @@ years: {
           totalVotes: 225990,
           candidates: [
             { no: 1, name: "IDRIS ALI", gender: "M", category: "GEN", party: "AITC", generalVotes: 153430, postalVotes: 365, totalVotes: 153795, percentage: 68.1 },
-            { no: 2, name: "MD. KAMAL HOSSAIN", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 47512, postalVotes: 275, totalVotes: 47787, percentage: 21.1 },
+            { no: 2, name: "MD. KAMAL HOSSAIN", gender: "M", category: "GEN", party: "CPIM", generalVotes: 47512, postalVotes: 275, totalVotes: 47787, percentage: 21.1 },
             { no: 3, name: "Mehebub Alam", gender: "M", category: "GEN", party: "BJP", generalVotes: 16652, postalVotes: 55, totalVotes: 16707, percentage: 7.4 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3392, postalVotes: 4, totalVotes: 3396, percentage: 1.5 },
             { no: 5, name: "MD. MOSARAF HOSSAIN", gender: "M", category: "GEN", party: "IND", generalVotes: 827, postalVotes: 0, totalVotes: 827, percentage: 0.4 },
@@ -2598,7 +2598,7 @@ years: {
           candidates: [
             { no: 1, name: "ADHIKARI MANGOBINDA", gender: "M", category: "GEN", party: "AITC", generalVotes: 107294, postalVotes: 734, totalVotes: 108028, percentage: 50.4 },
             { no: 2, name: "MAHENDRANATH KOWAR", gender: "M", category: "GEN", party: "BJP", generalVotes: 75957, postalVotes: 330, totalVotes: 76287, percentage: 35.6 },
-            { no: 3, name: "NAZRUL HAQUE", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 19478, postalVotes: 129, totalVotes: 19607, percentage: 9.2 },
+            { no: 3, name: "NAZRUL HAQUE", gender: "M", category: "GEN", party: "CPIM", generalVotes: 19478, postalVotes: 129, totalVotes: 19607, percentage: 9.2 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 4342, postalVotes: 4, totalVotes: 4346, percentage: 2.0 },
             { no: 5, name: "NAZRUL ISLAM", gender: "M", category: "GEN", party: "IND CALCULATOR", generalVotes: 1866, postalVotes: 2, totalVotes: 1868, percentage: 0.9 },
             { no: 6, name: "SUKUL SAREN", gender: "M", category: "ST", party: "BSP", generalVotes: 1569, postalVotes: 6, totalVotes: 1575, percentage: 0.7 },
@@ -2768,7 +2768,7 @@ years: {
           candidates: [
             { no: 1, name: "SUBODH ADHIKARY", gender: "M", category: "GEN", party: "AITC", generalVotes: 65954, postalVotes: 671, totalVotes: 66625, percentage: 47.9 },
             { no: 2, name: "SUBHRANSHU ROY", gender: "M", category: "GEN", party: "BJP", generalVotes: 52873, postalVotes: 405, totalVotes: 53278, percentage: 38.3 },
-            { no: 3, name: "SUKANTA RAKSHIT (BABIN)", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 14267, postalVotes: 223, totalVotes: 14490, percentage: 10.4 },
+            { no: 3, name: "SUKANTA RAKSHIT (BABIN)", gender: "M", category: "GEN", party: "CPIM", generalVotes: 14267, postalVotes: 223, totalVotes: 14490, percentage: 10.4 },
             { no: 4, name: "KALIPADA DEBNATH", gender: "M", category: "GEN", party: "SUCI", generalVotes: 1534, postalVotes: 8, totalVotes: 1542, percentage: 1.1 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1222, postalVotes: 5, totalVotes: 1227, percentage: 0.9 },
             { no: 6, name: "ARJUN KRISHNA BARAI", gender: "M", category: "SC", party: "BSP", generalVotes: 871, postalVotes: 7, totalVotes: 878, percentage: 0.6 },
@@ -2823,7 +2823,7 @@ years: {
           candidates: [
             { no: 1, name: "DEBNATH HANSDA", gender: "M", category: "ST", party: "AITC", generalVotes: 99786, postalVotes: 491, totalVotes: 100277, percentage: 53.1 },
             { no: 2, name: "PALAN SAREN", gender: "M", category: "ST", party: "BJP", generalVotes: 60213, postalVotes: 570, totalVotes: 60783, percentage: 32.2 },
-            { no: 3, name: "DIBAKAR HANSDA", gender: "M", category: "ST", party: "CPI(M)", generalVotes: 8268, postalVotes: 85, totalVotes: 8353, percentage: 4.4 },
+            { no: 3, name: "DIBAKAR HANSDA", gender: "M", category: "ST", party: "CPIM", generalVotes: 8268, postalVotes: 85, totalVotes: 8353, percentage: 4.4 },
             { no: 4, name: "NITYALAL SING", gender: "M", category: "ST", party: "IND", generalVotes: 6308, postalVotes: 10, totalVotes: 6318, percentage: 3.3 },
             { no: 5, name: "PATAL CHANDRA MURMU", gender: "M", category: "ST", party: "BSP", generalVotes: 3526, postalVotes: 4, totalVotes: 3530, percentage: 1.9 },
             { no: 6, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3296, postalVotes: 9, totalVotes: 3305, percentage: 1.8 },
@@ -2879,7 +2879,7 @@ years: {
           candidates: [
             { no: 1, name: "DILIP MONDAL", gender: "M", category: "SC", party: "AITC", generalVotes: 135620, postalVotes: 889, totalVotes: 136509, percentage: 57.5 },
             { no: 2, name: "AGNISWAR NASKAR", gender: "M", category: "SC", party: "BJP", generalVotes: 77379, postalVotes: 298, totalVotes: 77677, percentage: 32.7 },
-            { no: 3, name: "JHUMA KAYAL", gender: "F", category: "SC", party: "CPI(M)", generalVotes: 17866, postalVotes: 129, totalVotes: 17995, percentage: 7.6 },
+            { no: 3, name: "JHUMA KAYAL", gender: "F", category: "SC", party: "CPIM", generalVotes: 17866, postalVotes: 129, totalVotes: 17995, percentage: 7.6 },
             { no: 4, name: "RABINDRANATH RANJAN", gender: "M", category: "SC", party: "BSP", generalVotes: 2697, postalVotes: 12, totalVotes: 2709, percentage: 1.1 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1861, postalVotes: 2, totalVotes: 1863, percentage: 0.8 },
             { no: 6, name: "UTTAM NASKAR", gender: "M", category: "SC", party: "IND", generalVotes: 815, postalVotes: 2, totalVotes: 817, percentage: 0.3 },
@@ -3255,7 +3255,7 @@ years: {
           candidates: [
             { no: 1, name: "Bankim Chandra Ghosh", gender: "M", category: "GEN", party: "BJP", generalVotes: 97955, postalVotes: 1413, totalVotes: 99368, percentage: 46.9 },
             { no: 2, name: "Subhankar Singha (Jishu)", gender: "M", category: "GEN", party: "AITC", generalVotes: 86105, postalVotes: 1583, totalVotes: 87688, percentage: 41.3 },
-            { no: 3, name: "Narayan Das Gupta", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 17401, postalVotes: 411, totalVotes: 17812, percentage: 8.4 },
+            { no: 3, name: "Narayan Das Gupta", gender: "M", category: "GEN", party: "CPIM", generalVotes: 17401, postalVotes: 411, totalVotes: 17812, percentage: 8.4 },
             { no: 4, name: "Bidhan Ghosh", gender: "M", category: "GEN", party: "BNARP", generalVotes: 1670, postalVotes: 13, totalVotes: 1683, percentage: 0.8 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1475, postalVotes: 12, totalVotes: 1487, percentage: 0.7 },
             { no: 6, name: "Tapan Biswas", gender: "M", category: "GEN", party: "IND", generalVotes: 1362, postalVotes: 8, totalVotes: 1370, percentage: 0.6 },
@@ -3469,7 +3469,7 @@ years: {
           candidates: [
             { no: 1, name: "INDRANIL SEN", gender: "M", category: "GEN", party: "AITC", generalVotes: 85604, postalVotes: 1174, totalVotes: 86778, percentage: 47.6 },
             { no: 2, name: "DEEPANJAN KUMAR GUHA", gender: "M", category: "GEN", party: "BJP", generalVotes: 55275, postalVotes: 474, totalVotes: 55749, percentage: 30.6 },
-            { no: 3, name: "GAUTAM SARKAR", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 33071, postalVotes: 631, totalVotes: 33702, percentage: 18.5 },
+            { no: 3, name: "GAUTAM SARKAR", gender: "M", category: "GEN", party: "CPIM", generalVotes: 33071, postalVotes: 631, totalVotes: 33702, percentage: 18.5 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3000, postalVotes: 23, totalVotes: 3023, percentage: 1.7 },
             { no: 5, name: "RATAN KUMAR CHATTERJEE (R.K.C)", gender: "M", category: "GEN", party: "IND", generalVotes: 1179, postalVotes: 5, totalVotes: 1184, percentage: 0.6 },
             { no: 6, name: "UDAY VEER CHOUDHURY", gender: "M", category: "SC", party: "IND", generalVotes: 532, postalVotes: 6, totalVotes: 538, percentage: 0.3 },
@@ -3522,7 +3522,7 @@ years: {
           candidates: [
             { no: 1, name: "Soham Chakraborty", gender: "M", category: "GEN", party: "AITC", generalVotes: 109193, postalVotes: 577, totalVotes: 109770, percentage: 49.8 },
             { no: 2, name: "Pulak Kanti Guria", gender: "M", category: "GEN", party: "BJP", generalVotes: 95695, postalVotes: 603, totalVotes: 96298, percentage: 43.7 },
-            { no: 3, name: "Ashis Kumar Guchhait", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 9708, postalVotes: 129, totalVotes: 9837, percentage: 4.5 },
+            { no: 3, name: "Ashis Kumar Guchhait", gender: "M", category: "GEN", party: "CPIM", generalVotes: 9708, postalVotes: 129, totalVotes: 9837, percentage: 4.5 },
             { no: 4, name: "Bikash Chandra Das", gender: "M", category: "GEN", party: "WBSP Chalata", generalVotes: 1365, postalVotes: 0, totalVotes: 1365, percentage: 0.6 },
             { no: 5, name: "Biswanath Ghorai", gender: "M", category: "SC", party: "BSP", generalVotes: 1253, postalVotes: 1, totalVotes: 1254, percentage: 0.6 },
             { no: 6, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 726, postalVotes: 10, totalVotes: 736, percentage: 0.3 },
@@ -3576,7 +3576,7 @@ years: {
           candidates: [
             { no: 1, name: "SWATI KHANDOKER", gender: "F", category: "GEN", party: "AITC", generalVotes: 102719, postalVotes: 399, totalVotes: 103118, percentage: 49.8 },
             { no: 2, name: "DEBASHISH DASGUPTA(YASH D GUPTAA)", gender: "M", category: "GEN", party: "BJP", generalVotes: 61620, postalVotes: 151, totalVotes: 61771, percentage: 29.8 },
-            { no: 3, name: "MD. SALIM", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 37005, postalVotes: 156, totalVotes: 37161, percentage: 17.9 },
+            { no: 3, name: "MD. SALIM", gender: "M", category: "GEN", party: "CPIM", generalVotes: 37005, postalVotes: 156, totalVotes: 37161, percentage: 17.9 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2153, postalVotes: 3, totalVotes: 2156, percentage: 1.0 },
             { no: 5, name: "ABDUL RAHIM MOLLICK", gender: "M", category: "GEN", party: "IND", generalVotes: 1882, postalVotes: 4, totalVotes: 1886, percentage: 0.9 },
             { no: 6, name: "ONKAR MAJUMDER", gender: "M", category: "GEN", party: "IND", generalVotes: 1011, postalVotes: 3, totalVotes: 1014, percentage: 0.5 },
@@ -3677,7 +3677,7 @@ years: {
             { no: 1, name: "RUKBANUR RAHMAN", gender: "M", category: "GEN", party: "AITC", generalVotes: 73187, postalVotes: 679, totalVotes: 73866, percentage: 34.7 },
             { no: 2, name: "JEBER SEKH", gender: "M", category: "GEN", party: "IND", generalVotes: 61063, postalVotes: 685, totalVotes: 61748, percentage: 29.0 },
             { no: 3, name: "KALYAN KUMAR NANDI", gender: "M", category: "GEN", party: "BJP", generalVotes: 57380, postalVotes: 788, totalVotes: 58168, percentage: 27.3 },
-            { no: 4, name: "JAHANGIR BISWAS (RAJU)", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 11542, postalVotes: 180, totalVotes: 11722, percentage: 5.5 },
+            { no: 4, name: "JAHANGIR BISWAS (RAJU)", gender: "M", category: "GEN", party: "CPIM", generalVotes: 11542, postalVotes: 180, totalVotes: 11722, percentage: 5.5 },
             { no: 5, name: "KANCHAN MAITRA", gender: "M", category: "GEN", party: "RSSCMJP", generalVotes: 3848, postalVotes: 17, totalVotes: 3865, percentage: 1.8 },
             { no: 6, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2016, postalVotes: 7, totalVotes: 2023, percentage: 0.9 },
             { no: 7, name: "ROKIBUL HOSSAIN MOLLA", gender: "M", category: "GEN", party: "BSP", generalVotes: 1064, postalVotes: 6, totalVotes: 1070, percentage: 0.5 },
@@ -3794,7 +3794,7 @@ years: {
           candidates: [
             { no: 1, name: "HAMIDUL RAHAMAN", gender: "M", category: "GEN", party: "AITC", generalVotes: 123944, postalVotes: 979, totalVotes: 124923, percentage: 61.2 },
             { no: 2, name: "MD. SHAHIN AKHTER", gender: "M", category: "GEN", party: "BJP", generalVotes: 59604, postalVotes: 414, totalVotes: 60018, percentage: 29.4 },
-            { no: 3, name: "ANWARUL HAQUE", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 12188, postalVotes: 91, totalVotes: 12279, percentage: 6.0 },
+            { no: 3, name: "ANWARUL HAQUE", gender: "M", category: "GEN", party: "CPIM", generalVotes: 12188, postalVotes: 91, totalVotes: 12279, percentage: 6.0 },
             { no: 4, name: "AJOY KUMAR SINHA", gender: "M", category: "SC", party: "AMB", generalVotes: 3158, postalVotes: 8, totalVotes: 3166, percentage: 1.6 },
             { no: 5, name: "SUROJIT KISKU", gender: "M", category: "ST", party: "IND", generalVotes: 2190, postalVotes: 3, totalVotes: 2193, percentage: 1.1 },
             { no: 6, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1527, postalVotes: 4, totalVotes: 1531, percentage: 0.8 },
@@ -3918,7 +3918,7 @@ years: {
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 4319, postalVotes: 19, totalVotes: 4338, percentage: 1.7 },
             { no: 5, name: "Goutam Mondal", gender: "M", category: "SC", party: "BSP", generalVotes: 1306, postalVotes: 22, totalVotes: 1328, percentage: 0.5 },
             { no: 6, name: "Kashinath Murmu", gender: "M", category: "ST", party: "IND", generalVotes: 1297, postalVotes: 14, totalVotes: 1311, percentage: 0.5 },
-            { no: 7, name: "Ajanta Sarkar", gender: "F", category: "GEN", party: "SP(I)", generalVotes: 1034, postalVotes: 8, totalVotes: 1042, percentage: 0.4 },
+            { no: 7, name: "Ajanta Sarkar", gender: "F", category: "GEN", party: "SPI", generalVotes: 1034, postalVotes: 8, totalVotes: 1042, percentage: 0.4 },
             { no: 8, name: "AJIT KUMAR MURMU", gender: "M", category: "ST", party: "APoI", generalVotes: 827, postalVotes: 12, totalVotes: 839, percentage: 0.3 },
             { no: 9, name: "Debkanta Sikdar", gender: "M", category: "GEN", party: "IND", generalVotes: 658, postalVotes: 7, totalVotes: 665, percentage: 0.3 },
             { no: 10, name: "Gopal Jee Pandey", gender: "M", category: "GEN", party: "IND", generalVotes: 639, postalVotes: 7, totalVotes: 646, percentage: 0.3 },
@@ -4088,7 +4088,7 @@ years: {
           candidates: [
             { no: 1, name: "Sikha Chatterjee", gender: "F", category: "GEN", party: "BJP", generalVotes: 128302, postalVotes: 786, totalVotes: 129088, percentage: 49.8 },
             { no: 2, name: "Goutam Deb", gender: "M", category: "GEN", party: "AITC", generalVotes: 100844, postalVotes: 651, totalVotes: 101495, percentage: 39.2 },
-            { no: 3, name: "Dilip Singh", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 17747, postalVotes: 251, totalVotes: 17998, percentage: 6.9 },
+            { no: 3, name: "Dilip Singh", gender: "M", category: "GEN", party: "CPIM", generalVotes: 17747, postalVotes: 251, totalVotes: 17998, percentage: 6.9 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3358, postalVotes: 21, totalVotes: 3379, percentage: 1.3 },
             { no: 5, name: "Radhakrishna Namadas", gender: "M", category: "SC", party: "BSP", generalVotes: 1391, postalVotes: 4, totalVotes: 1395, percentage: 0.5 },
             { no: 6, name: "Maheswar Barman", gender: "M", category: "SC", party: "IND", generalVotes: 1388, postalVotes: 3, totalVotes: 1391, percentage: 0.5 },
@@ -4202,7 +4202,7 @@ years: {
             { no: 4, name: "SURAJ GURUNG", gender: "M", category: "GEN", party: "IND", generalVotes: 2766, postalVotes: 89, totalVotes: 2855, percentage: 1.7 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2495, postalVotes: 45, totalVotes: 2540, percentage: 1.5 },
             { no: 6, name: "NIMA GYAMTSHO SHERPA", gender: "M", category: "ST", party: "IND", generalVotes: 2042, postalVotes: 46, totalVotes: 2088, percentage: 1.2 },
-            { no: 7, name: "GAUTAM RAJ RAI", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 1821, postalVotes: 92, totalVotes: 1913, percentage: 1.1 },
+            { no: 7, name: "GAUTAM RAJ RAI", gender: "M", category: "GEN", party: "CPIM", generalVotes: 1821, postalVotes: 92, totalVotes: 1913, percentage: 1.1 },
             { no: 8, name: "ANJANI SHARMA", gender: "F", category: "GEN", party: "IND", generalVotes: 1600, postalVotes: 77, totalVotes: 1677, percentage: 1.0 },
             { no: 9, name: "MILAN THOKAR", gender: "M", category: "GEN", party: "IND", generalVotes: 1367, postalVotes: 30, totalVotes: 1397, percentage: 0.8 },
             { no: 10, name: "BHARAT PRAKASH RAI", gender: "M", category: "GEN", party: "IND", generalVotes: 1286, postalVotes: 41, totalVotes: 1327, percentage: 0.8 },
@@ -4252,7 +4252,7 @@ years: {
           candidates: [
             { no: 1, name: "MAMATA BHUNIA", gender: "F", category: "GEN", party: "AITC", generalVotes: 113911, postalVotes: 842, totalVotes: 114753, percentage: 51.6 },
             { no: 2, name: "PRASANTA BERA", gender: "M", category: "GEN", party: "BJP", generalVotes: 87178, postalVotes: 733, totalVotes: 87911, percentage: 39.5 },
-            { no: 3, name: "DHRUBA SEKHAR MANDAL", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 16649, postalVotes: 396, totalVotes: 17045, percentage: 7.7 },
+            { no: 3, name: "DHRUBA SEKHAR MANDAL", gender: "M", category: "GEN", party: "CPIM", generalVotes: 16649, postalVotes: 396, totalVotes: 17045, percentage: 7.7 },
             { no: 4, name: "JAGADISH MONDAL ADHIKARY", gender: "M", category: "GEN", party: "SUCI", generalVotes: 1379, postalVotes: 8, totalVotes: 1387, percentage: 0.6 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1356, postalVotes: 12, totalVotes: 1368, percentage: 0.6 },
           ],
@@ -4299,7 +4299,7 @@ years: {
           candidates: [
             { no: 1, name: "HUMAYUN KABIR", gender: "M", category: "GEN", party: "AITC", generalVotes: 94683, postalVotes: 1167, totalVotes: 95850, percentage: 46.8 },
             { no: 2, name: "BHARATI GHOSH", gender: "F", category: "GEN", party: "BJP", generalVotes: 83654, postalVotes: 970, totalVotes: 84624, percentage: 41.3 },
-            { no: 3, name: "PRANKRISHNA MONDAL", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 20450, postalVotes: 273, totalVotes: 20723, percentage: 10.1 },
+            { no: 3, name: "PRANKRISHNA MONDAL", gender: "M", category: "GEN", party: "CPIM", generalVotes: 20450, postalVotes: 273, totalVotes: 20723, percentage: 10.1 },
             { no: 4, name: "DIPANKAR MAITY", gender: "M", category: "GEN", party: "SUCI", generalVotes: 1501, postalVotes: 8, totalVotes: 1509, percentage: 0.7 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1346, postalVotes: 7, totalVotes: 1353, percentage: 0.7 },
             { no: 6, name: "SUKANTA DAS", gender: "M", category: "GEN", party: "IND", generalVotes: 806, postalVotes: 1, totalVotes: 807, percentage: 0.4 },
@@ -4456,7 +4456,7 @@ years: {
           candidates: [
             { no: 1, name: "BISHNU PADA RAY", gender: "M", category: "SC", party: "BJP", generalVotes: 103533, postalVotes: 1155, totalVotes: 104688, percentage: 45.7 },
             { no: 2, name: "MITALI ROY", gender: "F", category: "SC", party: "AITC", generalVotes: 99293, postalVotes: 1040, totalVotes: 100333, percentage: 43.8 },
-            { no: 3, name: "PRADIP KUMAR ROY", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 12856, postalVotes: 251, totalVotes: 13107, percentage: 5.7 },
+            { no: 3, name: "PRADIP KUMAR ROY", gender: "M", category: "SC", party: "CPIM", generalVotes: 12856, postalVotes: 251, totalVotes: 13107, percentage: 5.7 },
             { no: 4, name: "BEDODYUTI ROY", gender: "M", category: "SC", party: "BSP", generalVotes: 2171, postalVotes: 7, totalVotes: 2178, percentage: 0.9 },
             { no: 5, name: "HRISHIKESH ROY", gender: "M", category: "SC", party: "IND Chalata", generalVotes: 2167, postalVotes: 2, totalVotes: 2169, percentage: 0.9 },
             { no: 6, name: "SUKUMAR ROY", gender: "M", category: "SC", party: "KPPU", generalVotes: 2144, postalVotes: 11, totalVotes: 2155, percentage: 0.9 },
@@ -4512,7 +4512,7 @@ years: {
           candidates: [
             { no: 1, name: "PANNALAL HALDER", gender: "M", category: "GEN", party: "AITC", generalVotes: 98032, postalVotes: 446, totalVotes: 98478, percentage: 43.7 },
             { no: 2, name: "DIPAK KUMAR HALDER", gender: "M", category: "GEN", party: "BJP", generalVotes: 81098, postalVotes: 384, totalVotes: 81482, percentage: 36.2 },
-            { no: 3, name: "PRATIK UR RAHAMAN", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 38612, postalVotes: 107, totalVotes: 38719, percentage: 17.2 },
+            { no: 3, name: "PRATIK UR RAHAMAN", gender: "M", category: "GEN", party: "CPIM", generalVotes: 38612, postalVotes: 107, totalVotes: 38719, percentage: 17.2 },
             { no: 4, name: "SAFIULLA KHAN", gender: "M", category: "GEN", party: "IND", generalVotes: 1585, postalVotes: 0, totalVotes: 1585, percentage: 0.7 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1446, postalVotes: 3, totalVotes: 1449, percentage: 0.6 },
             { no: 6, name: "GOLAM ALI SEKH", gender: "M", category: "GEN", party: "BSP", generalVotes: 1086, postalVotes: 2, totalVotes: 1088, percentage: 0.5 },
@@ -4634,7 +4634,7 @@ years: {
           candidates: [
             { no: 1, name: "KALYAN GHOSH", gender: "M", category: "GEN", party: "AITC", generalVotes: 130278, postalVotes: 221, totalVotes: 130499, percentage: 52.0 },
             { no: 2, name: "RAJIB BANERJEE S/O- LATE DHANANJOY BANERJEE", gender: "M", category: "GEN", party: "BJP", generalVotes: 87766, postalVotes: 113, totalVotes: 87879, percentage: 35.0 },
-            { no: 3, name: "UTTAM BERA", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 22727, postalVotes: 41, totalVotes: 22768, percentage: 9.1 },
+            { no: 3, name: "UTTAM BERA", gender: "M", category: "GEN", party: "CPIM", generalVotes: 22727, postalVotes: 41, totalVotes: 22768, percentage: 9.1 },
             { no: 4, name: "SUMANTA KAYAL", gender: "M", category: "SC", party: "IND", generalVotes: 2855, postalVotes: 0, totalVotes: 2855, percentage: 1.1 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2078, postalVotes: 4, totalVotes: 2082, percentage: 0.8 },
             { no: 6, name: "SUBHAS SANTRA", gender: "M", category: "SC", party: "IND", generalVotes: 1712, postalVotes: 0, totalVotes: 1712, percentage: 0.7 },
@@ -4699,7 +4699,7 @@ years: {
           totalVotes: 226183,
           candidates: [
             { no: 1, name: "JAFIKUL ISLAM", gender: "M", category: "GEN", party: "AITC", generalVotes: 127173, postalVotes: 498, totalVotes: 127671, percentage: 56.4 },
-            { no: 2, name: "MD. MOSTAFIJUR RAHAMAN (RANA)", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 79968, postalVotes: 474, totalVotes: 80442, percentage: 35.6 },
+            { no: 2, name: "MD. MOSTAFIJUR RAHAMAN (RANA)", gender: "M", category: "GEN", party: "CPIM", generalVotes: 79968, postalVotes: 474, totalVotes: 80442, percentage: 35.6 },
             { no: 3, name: "BIYAMMA MONDAL (RUBIA)", gender: "F", category: "GEN", party: "BJP", generalVotes: 12247, postalVotes: 101, totalVotes: 12348, percentage: 5.5 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2413, postalVotes: 6, totalVotes: 2419, percentage: 1.1 },
             { no: 5, name: "IMAN ALI BISWAS", gender: "M", category: "GEN", party: "IND", generalVotes: 729, postalVotes: 0, totalVotes: 729, percentage: 0.3 },
@@ -4815,7 +4815,7 @@ years: {
           candidates: [
             { no: 1, name: "BRATYA BASU", gender: "M", category: "GEN", party: "AITC", generalVotes: 87543, postalVotes: 456, totalVotes: 87999, percentage: 47.5 },
             { no: 2, name: "BIMALSHANKAR NANDA", gender: "M", category: "GEN", party: "BJP", generalVotes: 61038, postalVotes: 230, totalVotes: 61268, percentage: 33.1 },
-            { no: 3, name: "PALASH DAS", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 30520, postalVotes: 133, totalVotes: 30653, percentage: 16.5 },
+            { no: 3, name: "PALASH DAS", gender: "M", category: "GEN", party: "CPIM", generalVotes: 30520, postalVotes: 133, totalVotes: 30653, percentage: 16.5 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2035, postalVotes: 4, totalVotes: 2039, percentage: 1.1 },
             { no: 5, name: "SUBRATA KR. MAJUMDER", gender: "M", category: "SC", party: "BSP", generalVotes: 975, postalVotes: 5, totalVotes: 980, percentage: 0.5 },
             { no: 6, name: "RUPA SARKAR", gender: "F", category: "GEN", party: "IND", generalVotes: 771, postalVotes: 3, totalVotes: 774, percentage: 0.4 },
@@ -4869,7 +4869,7 @@ years: {
           candidates: [
             { no: 1, name: "CHANDRIMA BHATTACHARYA", gender: "F", category: "GEN", party: "AITC", generalVotes: 95078, postalVotes: 387, totalVotes: 95465, percentage: 44.8 },
             { no: 2, name: "DR. ARCHANA MAJUMDAR", gender: "F", category: "SC", party: "BJP", generalVotes: 66739, postalVotes: 227, totalVotes: 66966, percentage: 31.4 },
-            { no: 3, name: "TANMOY BHATTACHARYA", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 45462, postalVotes: 266, totalVotes: 45728, percentage: 21.5 },
+            { no: 3, name: "TANMOY BHATTACHARYA", gender: "M", category: "GEN", party: "CPIM", generalVotes: 45462, postalVotes: 266, totalVotes: 45728, percentage: 21.5 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2107, postalVotes: 4, totalVotes: 2111, percentage: 1.0 },
             { no: 5, name: "SUNIL SINGH", gender: "M", category: "GEN", party: "BNARP", generalVotes: 1223, postalVotes: 6, totalVotes: 1229, percentage: 0.6 },
             { no: 6, name: "SOVA HOWLADER", gender: "F", category: "SC", party: "BSP", generalVotes: 996, postalVotes: 9, totalVotes: 1005, percentage: 0.5 },
@@ -4977,7 +4977,7 @@ years: {
           candidates: [
             { no: 1, name: "PRADIP MAZUMDAR", gender: "M", category: "GEN", party: "AITC", generalVotes: 78457, postalVotes: 846, totalVotes: 79303, percentage: 41.2 },
             { no: 2, name: "COLONEL DIPTANSU CHAUDHURY", gender: "M", category: "GEN", party: "BJP", generalVotes: 75000, postalVotes: 557, totalVotes: 75557, percentage: 39.2 },
-            { no: 3, name: "ABHAS RAY CHAUDHURI", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 28719, postalVotes: 344, totalVotes: 29063, percentage: 15.1 },
+            { no: 3, name: "ABHAS RAY CHAUDHURI", gender: "M", category: "GEN", party: "CPIM", generalVotes: 28719, postalVotes: 344, totalVotes: 29063, percentage: 15.1 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2609, postalVotes: 19, totalVotes: 2628, percentage: 1.4 },
             { no: 5, name: "DIPAK DHALI", gender: "M", category: "SC", party: "IND", generalVotes: 1877, postalVotes: 7, totalVotes: 1884, percentage: 1.0 },
             { no: 6, name: "MD. SHOUKAT ALI KHAN", gender: "M", category: "GEN", party: "IND", generalVotes: 1363, postalVotes: 1, totalVotes: 1364, percentage: 0.7 },
@@ -5044,7 +5044,7 @@ years: {
           totalVotes: 220890,
           candidates: [
             { no: 1, name: "DAS SAMARES", gender: "M", category: "GEN", party: "AITC", generalVotes: 112868, postalVotes: 466, totalVotes: 113334, percentage: 51.3 },
-            { no: 2, name: "SHAIKH MAHMUD HOSSAIN", gender: "M", category: "GEN", party: "DSP(P)", generalVotes: 86891, postalVotes: 487, totalVotes: 87378, percentage: 39.6 },
+            { no: 2, name: "SHAIKH MAHMUD HOSSAIN", gender: "M", category: "GEN", party: "DSPP", generalVotes: 86891, postalVotes: 487, totalVotes: 87378, percentage: 39.6 },
             { no: 3, name: "MINATI SUR", gender: "F", category: "GEN", party: "BJP", generalVotes: 12978, postalVotes: 24, totalVotes: 13002, percentage: 5.9 },
             { no: 4, name: "None of the Above", gender: "", category: "", party: "NOTA", generalVotes: 2998, postalVotes: 9, totalVotes: 3007, percentage: 1.4 },
             { no: 5, name: "JAGADIS SAU", gender: "M", category: "GEN", party: "SUCI", generalVotes: 2336, postalVotes: 4, totalVotes: 2340, percentage: 1.1 },
@@ -5059,7 +5059,7 @@ years: {
           totalVotes: 192326,
           candidates: [
             { no: 1, name: "DAS SAMARES", gender: "M", category: "GEN", party: "AITC", generalVotes: 98828, postalVotes: 350, totalVotes: 99178, percentage: 51.6 },
-            { no: 2, name: "HRISHIKESH PARIA", gender: "M", category: "GEN", party: "DSP(P)", generalVotes: 82635, postalVotes: 590, totalVotes: 83225, percentage: 43.3 },
+            { no: 2, name: "HRISHIKESH PARIA", gender: "M", category: "GEN", party: "DSPP", generalVotes: 82635, postalVotes: 590, totalVotes: 83225, percentage: 43.3 },
             { no: 3, name: "MINATI SUR", gender: "F", category: "GEN", party: "BJP", generalVotes: 6351, postalVotes: 7, totalVotes: 6358, percentage: 3.3 },
             { no: 4, name: "DURGA PADA MISHRA", gender: "M", category: "GEN", party: "IND", generalVotes: 3564, postalVotes: 1, totalVotes: 3565, percentage: 1.9 },
           ],
@@ -5080,7 +5080,7 @@ years: {
           candidates: [
             { no: 1, name: "SREERUPA MITRA CHAUDHURY(NIRBHOY DIDI)", gender: "F", category: "GEN", party: "BJP", generalVotes: 105422, postalVotes: 2333, totalVotes: 107755, percentage: 50.0 },
             { no: 2, name: "KRISHNENDU NARAYAN CHOUDHURY", gender: "M", category: "GEN", party: "AITC", generalVotes: 86163, postalVotes: 1493, totalVotes: 87656, percentage: 40.6 },
-            { no: 3, name: "KOUSHIK MISRA(SAHEB)", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 10377, postalVotes: 576, totalVotes: 10953, percentage: 5.1 },
+            { no: 3, name: "KOUSHIK MISRA(SAHEB)", gender: "M", category: "GEN", party: "CPIM", generalVotes: 10377, postalVotes: 576, totalVotes: 10953, percentage: 5.1 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3168, postalVotes: 28, totalVotes: 3196, percentage: 1.5 },
             { no: 5, name: "MD. ANISUR RAHAMAN", gender: "M", category: "GEN", party: "IND Chalata", generalVotes: 1786, postalVotes: 1, totalVotes: 1787, percentage: 0.8 },
             { no: 6, name: "NARESH PAL", gender: "M", category: "GEN", party: "IND", generalVotes: 1125, postalVotes: 4, totalVotes: 1129, percentage: 0.5 },
@@ -5211,7 +5211,7 @@ years: {
           candidates: [
             { no: 1, name: "DIPAK BARMAN", gender: "M", category: "SC", party: "BJP", generalVotes: 101833, postalVotes: 1160, totalVotes: 102993, percentage: 46.7 },
             { no: 2, name: "SUBHASH CHANDRA ROY", gender: "M", category: "SC", party: "AITC", generalVotes: 98181, postalVotes: 822, totalVotes: 99003, percentage: 44.9 },
-            { no: 3, name: "KSHITISH CHANDRA RAY", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 10496, postalVotes: 276, totalVotes: 10772, percentage: 4.9 },
+            { no: 3, name: "KSHITISH CHANDRA RAY", gender: "M", category: "SC", party: "CPIM", generalVotes: 10496, postalVotes: 276, totalVotes: 10772, percentage: 4.9 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1964, postalVotes: 6, totalVotes: 1970, percentage: 0.9 },
             { no: 5, name: "DIPAK CHANDRA MANDAL (SANTOSH)", gender: "M", category: "SC", party: "IND", generalVotes: 1675, postalVotes: 3, totalVotes: 1678, percentage: 0.8 },
             { no: 6, name: "SWAPAN ROY", gender: "M", category: "SC", party: "IND", generalVotes: 1639, postalVotes: 6, totalVotes: 1645, percentage: 0.7 },
@@ -5484,7 +5484,7 @@ years: {
           candidates: [
             { no: 1, name: "SATYENDRA NATH RAY", gender: "M", category: "SC", party: "BJP", generalVotes: 87561, postalVotes: 1163, totalVotes: 88724, percentage: 46.8 },
             { no: 2, name: "GOUTAM DAS", gender: "M", category: "SC", party: "AITC", generalVotes: 83281, postalVotes: 851, totalVotes: 84132, percentage: 44.4 },
-            { no: 3, name: "NANDA LAL HAZRA", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 11935, postalVotes: 338, totalVotes: 12273, percentage: 6.5 },
+            { no: 3, name: "NANDA LAL HAZRA", gender: "M", category: "SC", party: "CPIM", generalVotes: 11935, postalVotes: 338, totalVotes: 12273, percentage: 6.5 },
             { no: 4, name: "ARUN KANTI BALA", gender: "M", category: "SC", party: "BSP", generalVotes: 1166, postalVotes: 3, totalVotes: 1169, percentage: 0.6 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1135, postalVotes: 14, totalVotes: 1149, percentage: 0.6 },
             { no: 6, name: "AKSHAY SARKAR", gender: "M", category: "SC", party: "KPPU", generalVotes: 1139, postalVotes: 6, totalVotes: 1145, percentage: 0.6 },
@@ -5541,7 +5541,7 @@ years: {
           candidates: [
             { no: 1, name: "Uttara Singha (Hazra)", gender: "F", category: "GEN", party: "AITC", generalVotes: 94358, postalVotes: 570, totalVotes: 94928, percentage: 45.7 },
             { no: 2, name: "Madan Ruidas", gender: "M", category: "GEN", party: "BJP", generalVotes: 83739, postalVotes: 617, totalVotes: 84356, percentage: 40.6 },
-            { no: 3, name: "Ghosh Kumar Tapan", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 22912, postalVotes: 130, totalVotes: 23042, percentage: 11.1 },
+            { no: 3, name: "Ghosh Kumar Tapan", gender: "M", category: "GEN", party: "CPIM", generalVotes: 22912, postalVotes: 130, totalVotes: 23042, percentage: 11.1 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2701, postalVotes: 18, totalVotes: 2719, percentage: 1.3 },
             { no: 5, name: "Tapas Kumar Mishra", gender: "M", category: "GEN", party: "SUCI", generalVotes: 1796, postalVotes: 7, totalVotes: 1803, percentage: 0.9 },
             { no: 6, name: "Kutubuddin Khan", gender: "M", category: "GEN", party: "IND", generalVotes: 830, postalVotes: 3, totalVotes: 833, percentage: 0.4 },
@@ -5589,7 +5589,7 @@ years: {
           candidates: [
             { no: 1, name: "CHINMOY DEB BARMAN", gender: "M", category: "SC", party: "BJP", generalVotes: 99773, postalVotes: 882, totalVotes: 100655, percentage: 45.5 },
             { no: 2, name: "BASANTI BARMAN", gender: "F", category: "SC", party: "AITC", generalVotes: 98267, postalVotes: 590, totalVotes: 98857, percentage: 44.7 },
-            { no: 3, name: "ARUN KUMAR BISWAS", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 13796, postalVotes: 154, totalVotes: 13950, percentage: 6.3 },
+            { no: 3, name: "ARUN KUMAR BISWAS", gender: "M", category: "SC", party: "CPIM", generalVotes: 13796, postalVotes: 154, totalVotes: 13950, percentage: 6.3 },
             { no: 4, name: "SANATAN RISHI", gender: "M", category: "SC", party: "BSP", generalVotes: 1935, postalVotes: 8, totalVotes: 1943, percentage: 0.9 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1728, postalVotes: 8, totalVotes: 1736, percentage: 0.8 },
             { no: 6, name: "SUPEN KUMAR ROY", gender: "M", category: "SC", party: "SUCI", generalVotes: 1380, postalVotes: 1, totalVotes: 1381, percentage: 0.6 },
@@ -5653,7 +5653,7 @@ years: {
           candidates: [
             { no: 1, name: "SITAL KAPAT", gender: "M", category: "SC", party: "BJP", generalVotes: 104753, postalVotes: 1059, totalVotes: 105812, percentage: 46.9 },
             { no: 2, name: "SHANKAR DOLAI", gender: "M", category: "SC", party: "AITC", generalVotes: 104044, postalVotes: 802, totalVotes: 104846, percentage: 46.5 },
-            { no: 3, name: "KAMAL CHANDRA DOLUI", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 9931, postalVotes: 234, totalVotes: 10165, percentage: 4.5 },
+            { no: 3, name: "KAMAL CHANDRA DOLUI", gender: "M", category: "SC", party: "CPIM", generalVotes: 9931, postalVotes: 234, totalVotes: 10165, percentage: 4.5 },
             { no: 4, name: "ANJAN JANA", gender: "M", category: "SC", party: "SUCI", generalVotes: 1998, postalVotes: 10, totalVotes: 2008, percentage: 0.9 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1295, postalVotes: 10, totalVotes: 1305, percentage: 0.6 },
             { no: 6, name: "TAPAN KUMAR DOLUI", gender: "M", category: "SC", party: "IND", generalVotes: 1232, postalVotes: 7, totalVotes: 1239, percentage: 0.5 },
@@ -5805,7 +5805,7 @@ years: {
           candidates: [
             { no: 1, name: "Dr. Khagendra Nath Mahata", gender: "M", category: "GEN", party: "AITC", generalVotes: 102710, postalVotes: 1405, totalVotes: 104115, percentage: 52.3 },
             { no: 2, name: "Sanjit Mahata", gender: "M", category: "GEN", party: "BJP", generalVotes: 79106, postalVotes: 1241, totalVotes: 80347, percentage: 40.4 },
-            { no: 3, name: "Prasanta Kumar Das", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 5689, postalVotes: 130, totalVotes: 5819, percentage: 2.9 },
+            { no: 3, name: "Prasanta Kumar Das", gender: "M", category: "GEN", party: "CPIM", generalVotes: 5689, postalVotes: 130, totalVotes: 5819, percentage: 2.9 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2781, postalVotes: 10, totalVotes: 2791, percentage: 1.4 },
             { no: 5, name: "Banamali Nayek", gender: "M", category: "SC", party: "BSP", generalVotes: 1248, postalVotes: 12, totalVotes: 1260, percentage: 0.6 },
             { no: 6, name: "Subhas Mahata (Bula Babu)", gender: "M", category: "GEN", party: "IND", generalVotes: 1214, postalVotes: 10, totalVotes: 1224, percentage: 0.6 },
@@ -5913,7 +5913,7 @@ years: {
           candidates: [
             { no: 1, name: "JOYEL MURMU", gender: "M", category: "ST", party: "BJP", generalVotes: 92982, postalVotes: 1093, totalVotes: 94075, percentage: 47.5 },
             { no: 2, name: "PRODIP BASKEY", gender: "M", category: "ST", party: "AITC", generalVotes: 73956, postalVotes: 602, totalVotes: 74558, percentage: 37.7 },
-            { no: 3, name: "THAKUR TUDU", gender: "M", category: "ST", party: "CPI(M)", generalVotes: 13649, postalVotes: 156, totalVotes: 13805, percentage: 7.0 },
+            { no: 3, name: "THAKUR TUDU", gender: "M", category: "ST", party: "CPIM", generalVotes: 13649, postalVotes: 156, totalVotes: 13805, percentage: 7.0 },
             { no: 4, name: "BABURAM KISKU", gender: "M", category: "ST", party: "BMUP", generalVotes: 5878, postalVotes: 18, totalVotes: 5896, percentage: 3.0 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2145, postalVotes: 17, totalVotes: 2162, percentage: 1.1 },
             { no: 6, name: "PRATAP KORAMUDI", gender: "M", category: "ST", party: "APoI", generalVotes: 1879, postalVotes: 8, totalVotes: 1887, percentage: 1.0 },
@@ -5973,7 +5973,7 @@ years: {
           candidates: [
             { no: 1, name: "JYOTI PRIYA MALLICK", gender: "M", category: "GEN", party: "AITC", generalVotes: 89860, postalVotes: 673, totalVotes: 90533, percentage: 44.3 },
             { no: 2, name: "RAHUL (BISWAJIT) SINHA", gender: "M", category: "GEN", party: "BJP", generalVotes: 86208, postalVotes: 484, totalVotes: 86692, percentage: 42.5 },
-            { no: 3, name: "RIJINANDAN BISWAS", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 21781, postalVotes: 213, totalVotes: 21994, percentage: 10.8 },
+            { no: 3, name: "RIJINANDAN BISWAS", gender: "M", category: "SC", party: "CPIM", generalVotes: 21781, postalVotes: 213, totalVotes: 21994, percentage: 10.8 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1276, postalVotes: 14, totalVotes: 1290, percentage: 0.6 },
             { no: 5, name: "SANTOSH BISWAS", gender: "M", category: "SC", party: "BSP", generalVotes: 1120, postalVotes: 5, totalVotes: 1125, percentage: 0.6 },
             { no: 6, name: "AMAR KRISHNA MANDAL", gender: "M", category: "GEN", party: "IND", generalVotes: 1113, postalVotes: 2, totalVotes: 1115, percentage: 0.5 },
@@ -6029,7 +6029,7 @@ years: {
           candidates: [
             { no: 1, name: "Tapasi Mondal", gender: "F", category: "SC", party: "BJP", generalVotes: 103489, postalVotes: 637, totalVotes: 104126, percentage: 47.2 },
             { no: 2, name: "Swapan Naskar", gender: "M", category: "SC", party: "AITC", generalVotes: 88663, postalVotes: 455, totalVotes: 89118, percentage: 40.4 },
-            { no: 3, name: "Kar Paik Manika", gender: "F", category: "SC", party: "CPI(M)", generalVotes: 22510, postalVotes: 178, totalVotes: 22688, percentage: 10.3 },
+            { no: 3, name: "Kar Paik Manika", gender: "F", category: "SC", party: "CPIM", generalVotes: 22510, postalVotes: 178, totalVotes: 22688, percentage: 10.3 },
             { no: 4, name: "Subrata Ghorai", gender: "M", category: "SC", party: "BSP", generalVotes: 1920, postalVotes: 2, totalVotes: 1922, percentage: 0.9 },
             { no: 5, name: "Narayan Pramanik", gender: "M", category: "SC", party: "SUCI", generalVotes: 1548, postalVotes: 8, totalVotes: 1556, percentage: 0.7 },
             { no: 6, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1408, postalVotes: 5, totalVotes: 1413, percentage: 0.6 },
@@ -6103,7 +6103,7 @@ years: {
             { no: 7, name: "ALI TANSER", gender: "M", category: "GEN", party: "SP", generalVotes: 1046, postalVotes: 1, totalVotes: 1047, percentage: 0.6 },
             { no: 8, name: "MANIK MAL", gender: "M", category: "SC", party: "CPIMLL", generalVotes: 1041, postalVotes: 0, totalVotes: 1041, percentage: 0.6 },
             { no: 9, name: "AMAL MONDAL", gender: "M", category: "SC", party: "SUCI", generalVotes: 782, postalVotes: 3, totalVotes: 785, percentage: 0.4 },
-            { no: 10, name: "KAMAL HASAN", gender: "M", category: "GEN", party: "RCPI(R)", generalVotes: 751, postalVotes: 0, totalVotes: 751, percentage: 0.4 },
+            { no: 10, name: "KAMAL HASAN", gender: "M", category: "GEN", party: "RCPIR", generalVotes: 751, postalVotes: 0, totalVotes: 751, percentage: 0.4 },
           ],
         },
         2011: {
@@ -6114,7 +6114,7 @@ years: {
           totalVotes: 157021,
           candidates: [
             { no: 1, name: "ASIT MAL", gender: "M", category: "SC", party: "INC", generalVotes: 73226, postalVotes: 144, totalVotes: 73370, percentage: 46.7 },
-            { no: 2, name: "KAMAL HASAN", gender: "M", category: "GEN", party: "RCPI(R)", generalVotes: 46762, postalVotes: 156, totalVotes: 46918, percentage: 29.9 },
+            { no: 2, name: "KAMAL HASAN", gender: "M", category: "GEN", party: "RCPIR", generalVotes: 46762, postalVotes: 156, totalVotes: 46918, percentage: 29.9 },
             { no: 3, name: "MD. RAFIUDDIN (MOMIN)", gender: "M", category: "GEN", party: "IND", generalVotes: 27448, postalVotes: 13, totalVotes: 27461, percentage: 17.5 },
             { no: 4, name: "RUPARANI MONDAL", gender: "F", category: "SC", party: "BJP", generalVotes: 3368, postalVotes: 5, totalVotes: 3373, percentage: 2.1 },
             { no: 5, name: "AMAL MONDAL", gender: "M", category: "GEN", party: "SUCI", generalVotes: 2501, postalVotes: 2, totalVotes: 2503, percentage: 1.6 },
@@ -6202,7 +6202,7 @@ years: {
           candidates: [
             { no: 1, name: "ASIM KUMAR SARKAR", gender: "M", category: "SC", party: "BJP", generalVotes: 96970, postalVotes: 696, totalVotes: 97666, percentage: 46.3 },
             { no: 2, name: "NILIMA NAG (MALLICK)", gender: "F", category: "SC", party: "AITC", generalVotes: 81686, postalVotes: 780, totalVotes: 82466, percentage: 39.1 },
-            { no: 3, name: "ALAKESH DAS", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 24635, postalVotes: 165, totalVotes: 24800, percentage: 11.8 },
+            { no: 3, name: "ALAKESH DAS", gender: "M", category: "SC", party: "CPIM", generalVotes: 24635, postalVotes: 165, totalVotes: 24800, percentage: 11.8 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1420, postalVotes: 7, totalVotes: 1427, percentage: 0.7 },
             { no: 5, name: "NAYAN HALDER", gender: "M", category: "SC", party: "IND", generalVotes: 1154, postalVotes: 2, totalVotes: 1156, percentage: 0.5 },
             { no: 6, name: "SAMIR BISWAS", gender: "M", category: "SC", party: "BSP", generalVotes: 1153, postalVotes: 0, totalVotes: 1153, percentage: 0.5 },
@@ -6311,7 +6311,7 @@ years: {
           candidates: [
             { no: 1, name: "BIPLAB MITRA", gender: "M", category: "GEN", party: "AITC", generalVotes: 95432, postalVotes: 699, totalVotes: 96131, percentage: 51.2 },
             { no: 2, name: "NILANJAN ROY", gender: "M", category: "GEN", party: "BJP", generalVotes: 72793, postalVotes: 666, totalVotes: 73459, percentage: 39.1 },
-            { no: 3, name: "RAFIKUL ISLAM", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 12268, postalVotes: 176, totalVotes: 12444, percentage: 6.6 },
+            { no: 3, name: "RAFIKUL ISLAM", gender: "M", category: "GEN", party: "CPIM", generalVotes: 12268, postalVotes: 176, totalVotes: 12444, percentage: 6.6 },
             { no: 4, name: "BIJAN CHAKRABORTY", gender: "M", category: "GEN", party: "IND", generalVotes: 1829, postalVotes: 2, totalVotes: 1831, percentage: 1.0 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1818, postalVotes: 5, totalVotes: 1823, percentage: 1.0 },
             { no: 6, name: "PRADIP KUMAR PRAMANIK", gender: "M", category: "GEN", party: "IND", generalVotes: 769, postalVotes: 3, totalVotes: 772, percentage: 0.4 },
@@ -6480,7 +6480,7 @@ years: {
           candidates: [
             { no: 1, name: "SATYAJIT BARMAN", gender: "M", category: "SC", party: "AITC", generalVotes: 115346, postalVotes: 1079, totalVotes: 116425, percentage: 52.1 },
             { no: 2, name: "CHANDIMA ROY", gender: "F", category: "SC", party: "BJP", generalVotes: 88481, postalVotes: 729, totalVotes: 89210, percentage: 40.0 },
-            { no: 3, name: "BHUPEN BARMAN", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 9297, postalVotes: 156, totalVotes: 9453, percentage: 4.2 },
+            { no: 3, name: "BHUPEN BARMAN", gender: "M", category: "SC", party: "CPIM", generalVotes: 9297, postalVotes: 156, totalVotes: 9453, percentage: 4.2 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2154, postalVotes: 6, totalVotes: 2160, percentage: 1.0 },
             { no: 5, name: "MANINDRA BARMAN", gender: "M", category: "SC", party: "AMB", generalVotes: 1580, postalVotes: 1, totalVotes: 1581, percentage: 0.7 },
             { no: 6, name: "JYOTIRMAY BARMAN", gender: "M", category: "SC", party: "SUCI", generalVotes: 1510, postalVotes: 8, totalVotes: 1518, percentage: 0.7 },
@@ -6593,7 +6593,7 @@ years: {
           candidates: [
             { no: 1, name: "NANDITA CHOWDHURY", gender: "F", category: "GEN", party: "AITC", generalVotes: 116651, postalVotes: 188, totalVotes: 116839, percentage: 53.9 },
             { no: 2, name: "RANTIDEV SENGUPTA", gender: "M", category: "GEN", party: "BJP", generalVotes: 66088, postalVotes: 182, totalVotes: 66270, percentage: 30.5 },
-            { no: 3, name: "SUMITRO ADHIKARY", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 27168, postalVotes: 119, totalVotes: 27287, percentage: 12.6 },
+            { no: 3, name: "SUMITRO ADHIKARY", gender: "M", category: "GEN", party: "CPIM", generalVotes: 27168, postalVotes: 119, totalVotes: 27287, percentage: 12.6 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2937, postalVotes: 11, totalVotes: 2948, percentage: 1.4 },
             { no: 5, name: "SUSHANTA MONDAL", gender: "M", category: "GEN", party: "IND", generalVotes: 1063, postalVotes: 0, totalVotes: 1063, percentage: 0.5 },
             { no: 6, name: "AMIT KUMAR GHOSH", gender: "M", category: "GEN", party: "JDU", generalVotes: 654, postalVotes: 0, totalVotes: 654, percentage: 0.3 },
@@ -6730,7 +6730,7 @@ years: {
           candidates: [
             { no: 1, name: "GAUTAM CHOWDHURI", gender: "M", category: "GEN", party: "AITC", generalVotes: 71408, postalVotes: 167, totalVotes: 71575, percentage: 47.8 },
             { no: 2, name: "UMESH RAI", gender: "M", category: "GEN", party: "BJP", generalVotes: 65936, postalVotes: 117, totalVotes: 66053, percentage: 44.1 },
-            { no: 3, name: "PAWAN KUMAR SINGH", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 8091, postalVotes: 42, totalVotes: 8133, percentage: 5.4 },
+            { no: 3, name: "PAWAN KUMAR SINGH", gender: "M", category: "GEN", party: "CPIM", generalVotes: 8091, postalVotes: 42, totalVotes: 8133, percentage: 5.4 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1668, postalVotes: 2, totalVotes: 1670, percentage: 1.1 },
             { no: 5, name: "SUBHASH KUMAR SINGHI", gender: "M", category: "GEN", party: "IND", generalVotes: 911, postalVotes: 0, totalVotes: 911, percentage: 0.6 },
             { no: 6, name: "SUNIL SAU", gender: "M", category: "GEN", party: "IND", generalVotes: 302, postalVotes: 0, totalVotes: 302, percentage: 0.2 },
@@ -6805,7 +6805,7 @@ years: {
           candidates: [
             { no: 1, name: "NIRMAL KUMAR DHARA", gender: "M", category: "SC", party: "BJP", generalVotes: 104163, postalVotes: 773, totalVotes: 104936, percentage: 48.0 },
             { no: 2, name: "RUNU METE", gender: "F", category: "SC", party: "AITC", generalVotes: 96808, postalVotes: 908, totalVotes: 97716, percentage: 44.7 },
-            { no: 3, name: "NAYAN KUMAR SHILL (BAGDI)", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 12503, postalVotes: 116, totalVotes: 12619, percentage: 5.8 },
+            { no: 3, name: "NAYAN KUMAR SHILL (BAGDI)", gender: "M", category: "SC", party: "CPIM", generalVotes: 12503, postalVotes: 116, totalVotes: 12619, percentage: 5.8 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3164, postalVotes: 18, totalVotes: 3182, percentage: 1.5 },
           ],
         },
@@ -6963,7 +6963,7 @@ years: {
           totalVotes: 215419,
           candidates: [
             { no: 1, name: "DEBABRATA MAJUMDAR (MALAY)", gender: "M", category: "GEN", party: "AITC", generalVotes: 97152, postalVotes: 948, totalVotes: 98100, percentage: 45.5 },
-            { no: 2, name: "Dr. SUJAN CHAKRABORTY", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 58666, postalVotes: 565, totalVotes: 59231, percentage: 27.5 },
+            { no: 2, name: "Dr. SUJAN CHAKRABORTY", gender: "M", category: "GEN", party: "CPIM", generalVotes: 58666, postalVotes: 565, totalVotes: 59231, percentage: 27.5 },
             { no: 3, name: "RINKU NASKAR", gender: "F", category: "GEN", party: "BJP", generalVotes: 52795, postalVotes: 344, totalVotes: 53139, percentage: 24.7 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2713, postalVotes: 17, totalVotes: 2730, percentage: 1.3 },
             { no: 5, name: "SUJOY NASKAR", gender: "M", category: "SC", party: "BSP", generalVotes: 639, postalVotes: 10, totalVotes: 649, percentage: 0.3 },
@@ -7152,7 +7152,7 @@ years: {
           totalVotes: 222167,
           candidates: [
             { no: 1, name: "ABDUR RAZZAK", gender: "M", category: "GEN", party: "AITC", generalVotes: 123096, postalVotes: 744, totalVotes: 123840, percentage: 55.7 },
-            { no: 2, name: "SAIFUL ISLAM MOLLA", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 44224, postalVotes: 340, totalVotes: 44564, percentage: 20.1 },
+            { no: 2, name: "SAIFUL ISLAM MOLLA", gender: "M", category: "GEN", party: "CPIM", generalVotes: 44224, postalVotes: 340, totalVotes: 44564, percentage: 20.1 },
             { no: 3, name: "CHANDAN MANDAL", gender: "M", category: "GEN", party: "BJP", generalVotes: 43395, postalVotes: 378, totalVotes: 43773, percentage: 19.7 },
             { no: 4, name: "RAFIKA SULTANA", gender: "F", category: "GEN", party: "IND", generalVotes: 4172, postalVotes: 17, totalVotes: 4189, percentage: 1.9 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2540, postalVotes: 11, totalVotes: 2551, percentage: 1.1 },
@@ -7278,7 +7278,7 @@ years: {
           candidates: [
             { no: 1, name: "ALOK KUMAR MAJHI", gender: "M", category: "SC", party: "AITC", generalVotes: 96460, postalVotes: 539, totalVotes: 96999, percentage: 46.9 },
             { no: 2, name: "BALARAM BAPARI", gender: "M", category: "SC", party: "BJP", generalVotes: 78693, postalVotes: 335, totalVotes: 79028, percentage: 38.2 },
-            { no: 3, name: "SAMAR HAZRA", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 23184, postalVotes: 114, totalVotes: 23298, percentage: 11.3 },
+            { no: 3, name: "SAMAR HAZRA", gender: "M", category: "SC", party: "CPIM", generalVotes: 23184, postalVotes: 114, totalVotes: 23298, percentage: 11.3 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2859, postalVotes: 6, totalVotes: 2865, percentage: 1.4 },
             { no: 5, name: "GAURHARI PATRA", gender: "M", category: "SC", party: "BSP", generalVotes: 2018, postalVotes: 6, totalVotes: 2024, percentage: 1.0 },
             { no: 6, name: "KARTIK KSHETRAPAL", gender: "M", category: "SC", party: "BMUP", generalVotes: 1285, postalVotes: 6, totalVotes: 1291, percentage: 0.6 },
@@ -7332,7 +7332,7 @@ years: {
           candidates: [
             { no: 1, name: "HARERAM SINGH", gender: "M", category: "GEN", party: "AITC", generalVotes: 70533, postalVotes: 469, totalVotes: 71002, percentage: 42.6 },
             { no: 2, name: "TAPAS KUMAR ROY", gender: "M", category: "GEN", party: "BJP", generalVotes: 62620, postalVotes: 331, totalVotes: 62951, percentage: 37.8 },
-            { no: 3, name: "AISHE GHOSH", gender: "F", category: "GEN", party: "CPI(M)", generalVotes: 24596, postalVotes: 222, totalVotes: 24818, percentage: 14.9 },
+            { no: 3, name: "AISHE GHOSH", gender: "F", category: "GEN", party: "CPIM", generalVotes: 24596, postalVotes: 222, totalVotes: 24818, percentage: 14.9 },
             { no: 4, name: "BHANU PRATAP SHARMA", gender: "M", category: "GEN", party: "BSP", generalVotes: 2401, postalVotes: 8, totalVotes: 2409, percentage: 1.4 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2346, postalVotes: 7, totalVotes: 2353, percentage: 1.4 },
             { no: 6, name: "LAKHIRAM HANSDA", gender: "M", category: "ST", party: "BMUP", generalVotes: 1681, postalVotes: 5, totalVotes: 1686, percentage: 1.0 },
@@ -7497,7 +7497,7 @@ years: {
           candidates: [
             { no: 1, name: "BISWANATH DAS", gender: "M", category: "SC", party: "AITC", generalVotes: 104527, postalVotes: 425, totalVotes: 104952, percentage: 51.8 },
             { no: 2, name: "RABIN SARDAR", gender: "M", category: "SC", party: "BJP", generalVotes: 65943, postalVotes: 326, totalVotes: 66269, percentage: 32.7 },
-            { no: 3, name: "APURBA PRAMANIK (APU)", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 17308, postalVotes: 60, totalVotes: 17368, percentage: 8.6 },
+            { no: 3, name: "APURBA PRAMANIK (APU)", gender: "M", category: "SC", party: "CPIM", generalVotes: 17308, postalVotes: 60, totalVotes: 17368, percentage: 8.6 },
             { no: 4, name: "TARUN KANTI NASKAR", gender: "M", category: "SC", party: "SUCI", generalVotes: 9354, postalVotes: 69, totalVotes: 9423, percentage: 4.7 },
             { no: 5, name: "SWAPAN KUMAR NASKAR", gender: "M", category: "SC", party: "IND", generalVotes: 1433, postalVotes: 2, totalVotes: 1435, percentage: 0.7 },
             { no: 6, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1162, postalVotes: 2, totalVotes: 1164, percentage: 0.6 },
@@ -7558,7 +7558,7 @@ years: {
           candidates: [
             { no: 1, name: "BIRBAHA HANSDA", gender: "F", category: "ST", party: "AITC", generalVotes: 108044, postalVotes: 1449, totalVotes: 109493, percentage: 54.3 },
             { no: 2, name: "SUKHAMAY SATPATHY (JAHAR)", gender: "M", category: "GEN", party: "BJP", generalVotes: 70048, postalVotes: 1205, totalVotes: 71253, percentage: 35.3 },
-            { no: 3, name: "MADHUJA SEN ROY", gender: "F", category: "GEN", party: "CPI(M)", generalVotes: 10179, postalVotes: 251, totalVotes: 10430, percentage: 5.2 },
+            { no: 3, name: "MADHUJA SEN ROY", gender: "F", category: "GEN", party: "CPIM", generalVotes: 10179, postalVotes: 251, totalVotes: 10430, percentage: 5.2 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3615, postalVotes: 21, totalVotes: 3636, percentage: 1.8 },
             { no: 5, name: "RAMKRISHNA SARKAR", gender: "M", category: "GEN", party: "BSP", generalVotes: 1786, postalVotes: 16, totalVotes: 1802, percentage: 0.9 },
             { no: 6, name: "ARCHANA SAIN", gender: "F", category: "GEN", party: "SUCI", generalVotes: 1187, postalVotes: 6, totalVotes: 1193, percentage: 0.6 },
@@ -7667,7 +7667,7 @@ years: {
             { no: 9, name: "BIRENDRA SINGH", gender: "M", category: "GEN", party: "JGP", generalVotes: 369, postalVotes: 0, totalVotes: 369, percentage: 0.3 },
             { no: 10, name: "MUNNI HELA", gender: "F", category: "SC", party: "IND", generalVotes: 269, postalVotes: 0, totalVotes: 269, percentage: 0.2 },
             { no: 11, name: "BISWABASU MUKHERJI", gender: "M", category: "GEN", party: "IND", generalVotes: 212, postalVotes: 1, totalVotes: 213, percentage: 0.2 },
-            { no: 12, name: "SUNIL ROY", gender: "M", category: "GEN", party: "SJP(R)", generalVotes: 184, postalVotes: 0, totalVotes: 184, percentage: 0.2 },
+            { no: 12, name: "SUNIL ROY", gender: "M", category: "GEN", party: "SJPR", generalVotes: 184, postalVotes: 0, totalVotes: 184, percentage: 0.2 },
             { no: 13, name: "KANAI LAL MAITY", gender: "M", category: "GEN", party: "IND", generalVotes: 162, postalVotes: 0, totalVotes: 162, percentage: 0.1 },
             { no: 14, name: "BIPIN DAS", gender: "M", category: "SC", party: "IND", generalVotes: 140, postalVotes: 1, totalVotes: 141, percentage: 0.1 },
           ],
@@ -8046,7 +8046,7 @@ years: {
           candidates: [
             { no: 1, name: "DEBOPRASAD BAG (POLTU)", gender: "M", category: "SC", party: "AITC", generalVotes: 95704, postalVotes: 369, totalVotes: 96073, percentage: 46.0 },
             { no: 2, name: "BISWAJIT KUNDU", gender: "M", category: "SC", party: "BJP", generalVotes: 88305, postalVotes: 290, totalVotes: 88595, percentage: 42.4 },
-            { no: 3, name: "NIRAB KHAN", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 18905, postalVotes: 100, totalVotes: 19005, percentage: 9.1 },
+            { no: 3, name: "NIRAB KHAN", gender: "M", category: "SC", party: "CPIM", generalVotes: 18905, postalVotes: 100, totalVotes: 19005, percentage: 9.1 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2502, postalVotes: 5, totalVotes: 2507, percentage: 1.2 },
             { no: 5, name: "RADHESYAM MANDAL", gender: "M", category: "SC", party: "BSP", generalVotes: 2081, postalVotes: 3, totalVotes: 2084, percentage: 1.0 },
             { no: 6, name: "KALI CHARAN SARDAR", gender: "M", category: "SC", party: "SUCI", generalVotes: 686, postalVotes: 1, totalVotes: 687, percentage: 0.3 },
@@ -8099,7 +8099,7 @@ years: {
           candidates: [
             { no: 1, name: "AMBIKA ROY", gender: "M", category: "SC", party: "BJP", generalVotes: 95995, postalVotes: 1031, totalVotes: 97026, percentage: 44.0 },
             { no: 2, name: "ANIRUDDHA BISWAS", gender: "M", category: "SC", party: "AITC", generalVotes: 93421, postalVotes: 1399, totalVotes: 94820, percentage: 43.0 },
-            { no: 3, name: "SABUJ DAS", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 21562, postalVotes: 603, totalVotes: 22165, percentage: 10.1 },
+            { no: 3, name: "SABUJ DAS", gender: "M", category: "SC", party: "CPIM", generalVotes: 21562, postalVotes: 603, totalVotes: 22165, percentage: 10.1 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2556, postalVotes: 21, totalVotes: 2577, percentage: 1.2 },
             { no: 5, name: "GOUTAM MALO", gender: "M", category: "SC", party: "BSP", generalVotes: 1631, postalVotes: 30, totalVotes: 1661, percentage: 0.8 },
             { no: 6, name: "AMIT KUMAR DAS", gender: "M", category: "SC", party: "IND", generalVotes: 955, postalVotes: 2, totalVotes: 957, percentage: 0.4 },
@@ -8153,7 +8153,7 @@ years: {
           candidates: [
             { no: 1, name: "MADAN MITRA", gender: "M", category: "GEN", party: "AITC", generalVotes: 73491, postalVotes: 354, totalVotes: 73845, percentage: 51.2 },
             { no: 2, name: "Anindya Banerjee", gender: "M", category: "GEN", party: "BJP", generalVotes: 38235, postalVotes: 202, totalVotes: 38437, percentage: 26.6 },
-            { no: 3, name: "Sayandeep Mitra", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 28138, postalVotes: 172, totalVotes: 28310, percentage: 19.6 },
+            { no: 3, name: "Sayandeep Mitra", gender: "M", category: "GEN", party: "CPIM", generalVotes: 28138, postalVotes: 172, totalVotes: 28310, percentage: 19.6 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1546, postalVotes: 7, totalVotes: 1553, percentage: 1.1 },
             { no: 5, name: "Satya Brata Bandyopadhyay", gender: "M", category: "GEN", party: "IND", generalVotes: 823, postalVotes: 5, totalVotes: 828, percentage: 0.6 },
             { no: 6, name: "BIDISHA ROYCHOWDHURY", gender: "F", category: "GEN", party: "PDS", generalVotes: 488, postalVotes: 0, totalVotes: 488, percentage: 0.3 },
@@ -8329,7 +8329,7 @@ years: {
           candidates: [
             { no: 1, name: "SUMITA SINHA", gender: "F", category: "GEN", party: "BJP", generalVotes: 112677, postalVotes: 847, totalVotes: 113524, percentage: 49.7 },
             { no: 2, name: "TARUN KUMAR JANA", gender: "M", category: "GEN", party: "AITC", generalVotes: 103116, postalVotes: 1078, totalVotes: 104194, percentage: 45.6 },
-            { no: 3, name: "SUTANU MAITY", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 6432, postalVotes: 72, totalVotes: 6504, percentage: 2.8 },
+            { no: 3, name: "SUTANU MAITY", gender: "M", category: "GEN", party: "CPIM", generalVotes: 6432, postalVotes: 72, totalVotes: 6504, percentage: 2.8 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1486, postalVotes: 6, totalVotes: 1492, percentage: 0.7 },
             { no: 5, name: "PRABIR MISHRA", gender: "M", category: "GEN", party: "IND", generalVotes: 864, postalVotes: 2, totalVotes: 866, percentage: 0.4 },
             { no: 6, name: "PANCHANAN DAS", gender: "M", category: "GEN", party: "SUCI", generalVotes: 767, postalVotes: 6, totalVotes: 773, percentage: 0.3 },
@@ -8451,7 +8451,7 @@ years: {
           candidates: [
             { no: 1, name: "Bimalendu Sinha Roy", gender: "M", category: "GEN", party: "AITC", generalVotes: 108966, postalVotes: 1945, totalVotes: 110911, percentage: 50.1 },
             { no: 2, name: "Samarendranath Ghosh", gender: "M", category: "GEN", party: "BJP", generalVotes: 85825, postalVotes: 1511, totalVotes: 87336, percentage: 39.4 },
-            { no: 3, name: "Prabhas Majumdar", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 16885, postalVotes: 300, totalVotes: 17185, percentage: 7.8 },
+            { no: 3, name: "Prabhas Majumdar", gender: "M", category: "GEN", party: "CPIM", generalVotes: 16885, postalVotes: 300, totalVotes: 17185, percentage: 7.8 },
             { no: 4, name: "Dhanapati Mondal", gender: "M", category: "GEN", party: "SUCI", generalVotes: 1460, postalVotes: 9, totalVotes: 1469, percentage: 0.7 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1316, postalVotes: 12, totalVotes: 1328, percentage: 0.6 },
             { no: 6, name: "Premananda Mandal", gender: "M", category: "GEN", party: "IND", generalVotes: 1306, postalVotes: 4, totalVotes: 1310, percentage: 0.6 },
@@ -8510,7 +8510,7 @@ years: {
           candidates: [
             { no: 1, name: "AHMED JAVED KHAN", gender: "M", category: "GEN", party: "AITC", generalVotes: 120957, postalVotes: 415, totalVotes: 121372, percentage: 54.4 },
             { no: 2, name: "DR. INDRANIL KHAN", gender: "M", category: "GEN", party: "BJP", generalVotes: 57559, postalVotes: 191, totalVotes: 57750, percentage: 25.9 },
-            { no: 3, name: "SHATARUP GHOSH", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 38971, postalVotes: 209, totalVotes: 39180, percentage: 17.6 },
+            { no: 3, name: "SHATARUP GHOSH", gender: "M", category: "GEN", party: "CPIM", generalVotes: 38971, postalVotes: 209, totalVotes: 39180, percentage: 17.6 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2465, postalVotes: 11, totalVotes: 2476, percentage: 1.1 },
             { no: 5, name: "SHAMPA SARKAR", gender: "F", category: "GEN", party: "SUCI", generalVotes: 671, postalVotes: 2, totalVotes: 673, percentage: 0.3 },
             { no: 6, name: "UMESH KR. SINGH", gender: "M", category: "GEN", party: "IND", generalVotes: 502, postalVotes: 1, totalVotes: 503, percentage: 0.2 },
@@ -8572,7 +8572,7 @@ years: {
           candidates: [
             { no: 1, name: "KAMALAKANTA HANSDA", gender: "M", category: "ST", party: "BJP", generalVotes: 92061, postalVotes: 877, totalVotes: 92938, percentage: 47.7 },
             { no: 2, name: "SWAPAN KUMAR BELTHARIA", gender: "M", category: "GEN", party: "AITC", generalVotes: 84829, postalVotes: 722, totalVotes: 85551, percentage: 43.9 },
-            { no: 3, name: "MALLIKA MAHATA", gender: "F", category: "GEN", party: "CPI(M)", generalVotes: 10744, postalVotes: 183, totalVotes: 10927, percentage: 5.6 },
+            { no: 3, name: "MALLIKA MAHATA", gender: "F", category: "GEN", party: "CPIM", generalVotes: 10744, postalVotes: 183, totalVotes: 10927, percentage: 5.6 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2385, postalVotes: 16, totalVotes: 2401, percentage: 1.2 },
             { no: 5, name: "DIPAK MAHATO", gender: "M", category: "GEN", party: "SUCI", generalVotes: 2257, postalVotes: 12, totalVotes: 2269, percentage: 1.2 },
             { no: 6, name: "NARENDRA NATH MAHATA", gender: "M", category: "GEN", party: "AMB", generalVotes: 804, postalVotes: 2, totalVotes: 806, percentage: 0.4 },
@@ -8630,7 +8630,7 @@ years: {
           candidates: [
             { no: 1, name: "Atin Ghosh", gender: "M", category: "GEN", party: "AITC", generalVotes: 75274, postalVotes: 908, totalVotes: 76182, percentage: 56.5 },
             { no: 2, name: "Sibaji Sinha Roy", gender: "M", category: "GEN", party: "BJP", generalVotes: 40424, postalVotes: 368, totalVotes: 40792, percentage: 30.2 },
-            { no: 3, name: "PRATIP DASGUPTA", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 14504, postalVotes: 253, totalVotes: 14757, percentage: 10.9 },
+            { no: 3, name: "PRATIP DASGUPTA", gender: "M", category: "GEN", party: "CPIM", generalVotes: 14504, postalVotes: 253, totalVotes: 14757, percentage: 10.9 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1564, postalVotes: 13, totalVotes: 1577, percentage: 1.2 },
             { no: 5, name: "SHIO KUMAR KHATIK", gender: "M", category: "SC", party: "BSP", generalVotes: 532, postalVotes: 7, totalVotes: 539, percentage: 0.4 },
             { no: 6, name: "Rajesh Kumar Das", gender: "M", category: "SC", party: "IND", generalVotes: 233, postalVotes: 1, totalVotes: 234, percentage: 0.2 },
@@ -8792,7 +8792,7 @@ years: {
           candidates: [
             { no: 1, name: "PARESH MURMU", gender: "M", category: "ST", party: "AITC", generalVotes: 105826, postalVotes: 540, totalVotes: 106366, percentage: 50.0 },
             { no: 2, name: "SONALI MURMU SOREN", gender: "F", category: "ST", party: "BJP", generalVotes: 90298, postalVotes: 738, totalVotes: 91036, percentage: 42.8 },
-            { no: 3, name: "DR. PULIN BIHARI BASKE", gender: "M", category: "ST", party: "CPI(M)", generalVotes: 9165, postalVotes: 105, totalVotes: 9270, percentage: 4.4 },
+            { no: 3, name: "DR. PULIN BIHARI BASKE", gender: "M", category: "ST", party: "CPIM", generalVotes: 9165, postalVotes: 105, totalVotes: 9270, percentage: 4.4 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2564, postalVotes: 6, totalVotes: 2570, percentage: 1.2 },
             { no: 5, name: "MITHUN MANDI", gender: "M", category: "ST", party: "BSP", generalVotes: 1899, postalVotes: 5, totalVotes: 1904, percentage: 0.9 },
             { no: 6, name: "JHARESWAR ROUTH", gender: "M", category: "ST", party: "SUCI", generalVotes: 1523, postalVotes: 12, totalVotes: 1535, percentage: 0.7 },
@@ -8844,7 +8844,7 @@ years: {
           candidates: [
             { no: 1, name: "Seuli Saha", gender: "F", category: "SC", party: "AITC", generalVotes: 116520, postalVotes: 472, totalVotes: 116992, percentage: 50.8 },
             { no: 2, name: "Pritish Ranjan Kuar", gender: "M", category: "SC", party: "BJP", generalVotes: 95859, postalVotes: 413, totalVotes: 96272, percentage: 41.8 },
-            { no: 3, name: "Rameswar Doloi", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 13572, postalVotes: 98, totalVotes: 13670, percentage: 5.9 },
+            { no: 3, name: "Rameswar Doloi", gender: "M", category: "SC", party: "CPIM", generalVotes: 13572, postalVotes: 98, totalVotes: 13670, percentage: 5.9 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3287, postalVotes: 11, totalVotes: 3298, percentage: 1.4 },
           ],
         },
@@ -8889,7 +8889,7 @@ years: {
           candidates: [
             { no: 1, name: "Sekh Sahonawez", gender: "M", category: "GEN", party: "AITC", generalVotes: 99525, postalVotes: 701, totalVotes: 100226, percentage: 46.5 },
             { no: 2, name: "Anadi Ghosh (Mathura)", gender: "M", category: "GEN", party: "BJP", generalVotes: 87058, postalVotes: 485, totalVotes: 87543, percentage: 40.7 },
-            { no: 3, name: "Mizanul Kabir (Dhiraj)", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 20003, postalVotes: 89, totalVotes: 20092, percentage: 9.3 },
+            { no: 3, name: "Mizanul Kabir (Dhiraj)", gender: "M", category: "GEN", party: "CPIM", generalVotes: 20003, postalVotes: 89, totalVotes: 20092, percentage: 9.3 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3615, postalVotes: 5, totalVotes: 3620, percentage: 1.7 },
             { no: 5, name: "Dr. Manik Chandra Pradhan", gender: "M", category: "SC", party: "BSP", generalVotes: 2288, postalVotes: 5, totalVotes: 2293, percentage: 1.1 },
             { no: 6, name: "Satya Narayan Mondal", gender: "M", category: "SC", party: "SUCI", generalVotes: 1541, postalVotes: 2, totalVotes: 1543, percentage: 0.7 },
@@ -8989,7 +8989,7 @@ years: {
           candidates: [
             { no: 1, name: "NABIN CHANDRA BAG", gender: "M", category: "SC", party: "AITC", generalVotes: 103278, postalVotes: 986, totalVotes: 104264, percentage: 47.9 },
             { no: 2, name: "BIJAN MANDAL", gender: "M", category: "SC", party: "BJP", generalVotes: 82773, postalVotes: 605, totalVotes: 83378, percentage: 38.3 },
-            { no: 3, name: "ASIMA ROY", gender: "F", category: "SC", party: "CPI(M)", generalVotes: 22765, postalVotes: 158, totalVotes: 22923, percentage: 10.5 },
+            { no: 3, name: "ASIMA ROY", gender: "F", category: "SC", party: "CPIM", generalVotes: 22765, postalVotes: 158, totalVotes: 22923, percentage: 10.5 },
             { no: 4, name: "PROTUL BISWAS", gender: "M", category: "SC", party: "BSP", generalVotes: 3458, postalVotes: 7, totalVotes: 3465, percentage: 1.6 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1934, postalVotes: 10, totalVotes: 1944, percentage: 0.9 },
             { no: 6, name: "BASUDEB RUIDAS", gender: "M", category: "SC", party: "BMUP", generalVotes: 1920, postalVotes: 3, totalVotes: 1923, percentage: 0.9 },
@@ -9037,7 +9037,7 @@ years: {
           candidates: [
             { no: 1, name: "DINEN ROY", gender: "M", category: "GEN", party: "AITC", generalVotes: 109250, postalVotes: 477, totalVotes: 109727, percentage: 54.9 },
             { no: 2, name: "TAPAN BHUYA", gender: "M", category: "GEN", party: "BJP", generalVotes: 72505, postalVotes: 992, totalVotes: 73497, percentage: 36.7 },
-            { no: 3, name: "SYED SADDAM ALI", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 11156, postalVotes: 89, totalVotes: 11245, percentage: 5.6 },
+            { no: 3, name: "SYED SADDAM ALI", gender: "M", category: "GEN", party: "CPIM", generalVotes: 11156, postalVotes: 89, totalVotes: 11245, percentage: 5.6 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2310, postalVotes: 4, totalVotes: 2314, percentage: 1.2 },
             { no: 5, name: "SEKH ABDUR RAHAMAN", gender: "M", category: "GEN", party: "HUMP CCTV", generalVotes: 1687, postalVotes: 3, totalVotes: 1690, percentage: 0.8 },
             { no: 6, name: "MANIK CHANDRA PARIA", gender: "M", category: "SC", party: "SUCI", generalVotes: 949, postalVotes: 5, totalVotes: 954, percentage: 0.5 },
@@ -9146,7 +9146,7 @@ years: {
           candidates: [
             { no: 1, name: "KAJAL SINHA", gender: "M", category: "GEN", party: "AITC", generalVotes: 89413, postalVotes: 394, totalVotes: 89807, percentage: 49.0 },
             { no: 2, name: "SILBHADRA DATTA", gender: "M", category: "GEN", party: "BJP", generalVotes: 61372, postalVotes: 295, totalVotes: 61667, percentage: 33.7 },
-            { no: 3, name: "DEBAJYOTI DAS (SUBHO)", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 26730, postalVotes: 186, totalVotes: 26916, percentage: 14.7 },
+            { no: 3, name: "DEBAJYOTI DAS (SUBHO)", gender: "M", category: "GEN", party: "CPIM", generalVotes: 26730, postalVotes: 186, totalVotes: 26916, percentage: 14.7 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2407, postalVotes: 8, totalVotes: 2415, percentage: 1.3 },
             { no: 5, name: "SAMAR DAS", gender: "M", category: "SC", party: "BSP", generalVotes: 1091, postalVotes: 6, totalVotes: 1097, percentage: 0.6 },
             { no: 6, name: "BISWAJIT DAS", gender: "M", category: "SC", party: "IND", generalVotes: 636, postalVotes: 1, totalVotes: 637, percentage: 0.3 },
@@ -9253,7 +9253,7 @@ years: {
           candidates: [
             { no: 1, name: "SANTANU PRAMANIK", gender: "M", category: "SC", party: "BJP", generalVotes: 109697, postalVotes: 710, totalVotes: 110407, percentage: 51.9 },
             { no: 2, name: "PARTHA PRATIM DAS", gender: "M", category: "SC", party: "AITC", generalVotes: 91814, postalVotes: 628, totalVotes: 92442, percentage: 43.5 },
-            { no: 3, name: "HIMANGSHU DAS", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 7747, postalVotes: 65, totalVotes: 7812, percentage: 3.7 },
+            { no: 3, name: "HIMANGSHU DAS", gender: "M", category: "SC", party: "CPIM", generalVotes: 7747, postalVotes: 65, totalVotes: 7812, percentage: 3.7 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1129, postalVotes: 7, totalVotes: 1136, percentage: 0.5 },
             { no: 5, name: "Somnath Mandal", gender: "M", category: "SC", party: "SUCI", generalVotes: 817, postalVotes: 7, totalVotes: 824, percentage: 0.4 },
           ],
@@ -9366,7 +9366,7 @@ years: {
           candidates: [
             { no: 1, name: "ASHIS KUMAR BISWAS", gender: "M", category: "SC", party: "BJP", generalVotes: 116397, postalVotes: 1271, totalVotes: 117668, percentage: 50.7 },
             { no: 2, name: "DR. TAPAS MANDAL", gender: "M", category: "SC", party: "AITC", generalVotes: 95406, postalVotes: 985, totalVotes: 96391, percentage: 41.6 },
-            { no: 3, name: "JHUNU BAIDYA", gender: "F", category: "SC", party: "CPI(M)", generalVotes: 10761, postalVotes: 152, totalVotes: 10913, percentage: 4.7 },
+            { no: 3, name: "JHUNU BAIDYA", gender: "F", category: "SC", party: "CPIM", generalVotes: 10761, postalVotes: 152, totalVotes: 10913, percentage: 4.7 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2091, postalVotes: 8, totalVotes: 2099, percentage: 0.9 },
             { no: 5, name: "DIPALI BISWAS", gender: "F", category: "SC", party: "BSP", generalVotes: 1781, postalVotes: 20, totalVotes: 1801, percentage: 0.8 },
             { no: 6, name: "SANAND ADHIKARY", gender: "M", category: "SC", party: "PMPT", generalVotes: 1379, postalVotes: 1, totalVotes: 1380, percentage: 0.6 },
@@ -9423,7 +9423,7 @@ years: {
           candidates: [
             { no: 1, name: "UJJAL BISWAS", gender: "M", category: "GEN", party: "AITC", generalVotes: 90842, postalVotes: 896, totalVotes: 91738, percentage: 46.9 },
             { no: 2, name: "MAHADEV SARKAR", gender: "M", category: "SC", party: "BJP", generalVotes: 81609, postalVotes: 824, totalVotes: 82433, percentage: 42.1 },
-            { no: 3, name: "BISWAS SUMIT", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 15414, postalVotes: 192, totalVotes: 15606, percentage: 8.0 },
+            { no: 3, name: "BISWAS SUMIT", gender: "M", category: "GEN", party: "CPIM", generalVotes: 15414, postalVotes: 192, totalVotes: 15606, percentage: 8.0 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2156, postalVotes: 9, totalVotes: 2165, percentage: 1.1 },
             { no: 5, name: "SWAPAN KUMAR SARKAR", gender: "M", category: "SC", party: "BSP", generalVotes: 1214, postalVotes: 3, totalVotes: 1217, percentage: 0.6 },
             { no: 6, name: "ANANDA MODAK", gender: "M", category: "GEN", party: "IND", generalVotes: 1072, postalVotes: 4, totalVotes: 1076, percentage: 0.5 },
@@ -9586,7 +9586,7 @@ years: {
           candidates: [
             { no: 1, name: "Ganesh Chandra Mondal", gender: "M", category: "SC", party: "AITC", generalVotes: 116581, postalVotes: 657, totalVotes: 117238, percentage: 51.6 },
             { no: 2, name: "Mintu Halder", gender: "M", category: "SC", party: "BJP", generalVotes: 69719, postalVotes: 342, totalVotes: 70061, percentage: 30.8 },
-            { no: 3, name: "Ram Sankar Halder", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 19926, postalVotes: 84, totalVotes: 20010, percentage: 8.8 },
+            { no: 3, name: "Ram Sankar Halder", gender: "M", category: "SC", party: "CPIM", generalVotes: 19926, postalVotes: 84, totalVotes: 20010, percentage: 8.8 },
             { no: 4, name: "JAYKRISHNA HALDAR", gender: "M", category: "SC", party: "SUCI", generalVotes: 15209, postalVotes: 97, totalVotes: 15306, percentage: 6.7 },
             { no: 5, name: "KANAN BALA MONDAL", gender: "F", category: "SC", party: "BSP", generalVotes: 1427, postalVotes: 5, totalVotes: 1432, percentage: 0.6 },
             { no: 6, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1045, postalVotes: 3, totalVotes: 1048, percentage: 0.5 },
@@ -9811,7 +9811,7 @@ years: {
             { no: 1, name: "Bishnu Prasad Sharma (alias B.P. Bajgain)", gender: "M", category: "GEN", party: "BJP", generalVotes: 72153, postalVotes: 1322, totalVotes: 73475, percentage: 41.9 },
             { no: 2, name: "Tshering Lama", gender: "F", category: "ST", party: "IND", generalVotes: 57044, postalVotes: 916, totalVotes: 57960, percentage: 33.0 },
             { no: 3, name: "Narbu Lama", gender: "M", category: "ST", party: "IND", generalVotes: 32770, postalVotes: 324, totalVotes: 33094, percentage: 18.9 },
-            { no: 4, name: "Uttam Brahman", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 2494, postalVotes: 51, totalVotes: 2545, percentage: 1.4 },
+            { no: 4, name: "Uttam Brahman", gender: "M", category: "GEN", party: "CPIM", generalVotes: 2494, postalVotes: 51, totalVotes: 2545, percentage: 1.4 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2372, postalVotes: 45, totalVotes: 2417, percentage: 1.4 },
             { no: 6, name: "Ugam Lama", gender: "M", category: "ST", party: "IND", generalVotes: 2235, postalVotes: 64, totalVotes: 2299, percentage: 1.3 },
             { no: 7, name: "Bikram Rai", gender: "M", category: "GEN", party: "IND", generalVotes: 1402, postalVotes: 27, totalVotes: 1429, percentage: 0.8 },
@@ -9918,7 +9918,7 @@ years: {
           candidates: [
             { no: 1, name: "ABHIJIT SINHA (RANA)", gender: "M", category: "GEN", party: "AITC", generalVotes: 107089, postalVotes: 1334, totalVotes: 108423, percentage: 51.1 },
             { no: 2, name: "BISWAJIT MONDAL", gender: "M", category: "GEN", party: "BJP", generalVotes: 89390, postalVotes: 1058, totalVotes: 90448, percentage: 42.7 },
-            { no: 3, name: "SYED MAHFUZUL KARIM", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 6369, postalVotes: 110, totalVotes: 6479, percentage: 3.1 },
+            { no: 3, name: "SYED MAHFUZUL KARIM", gender: "M", category: "GEN", party: "CPIM", generalVotes: 6369, postalVotes: 110, totalVotes: 6479, percentage: 3.1 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3049, postalVotes: 8, totalVotes: 3057, percentage: 1.4 },
             { no: 5, name: "ISLAM MONIRUL", gender: "M", category: "GEN", party: "IND", generalVotes: 1979, postalVotes: 13, totalVotes: 1992, percentage: 0.9 },
             { no: 6, name: "MURMU SUNIL", gender: "M", category: "ST", party: "BSP", generalVotes: 915, postalVotes: 7, totalVotes: 922, percentage: 0.4 },
@@ -10190,7 +10190,7 @@ years: {
           candidates: [
             { no: 1, name: "NAMITA SAHA", gender: "F", category: "SC", party: "AITC", generalVotes: 110331, postalVotes: 614, totalVotes: 110945, percentage: 53.8 },
             { no: 2, name: "CHANDAN KUMAR NASKAR", gender: "M", category: "SC", party: "BJP", generalVotes: 56541, postalVotes: 325, totalVotes: 56866, percentage: 27.6 },
-            { no: 3, name: "CHANDAN SAHA", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 33665, postalVotes: 157, totalVotes: 33822, percentage: 16.4 },
+            { no: 3, name: "CHANDAN SAHA", gender: "M", category: "SC", party: "CPIM", generalVotes: 33665, postalVotes: 157, totalVotes: 33822, percentage: 16.4 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1480, postalVotes: 0, totalVotes: 1480, percentage: 0.7 },
             { no: 5, name: "SANJAY MANDAL", gender: "M", category: "SC", party: "SUCI", generalVotes: 1203, postalVotes: 6, totalVotes: 1209, percentage: 0.6 },
             { no: 6, name: "SUDIPTA SANFUI", gender: "M", category: "SC", party: "IND", generalVotes: 935, postalVotes: 4, totalVotes: 939, percentage: 0.5 },
@@ -10246,7 +10246,7 @@ years: {
           candidates: [
             { no: 1, name: "DULAL CHANDRA DAS", gender: "M", category: "GEN", party: "AITC", generalVotes: 123575, postalVotes: 433, totalVotes: 124008, percentage: 56.4 },
             { no: 2, name: "UMESH DAS", gender: "M", category: "GEN", party: "BJP", generalVotes: 65827, postalVotes: 232, totalVotes: 66059, percentage: 30.0 },
-            { no: 3, name: "PRAVAT CHOWDHURY", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 25127, postalVotes: 149, totalVotes: 25276, percentage: 11.5 },
+            { no: 3, name: "PRAVAT CHOWDHURY", gender: "M", category: "GEN", party: "CPIM", generalVotes: 25127, postalVotes: 149, totalVotes: 25276, percentage: 11.5 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2043, postalVotes: 6, totalVotes: 2049, percentage: 0.9 },
             { no: 5, name: "SUBHENDU BARIK", gender: "M", category: "GEN", party: "IND", generalVotes: 1162, postalVotes: 3, totalVotes: 1165, percentage: 0.5 },
             { no: 6, name: "RINA DEBI", gender: "F", category: "GEN", party: "BSP", generalVotes: 833, postalVotes: 5, totalVotes: 838, percentage: 0.4 },
@@ -10356,7 +10356,7 @@ years: {
           candidates: [
             { no: 1, name: "BULU CHIK BARAIK", gender: "M", category: "ST", party: "AITC", generalVotes: 98697, postalVotes: 389, totalVotes: 99086, percentage: 46.5 },
             { no: 2, name: "MAHESH BAGEY", gender: "M", category: "ST", party: "BJP", generalVotes: 93106, postalVotes: 515, totalVotes: 93621, percentage: 43.9 },
-            { no: 3, name: "MANU ORAON", gender: "M", category: "ST", party: "CPI(M)", generalVotes: 10797, postalVotes: 132, totalVotes: 10929, percentage: 5.1 },
+            { no: 3, name: "MANU ORAON", gender: "M", category: "ST", party: "CPIM", generalVotes: 10797, postalVotes: 132, totalVotes: 10929, percentage: 5.1 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 4688, postalVotes: 11, totalVotes: 4699, percentage: 2.2 },
             { no: 5, name: "GITA ORAON", gender: "F", category: "ST", party: "SUCI", generalVotes: 3000, postalVotes: 8, totalVotes: 3008, percentage: 1.4 },
             { no: 6, name: "BABLU MAJHI", gender: "M", category: "ST", party: "IND", generalVotes: 1907, postalVotes: 5, totalVotes: 1912, percentage: 0.9 },
@@ -10517,7 +10517,7 @@ years: {
           candidates: [
             { no: 1, name: "SANDHYARANI TUDU", gender: "F", category: "ST", party: "AITC", generalVotes: 102169, postalVotes: 1129, totalVotes: 103298, percentage: 48.3 },
             { no: 2, name: "GOURI SINGH SARDAR", gender: "F", category: "ST", party: "BJP", generalVotes: 86679, postalVotes: 1103, totalVotes: 87782, percentage: 41.1 },
-            { no: 3, name: "YAMINIKANTA MANDI", gender: "M", category: "ST", party: "CPI(M)", generalVotes: 16516, postalVotes: 333, totalVotes: 16849, percentage: 7.9 },
+            { no: 3, name: "YAMINIKANTA MANDI", gender: "M", category: "ST", party: "CPIM", generalVotes: 16516, postalVotes: 333, totalVotes: 16849, percentage: 7.9 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2272, postalVotes: 19, totalVotes: 2291, percentage: 1.1 },
             { no: 5, name: "PURNA CHANDRA TUDU", gender: "M", category: "ST", party: "BSP", generalVotes: 1886, postalVotes: 19, totalVotes: 1905, percentage: 0.9 },
             { no: 6, name: "SWAPANKUMAR MURMU", gender: "M", category: "ST", party: "IND", generalVotes: 1595, postalVotes: 9, totalVotes: 1604, percentage: 0.8 },
@@ -10631,7 +10631,7 @@ years: {
           candidates: [
             { no: 1, name: "Apurba Chowdhury (Achal)", gender: "M", category: "GEN", party: "AITC", generalVotes: 106851, postalVotes: 745, totalVotes: 107596, percentage: 49.5 },
             { no: 2, name: "Rana Protap Goswami", gender: "M", category: "GEN", party: "BJP", generalVotes: 84792, postalVotes: 467, totalVotes: 85259, percentage: 39.2 },
-            { no: 3, name: "Choudhury Sahajahan", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 16695, postalVotes: 88, totalVotes: 16783, percentage: 7.7 },
+            { no: 3, name: "Choudhury Sahajahan", gender: "M", category: "GEN", party: "CPIM", generalVotes: 16695, postalVotes: 88, totalVotes: 16783, percentage: 7.7 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3816, postalVotes: 10, totalVotes: 3826, percentage: 1.8 },
             { no: 5, name: "ABDUS SABUR SK", gender: "M", category: "GEN", party: "BSP", generalVotes: 2468, postalVotes: 8, totalVotes: 2476, percentage: 1.1 },
             { no: 6, name: "Rasik Saren", gender: "M", category: "ST", party: "SUCI", generalVotes: 1388, postalVotes: 1, totalVotes: 1389, percentage: 0.6 },
@@ -10737,7 +10737,7 @@ years: {
           candidates: [
             { no: 1, name: "Sadhan Pande", gender: "M", category: "GEN", party: "AITC", generalVotes: 67180, postalVotes: 397, totalVotes: 67577, percentage: 50.8 },
             { no: 2, name: "Kalyan Chaubey", gender: "M", category: "GEN", party: "BJP", generalVotes: 47180, postalVotes: 159, totalVotes: 47339, percentage: 35.6 },
-            { no: 3, name: "Rupa Bagchi", gender: "F", category: "GEN", party: "CPI(M)", generalVotes: 13390, postalVotes: 123, totalVotes: 13513, percentage: 10.2 },
+            { no: 3, name: "Rupa Bagchi", gender: "F", category: "GEN", party: "CPIM", generalVotes: 13390, postalVotes: 123, totalVotes: 13513, percentage: 10.2 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1413, postalVotes: 7, totalVotes: 1420, percentage: 1.1 },
             { no: 5, name: "Nimai Nath", gender: "M", category: "GEN", party: "IND", generalVotes: 783, postalVotes: 0, totalVotes: 783, percentage: 0.6 },
             { no: 6, name: "Ajay Prajapati", gender: "M", category: "GEN", party: "BSP", generalVotes: 667, postalVotes: 2, totalVotes: 669, percentage: 0.5 },
@@ -10745,7 +10745,7 @@ years: {
             { no: 8, name: "Somnath Das", gender: "M", category: "GEN", party: "IND", generalVotes: 390, postalVotes: 0, totalVotes: 390, percentage: 0.3 },
             { no: 9, name: "Somen Das", gender: "M", category: "GEN", party: "IND", generalVotes: 257, postalVotes: 0, totalVotes: 257, percentage: 0.2 },
             { no: 10, name: "Moumita Manna", gender: "F", category: "GEN", party: "IND", generalVotes: 239, postalVotes: 1, totalVotes: 240, percentage: 0.2 },
-            { no: 11, name: "Tarun Banerjee", gender: "M", category: "GEN", party: "SP(I)", generalVotes: 203, postalVotes: 0, totalVotes: 203, percentage: 0.2 },
+            { no: 11, name: "Tarun Banerjee", gender: "M", category: "GEN", party: "SPI", generalVotes: 203, postalVotes: 0, totalVotes: 203, percentage: 0.2 },
             { no: 12, name: "Bablu Dey", gender: "M", category: "GEN", party: "IND", generalVotes: 168, postalVotes: 0, totalVotes: 168, percentage: 0.1 },
           ],
         },
@@ -10798,7 +10798,7 @@ years: {
           candidates: [
             { no: 1, name: "Sushil Barman", gender: "M", category: "SC", party: "BJP", generalVotes: 112146, postalVotes: 1103, totalVotes: 113249, percentage: 52.9 },
             { no: 2, name: "Girindra Nath Barman", gender: "M", category: "SC", party: "AITC", generalVotes: 86470, postalVotes: 645, totalVotes: 87115, percentage: 40.7 },
-            { no: 3, name: "Ashok Barman", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 7553, postalVotes: 165, totalVotes: 7718, percentage: 3.6 },
+            { no: 3, name: "Ashok Barman", gender: "M", category: "SC", party: "CPIM", generalVotes: 7553, postalVotes: 165, totalVotes: 7718, percentage: 3.6 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1431, postalVotes: 12, totalVotes: 1443, percentage: 0.7 },
             { no: 5, name: "Kangsa Raj Barman", gender: "M", category: "SC", party: "KPPU", generalVotes: 1282, postalVotes: 7, totalVotes: 1289, percentage: 0.6 },
             { no: 6, name: "Haradhan Roy", gender: "M", category: "SC", party: "IND", generalVotes: 1166, postalVotes: 1, totalVotes: 1167, percentage: 0.5 },
@@ -11140,7 +11140,7 @@ years: {
           candidates: [
             { no: 1, name: "MADHUSUDAN BHATTACHARYA", gender: "M", category: "GEN", party: "AITC", generalVotes: 104374, postalVotes: 477, totalVotes: 104851, percentage: 47.9 },
             { no: 2, name: "BHISMADEB BHATTACHARYA", gender: "M", category: "GEN", party: "BJP", generalVotes: 81513, postalVotes: 260, totalVotes: 81773, percentage: 37.4 },
-            { no: 3, name: "SANAT BANERJEE", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 25526, postalVotes: 92, totalVotes: 25618, percentage: 11.7 },
+            { no: 3, name: "SANAT BANERJEE", gender: "M", category: "GEN", party: "CPIM", generalVotes: 25526, postalVotes: 92, totalVotes: 25618, percentage: 11.7 },
             { no: 4, name: "KALPANA MANDAL", gender: "F", category: "SC", party: "BSP", generalVotes: 2119, postalVotes: 2, totalVotes: 2121, percentage: 1.0 },
             { no: 5, name: "TARUN KUMAR DHALI", gender: "M", category: "SC", party: "BMUP", generalVotes: 1735, postalVotes: 2, totalVotes: 1737, percentage: 0.8 },
             { no: 6, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1666, postalVotes: 7, totalVotes: 1673, percentage: 0.8 },
@@ -11252,7 +11252,7 @@ years: {
           candidates: [
             { no: 1, name: "USHA RANI MONDAL", gender: "F", category: "SC", party: "AITC", generalVotes: 109471, postalVotes: 347, totalVotes: 109818, percentage: 51.7 },
             { no: 2, name: "JAYANTA MONDAL", gender: "M", category: "SC", party: "BJP", generalVotes: 53839, postalVotes: 149, totalVotes: 53988, percentage: 25.4 },
-            { no: 3, name: "PRADYUT ROY", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 44520, postalVotes: 86, totalVotes: 44606, percentage: 21.0 },
+            { no: 3, name: "PRADYUT ROY", gender: "M", category: "SC", party: "CPIM", generalVotes: 44520, postalVotes: 86, totalVotes: 44606, percentage: 21.0 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3937, postalVotes: 3, totalVotes: 3940, percentage: 1.9 },
           ],
         },
@@ -11299,7 +11299,7 @@ years: {
           candidates: [
             { no: 1, name: "CHOWDHURY SIDDIQULLAH", gender: "M", category: "GEN", party: "AITC", generalVotes: 104904, postalVotes: 556, totalVotes: 105460, percentage: 50.5 },
             { no: 2, name: "SAIKAT PANJA", gender: "M", category: "GEN", party: "BJP", generalVotes: 73323, postalVotes: 332, totalVotes: 73655, percentage: 35.2 },
-            { no: 3, name: "ANUPAM GHOSH", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 24628, postalVotes: 112, totalVotes: 24740, percentage: 11.8 },
+            { no: 3, name: "ANUPAM GHOSH", gender: "M", category: "GEN", party: "CPIM", generalVotes: 24628, postalVotes: 112, totalVotes: 24740, percentage: 11.8 },
             { no: 4, name: "ANSARUL AMAN MONDAL (BABU)", gender: "M", category: "GEN", party: "CPIMLL", generalVotes: 1873, postalVotes: 4, totalVotes: 1877, percentage: 0.9 },
             { no: 5, name: "NASIMUL GANI SAYED", gender: "M", category: "GEN", party: "PDS", generalVotes: 1691, postalVotes: 2, totalVotes: 1693, percentage: 0.8 },
             { no: 6, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1604, postalVotes: 7, totalVotes: 1611, percentage: 0.8 },
@@ -11470,7 +11470,7 @@ years: {
             { no: 4, name: "ANSARUL SAIEKH", gender: "M", category: "GEN", party: "SUCI", generalVotes: 1854, postalVotes: 3, totalVotes: 1857, percentage: 0.9 },
             { no: 5, name: "TARAK LET", gender: "M", category: "SC", party: "BSP", generalVotes: 1634, postalVotes: 6, totalVotes: 1640, percentage: 0.8 },
             { no: 6, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1501, postalVotes: 8, totalVotes: 1509, percentage: 0.7 },
-            { no: 7, name: "SAMSUL MIYA", gender: "M", category: "GEN", party: "SP(I)", generalVotes: 877, postalVotes: 1, totalVotes: 878, percentage: 0.4 },
+            { no: 7, name: "SAMSUL MIYA", gender: "M", category: "GEN", party: "SPI", generalVotes: 877, postalVotes: 1, totalVotes: 878, percentage: 0.4 },
           ],
         },
         2016: {
@@ -11582,7 +11582,7 @@ years: {
           candidates: [
             { no: 1, name: "PUNDARIKAKSHYA SAHA", gender: "M", category: "GEN", party: "AITC", generalVotes: 100661, postalVotes: 1509, totalVotes: 102170, percentage: 48.5 },
             { no: 2, name: "SIDHARTHA SHANKAR NASKAR", gender: "M", category: "SC", party: "BJP", generalVotes: 82626, postalVotes: 973, totalVotes: 83599, percentage: 39.7 },
-            { no: 3, name: "SWARNENDU SINHA", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 18218, postalVotes: 322, totalVotes: 18540, percentage: 8.8 },
+            { no: 3, name: "SWARNENDU SINHA", gender: "M", category: "GEN", party: "CPIM", generalVotes: 18218, postalVotes: 322, totalVotes: 18540, percentage: 8.8 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2331, postalVotes: 13, totalVotes: 2344, percentage: 1.1 },
             { no: 5, name: "RAJNATH SARKAR", gender: "M", category: "SC", party: "BSP", generalVotes: 1611, postalVotes: 6, totalVotes: 1617, percentage: 0.8 },
             { no: 6, name: "SOUMEN SAHA", gender: "M", category: "GEN", party: "IND", generalVotes: 1177, postalVotes: 6, totalVotes: 1183, percentage: 0.6 },
@@ -11634,7 +11634,7 @@ years: {
           candidates: [
             { no: 1, name: "KANAI CHANDRA MONDAL", gender: "M", category: "SC", party: "AITC", generalVotes: 99722, postalVotes: 733, totalVotes: 100455, percentage: 48.2 },
             { no: 2, name: "MOHAN HALDER", gender: "M", category: "SC", party: "BJP", generalVotes: 64485, postalVotes: 437, totalVotes: 64922, percentage: 31.1 },
-            { no: 3, name: "KRIPALINI GHOSH", gender: "F", category: "SC", party: "CPI(M)", generalVotes: 38926, postalVotes: 203, totalVotes: 39129, percentage: 18.8 },
+            { no: 3, name: "KRIPALINI GHOSH", gender: "F", category: "SC", party: "CPIM", generalVotes: 38926, postalVotes: 203, totalVotes: 39129, percentage: 18.8 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2625, postalVotes: 4, totalVotes: 2629, percentage: 1.3 },
             { no: 5, name: "BARUN MANDAL", gender: "M", category: "SC", party: "SUCI", generalVotes: 1378, postalVotes: 3, totalVotes: 1381, percentage: 0.7 },
           ],
@@ -11737,7 +11737,7 @@ years: {
           candidates: [
             { no: 1, name: "PARTHA BHOWMICK", gender: "M", category: "GEN", party: "AITC", generalVotes: 76925, postalVotes: 828, totalVotes: 77753, percentage: 49.7 },
             { no: 2, name: "PHALGUNI PATRA", gender: "F", category: "GEN", party: "BJP", generalVotes: 58481, postalVotes: 417, totalVotes: 58898, percentage: 37.6 },
-            { no: 3, name: "INDRANI KUNDU MUKHERJEE", gender: "F", category: "GEN", party: "CPI(M)", generalVotes: 15598, postalVotes: 227, totalVotes: 15825, percentage: 10.1 },
+            { no: 3, name: "INDRANI KUNDU MUKHERJEE", gender: "F", category: "GEN", party: "CPIM", generalVotes: 15598, postalVotes: 227, totalVotes: 15825, percentage: 10.1 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1689, postalVotes: 12, totalVotes: 1701, percentage: 1.1 },
             { no: 5, name: "KANAI DAS", gender: "M", category: "GEN", party: "IND", generalVotes: 1373, postalVotes: 5, totalVotes: 1378, percentage: 0.9 },
             { no: 6, name: "PABITRA ROY", gender: "M", category: "GEN", party: "BSP", generalVotes: 906, postalVotes: 7, totalVotes: 913, percentage: 0.6 },
@@ -11794,7 +11794,7 @@ years: {
             { no: 1, name: "Kallol Khan", gender: "M", category: "GEN", party: "AITC", generalVotes: 103666, postalVotes: 1146, totalVotes: 104812, percentage: 50.0 },
             { no: 2, name: "Santanu Dey", gender: "M", category: "GEN", party: "BJP", generalVotes: 82258, postalVotes: 1283, totalVotes: 83541, percentage: 39.9 },
             { no: 3, name: "Tanmay Ganguli", gender: "M", category: "GEN", party: "IND", generalVotes: 11194, postalVotes: 83, totalVotes: 11277, percentage: 5.4 },
-            { no: 4, name: "Sukla Saha", gender: "F", category: "GEN", party: "CPI(M)", generalVotes: 5254, postalVotes: 111, totalVotes: 5365, percentage: 2.6 },
+            { no: 4, name: "Sukla Saha", gender: "F", category: "GEN", party: "CPIM", generalVotes: 5254, postalVotes: 111, totalVotes: 5365, percentage: 2.6 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1135, postalVotes: 11, totalVotes: 1146, percentage: 0.5 },
             { no: 6, name: "Amal Chandra Sarkar", gender: "M", category: "SC", party: "BSP", generalVotes: 1074, postalVotes: 6, totalVotes: 1080, percentage: 0.5 },
             { no: 7, name: "Krishnapada Pramanik", gender: "M", category: "GEN", party: "CPIMLL", generalVotes: 1020, postalVotes: 3, totalVotes: 1023, percentage: 0.5 },
@@ -11909,7 +11909,7 @@ years: {
           candidates: [
             { no: 1, name: "SUKUMAR DE", gender: "M", category: "GEN", party: "AITC", generalVotes: 107330, postalVotes: 851, totalVotes: 108181, percentage: 47.6 },
             { no: 2, name: "ADHIKARY NILANJAN", gender: "M", category: "GEN", party: "BJP", generalVotes: 102106, postalVotes: 669, totalVotes: 102775, percentage: 45.2 },
-            { no: 3, name: "KARUNA SANKAR BHOWMIK", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 12651, postalVotes: 131, totalVotes: 12782, percentage: 5.6 },
+            { no: 3, name: "KARUNA SANKAR BHOWMIK", gender: "M", category: "GEN", party: "CPIM", generalVotes: 12651, postalVotes: 131, totalVotes: 12782, percentage: 5.6 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1471, postalVotes: 2, totalVotes: 1473, percentage: 0.6 },
             { no: 5, name: "Saumitra Pattanayak", gender: "M", category: "GEN", party: "SUCI", generalVotes: 1341, postalVotes: 8, totalVotes: 1349, percentage: 0.6 },
             { no: 6, name: "Marphat Ali Khan", gender: "M", category: "GEN", party: "IND", generalVotes: 711, postalVotes: 4, totalVotes: 715, percentage: 0.3 },
@@ -11963,7 +11963,7 @@ years: {
           candidates: [
             { no: 1, name: "ADHIKARI SUVENDU", gender: "M", category: "GEN", party: "BJP", generalVotes: 109673, postalVotes: 1091, totalVotes: 110764, percentage: 48.5 },
             { no: 2, name: "Mamata Banerjee", gender: "F", category: "GEN", party: "AITC", generalVotes: 107937, postalVotes: 871, totalVotes: 108808, percentage: 47.6 },
-            { no: 3, name: "Minakshi Mukherjee", gender: "F", category: "GEN", party: "CPI(M)", generalVotes: 6198, postalVotes: 69, totalVotes: 6267, percentage: 2.7 },
+            { no: 3, name: "Minakshi Mukherjee", gender: "F", category: "GEN", party: "CPIM", generalVotes: 6198, postalVotes: 69, totalVotes: 6267, percentage: 2.7 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1089, postalVotes: 1, totalVotes: 1090, percentage: 0.5 },
             { no: 5, name: "Swapan Parua", gender: "M", category: "GEN", party: "IND", generalVotes: 773, postalVotes: 3, totalVotes: 776, percentage: 0.3 },
             { no: 6, name: "Sk Saddam Hossain", gender: "M", category: "GEN", party: "IND", generalVotes: 310, postalVotes: 3, totalVotes: 313, percentage: 0.1 },
@@ -12016,7 +12016,7 @@ years: {
           candidates: [
             { no: 1, name: "BIDHAN CHANDRA MAJHI", gender: "M", category: "SC", party: "AITC", generalVotes: 110764, postalVotes: 1352, totalVotes: 112116, percentage: 47.6 },
             { no: 2, name: "TARAKESWAR SAHA", gender: "M", category: "SC", party: "BJP", generalVotes: 104323, postalVotes: 1123, totalVotes: 105446, percentage: 44.8 },
-            { no: 3, name: "SHYAMALI PRADHAN", gender: "F", category: "SC", party: "CPI(M)", generalVotes: 12731, postalVotes: 147, totalVotes: 12878, percentage: 5.5 },
+            { no: 3, name: "SHYAMALI PRADHAN", gender: "F", category: "SC", party: "CPIM", generalVotes: 12731, postalVotes: 147, totalVotes: 12878, percentage: 5.5 },
             { no: 4, name: "CHANDIPADA DAS", gender: "M", category: "SC", party: "BSP", generalVotes: 2729, postalVotes: 10, totalVotes: 2739, percentage: 1.2 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2134, postalVotes: 15, totalVotes: 2149, percentage: 0.9 },
           ],
@@ -12063,7 +12063,7 @@ years: {
           candidates: [
             { no: 1, name: "ATTA SURJA KANTA", gender: "M", category: "GEN", party: "AITC", generalVotes: 100440, postalVotes: 454, totalVotes: 100894, percentage: 46.3 },
             { no: 2, name: "RAMA PRASAD GIRI", gender: "M", category: "GEN", party: "BJP", generalVotes: 97758, postalVotes: 720, totalVotes: 98478, percentage: 45.2 },
-            { no: 3, name: "TAPAS SINHA", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 13070, postalVotes: 159, totalVotes: 13229, percentage: 6.1 },
+            { no: 3, name: "TAPAS SINHA", gender: "M", category: "GEN", party: "CPIM", generalVotes: 13070, postalVotes: 159, totalVotes: 13229, percentage: 6.1 },
             { no: 4, name: "SHYAMA PADA JANA", gender: "M", category: "GEN", party: "SUCI", generalVotes: 2812, postalVotes: 21, totalVotes: 2833, percentage: 1.3 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1750, postalVotes: 6, totalVotes: 1756, percentage: 0.8 },
             { no: 6, name: "BANAMALI DAS", gender: "M", category: "GEN", party: "IND", generalVotes: 557, postalVotes: 3, totalVotes: 560, percentage: 0.3 },
@@ -12111,7 +12111,7 @@ years: {
           candidates: [
             { no: 1, name: "Mihir Goswami", gender: "M", category: "GEN", party: "BJP", generalVotes: 110020, postalVotes: 1723, totalVotes: 111743, percentage: 51.5 },
             { no: 2, name: "Rabindra Nath Ghosh", gender: "M", category: "GEN", party: "AITC", generalVotes: 87098, postalVotes: 1205, totalVotes: 88303, percentage: 40.7 },
-            { no: 3, name: "Akik Hassan", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 11584, postalVotes: 255, totalVotes: 11839, percentage: 5.5 },
+            { no: 3, name: "Akik Hassan", gender: "M", category: "GEN", party: "CPIM", generalVotes: 11584, postalVotes: 255, totalVotes: 11839, percentage: 5.5 },
             { no: 4, name: "Sahidul Hossain", gender: "M", category: "GEN", party: "IND", generalVotes: 1338, postalVotes: 3, totalVotes: 1341, percentage: 0.6 },
             { no: 5, name: "Abdus Salam", gender: "M", category: "GEN", party: "SUCI", generalVotes: 1178, postalVotes: 8, totalVotes: 1186, percentage: 0.5 },
             { no: 6, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1127, postalVotes: 19, totalVotes: 1146, percentage: 0.5 },
@@ -12166,7 +12166,7 @@ years: {
           candidates: [
             { no: 1, name: "DULAL MURMU", gender: "M", category: "ST", party: "AITC", generalVotes: 99825, postalVotes: 1078, totalVotes: 100903, percentage: 52.5 },
             { no: 2, name: "BAKUL MURMU", gender: "M", category: "ST", party: "BJP", generalVotes: 77089, postalVotes: 1060, totalVotes: 78149, percentage: 40.6 },
-            { no: 3, name: "HARIPADA SAREN", gender: "M", category: "ST", party: "CPI(M)", generalVotes: 5755, postalVotes: 108, totalVotes: 5863, percentage: 3.0 },
+            { no: 3, name: "HARIPADA SAREN", gender: "M", category: "ST", party: "CPIM", generalVotes: 5755, postalVotes: 108, totalVotes: 5863, percentage: 3.0 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3077, postalVotes: 9, totalVotes: 3086, percentage: 1.6 },
             { no: 5, name: "SHYAM MANDI", gender: "M", category: "ST", party: "BSP", generalVotes: 1844, postalVotes: 14, totalVotes: 1858, percentage: 1.0 },
             { no: 6, name: "BIDHAN CHANDRA SING", gender: "M", category: "ST", party: "IND", generalVotes: 896, postalVotes: 9, totalVotes: 905, percentage: 0.5 },
@@ -12393,7 +12393,7 @@ years: {
           candidates: [
             { no: 1, name: "Dr. Manik Bhattacharya", gender: "M", category: "GEN", party: "AITC", generalVotes: 108872, postalVotes: 1402, totalVotes: 110274, percentage: 54.2 },
             { no: 2, name: "Bibhash Chandra Mandal", gender: "M", category: "GEN", party: "BJP", generalVotes: 58144, postalVotes: 794, totalVotes: 58938, percentage: 29.0 },
-            { no: 3, name: "S.M. Sadi", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 25861, postalVotes: 367, totalVotes: 26228, percentage: 12.9 },
+            { no: 3, name: "S.M. Sadi", gender: "M", category: "GEN", party: "CPIM", generalVotes: 25861, postalVotes: 367, totalVotes: 26228, percentage: 12.9 },
             { no: 4, name: "Maniruzzaman Mondal", gender: "M", category: "GEN", party: "SUCI", generalVotes: 1678, postalVotes: 18, totalVotes: 1696, percentage: 0.8 },
             { no: 5, name: "Ratikanta Thakur", gender: "M", category: "SC", party: "BSP", generalVotes: 1677, postalVotes: 13, totalVotes: 1690, percentage: 0.8 },
             { no: 6, name: "Ramesh Barman", gender: "M", category: "SC", party: "IND", generalVotes: 1688, postalVotes: 0, totalVotes: 1688, percentage: 0.8 },
@@ -12504,7 +12504,7 @@ years: {
           candidates: [
             { no: 1, name: "NARENDRANATH CHAKRABORTY", gender: "M", category: "GEN", party: "AITC", generalVotes: 73015, postalVotes: 907, totalVotes: 73922, percentage: 45.0 },
             { no: 2, name: "KUMAR JITENDRA TEWARI", gender: "M", category: "GEN", party: "BJP", generalVotes: 69665, postalVotes: 454, totalVotes: 70119, percentage: 42.7 },
-            { no: 3, name: "SUBHAS BAURI", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 12084, postalVotes: 112, totalVotes: 12196, percentage: 7.4 },
+            { no: 3, name: "SUBHAS BAURI", gender: "M", category: "SC", party: "CPIM", generalVotes: 12084, postalVotes: 112, totalVotes: 12196, percentage: 7.4 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2727, postalVotes: 8, totalVotes: 2735, percentage: 1.7 },
             { no: 5, name: "SANJAY YADAV", gender: "M", category: "GEN", party: "IND", generalVotes: 2270, postalVotes: 3, totalVotes: 2273, percentage: 1.4 },
             { no: 6, name: "RAKESH KUMAR DAS", gender: "M", category: "SC", party: "BSP", generalVotes: 1134, postalVotes: 3, totalVotes: 1137, percentage: 0.7 },
@@ -12559,7 +12559,7 @@ years: {
           candidates: [
             { no: 1, name: "Dr. Ratna De Nag", gender: "F", category: "GEN", party: "AITC", generalVotes: 102128, postalVotes: 746, totalVotes: 102874, percentage: 46.0 },
             { no: 2, name: "Partha Sharma", gender: "M", category: "GEN", party: "BJP", generalVotes: 70651, postalVotes: 365, totalVotes: 71016, percentage: 31.8 },
-            { no: 3, name: "Amjad Hossain Sk.", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 41205, postalVotes: 269, totalVotes: 41474, percentage: 18.5 },
+            { no: 3, name: "Amjad Hossain Sk.", gender: "M", category: "GEN", party: "CPIM", generalVotes: 41205, postalVotes: 269, totalVotes: 41474, percentage: 18.5 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2159, postalVotes: 5, totalVotes: 2164, percentage: 1.0 },
             { no: 5, name: "Paban Mazumder", gender: "M", category: "SC", party: "SUCI", generalVotes: 1971, postalVotes: 11, totalVotes: 1982, percentage: 0.9 },
             { no: 6, name: "Mina Roy", gender: "F", category: "SC", party: "BSP", generalVotes: 1632, postalVotes: 18, totalVotes: 1650, percentage: 0.7 },
@@ -12723,7 +12723,7 @@ years: {
           candidates: [
             { no: 1, name: "Biplab Roy Chowdhury", gender: "M", category: "GEN", party: "AITC", generalVotes: 90972, postalVotes: 241, totalVotes: 91213, percentage: 46.0 },
             { no: 2, name: "Debabrata Pattanayek", gender: "M", category: "GEN", party: "BJP", generalVotes: 81318, postalVotes: 235, totalVotes: 81553, percentage: 41.1 },
-            { no: 3, name: "Ibrahim Ali Sk", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 20634, postalVotes: 83, totalVotes: 20717, percentage: 10.4 },
+            { no: 3, name: "Ibrahim Ali Sk", gender: "M", category: "GEN", party: "CPIM", generalVotes: 20634, postalVotes: 83, totalVotes: 20717, percentage: 10.4 },
             { no: 4, name: "Chandramohan Manik", gender: "M", category: "GEN", party: "SUCI", generalVotes: 1452, postalVotes: 6, totalVotes: 1458, percentage: 0.7 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1177, postalVotes: 6, totalVotes: 1183, percentage: 0.6 },
             { no: 6, name: "Samir Hossain", gender: "M", category: "GEN", party: "IND", generalVotes: 977, postalVotes: 3, totalVotes: 980, percentage: 0.5 },
@@ -12777,7 +12777,7 @@ years: {
           candidates: [
             { no: 1, name: "NADIAR CHAND BOURI", gender: "M", category: "SC", party: "BJP", generalVotes: 86930, postalVotes: 417, totalVotes: 87347, percentage: 45.0 },
             { no: 2, name: "UMAPADA BAURI", gender: "M", category: "SC", party: "AITC", generalVotes: 82986, postalVotes: 354, totalVotes: 83340, percentage: 43.0 },
-            { no: 3, name: "SWAPAN KUMAR BAURI", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 13596, postalVotes: 85, totalVotes: 13681, percentage: 7.1 },
+            { no: 3, name: "SWAPAN KUMAR BAURI", gender: "M", category: "SC", party: "CPIM", generalVotes: 13596, postalVotes: 85, totalVotes: 13681, percentage: 7.1 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3647, postalVotes: 10, totalVotes: 3657, percentage: 1.9 },
             { no: 5, name: "JAGANNATH BAURI", gender: "M", category: "SC", party: "SUCI", generalVotes: 1891, postalVotes: 6, totalVotes: 1897, percentage: 1.0 },
             { no: 6, name: "SUDARSHAN RAJWAR", gender: "M", category: "SC", party: "BSP", generalVotes: 1672, postalVotes: 4, totalVotes: 1676, percentage: 0.9 },
@@ -13008,7 +13008,7 @@ years: {
           totalVotes: 207259,
           candidates: [
             { no: 1, name: "SAUMEN KUMAR MAHAPATRA", gender: "M", category: "GEN", party: "AITC", generalVotes: 104312, postalVotes: 104, totalVotes: 104416, percentage: 50.4 },
-            { no: 2, name: "PRABODH CHANDRA SINHA", gender: "M", category: "GEN", party: "DSP(P)", generalVotes: 80044, postalVotes: 154, totalVotes: 80198, percentage: 38.7 },
+            { no: 2, name: "PRABODH CHANDRA SINHA", gender: "M", category: "GEN", party: "DSPP", generalVotes: 80044, postalVotes: 154, totalVotes: 80198, percentage: 38.7 },
             { no: 3, name: "ANTARA BHATTACHARYYA", gender: "F", category: "GEN", party: "BJP", generalVotes: 16651, postalVotes: 14, totalVotes: 16665, percentage: 8.0 },
             { no: 4, name: "RANJIT BANKURA", gender: "M", category: "GEN", party: "SUCI", generalVotes: 2387, postalVotes: 1, totalVotes: 2388, percentage: 1.2 },
             { no: 5, name: "None of the Above", gender: "", category: "", party: "NOTA", generalVotes: 2115, postalVotes: 3, totalVotes: 2118, percentage: 1.0 },
@@ -13022,7 +13022,7 @@ years: {
           marginPercent: 0.7,
           totalVotes: 179364,
           candidates: [
-            { no: 1, name: "PRABODH CHANDRA SINHA", gender: "M", category: "GEN", party: "DSP(P)", generalVotes: 84355, postalVotes: 383, totalVotes: 84738, percentage: 47.2 },
+            { no: 1, name: "PRABODH CHANDRA SINHA", gender: "M", category: "GEN", party: "DSPP", generalVotes: 84355, postalVotes: 383, totalVotes: 84738, percentage: 47.2 },
             { no: 2, name: "AJIT MAITY", gender: "M", category: "GEN", party: "AITC", generalVotes: 83158, postalVotes: 346, totalVotes: 83504, percentage: 46.6 },
             { no: 3, name: "SAMBHUNATH HANSDA", gender: "M", category: "ST", party: "BJP", generalVotes: 7629, postalVotes: 12, totalVotes: 7641, percentage: 4.3 },
             { no: 4, name: "RABI TUDU", gender: "M", category: "ST", party: "JMM", generalVotes: 3481, postalVotes: 0, totalVotes: 3481, percentage: 1.9 },
@@ -13100,7 +13100,7 @@ years: {
           candidates: [
             { no: 1, name: "TAPAN CHATTERJEE", gender: "M", category: "GEN", party: "AITC", generalVotes: 91724, postalVotes: 697, totalVotes: 92421, percentage: 43.5 },
             { no: 2, name: "GOBARDHAN DAS", gender: "M", category: "SC", party: "BJP", generalVotes: 85218, postalVotes: 497, totalVotes: 85715, percentage: 40.4 },
-            { no: 3, name: "PRADIP KUMAR SAHA", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 27960, postalVotes: 174, totalVotes: 28134, percentage: 13.2 },
+            { no: 3, name: "PRADIP KUMAR SAHA", gender: "M", category: "GEN", party: "CPIM", generalVotes: 27960, postalVotes: 174, totalVotes: 28134, percentage: 13.2 },
             { no: 4, name: "KESTO ROY", gender: "M", category: "SC", party: "BSP", generalVotes: 1899, postalVotes: 8, totalVotes: 1907, percentage: 0.9 },
             { no: 5, name: "BIBHAS DAS", gender: "M", category: "GEN", party: "PMPT", generalVotes: 1671, postalVotes: 4, totalVotes: 1675, percentage: 0.8 },
             { no: 6, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1347, postalVotes: 3, totalVotes: 1350, percentage: 0.6 },
@@ -13120,7 +13120,7 @@ years: {
             { no: 4, name: "JYOTSNA GOLDAR", gender: "F", category: "SC", party: "BSP", generalVotes: 2193, postalVotes: 0, totalVotes: 2193, percentage: 1.1 },
             { no: 5, name: "None of the Above", gender: "", category: "", party: "NOTA", generalVotes: 1531, postalVotes: 3, totalVotes: 1534, percentage: 0.8 },
             { no: 6, name: "ANSARUL AMAN MONDAL (BABU)", gender: "M", category: "GEN", party: "CPIMLL", generalVotes: 1515, postalVotes: 1, totalVotes: 1516, percentage: 0.8 },
-            { no: 7, name: "BINOD BIHARI DEBNATH", gender: "M", category: "GEN", party: "SP(I)", generalVotes: 997, postalVotes: 0, totalVotes: 997, percentage: 0.5 },
+            { no: 7, name: "BINOD BIHARI DEBNATH", gender: "M", category: "GEN", party: "SPI", generalVotes: 997, postalVotes: 0, totalVotes: 997, percentage: 0.5 },
           ],
         },
         2011: {
@@ -13321,7 +13321,7 @@ years: {
           candidates: [
             { no: 1, name: "Vivekananda Bauri", gender: "M", category: "SC", party: "BJP", generalVotes: 94994, postalVotes: 776, totalVotes: 95770, percentage: 44.6 },
             { no: 2, name: "Bouri Hazari", gender: "M", category: "SC", party: "AITC", generalVotes: 89671, postalVotes: 661, totalVotes: 90332, percentage: 42.1 },
-            { no: 3, name: "Ganesh Bouri", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 14579, postalVotes: 159, totalVotes: 14738, percentage: 6.9 },
+            { no: 3, name: "Ganesh Bouri", gender: "M", category: "SC", party: "CPIM", generalVotes: 14579, postalVotes: 159, totalVotes: 14738, percentage: 6.9 },
             { no: 4, name: "Pashupati Roy", gender: "M", category: "SC", party: "SUCI", generalVotes: 3802, postalVotes: 27, totalVotes: 3829, percentage: 1.8 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3537, postalVotes: 20, totalVotes: 3557, percentage: 1.7 },
             { no: 6, name: "Sumanta Bouri", gender: "M", category: "SC", party: "IND", generalVotes: 2386, postalVotes: 17, totalVotes: 2403, percentage: 1.1 },
@@ -13375,7 +13375,7 @@ years: {
           candidates: [
             { no: 1, name: "ALOKE JALDATA", gender: "M", category: "SC", party: "AITC", generalVotes: 114651, postalVotes: 1056, totalVotes: 115707, percentage: 48.5 },
             { no: 2, name: "SANTANU BAPULI", gender: "M", category: "GEN", party: "BJP", generalVotes: 79602, postalVotes: 537, totalVotes: 80139, percentage: 33.6 },
-            { no: 3, name: "KANTI GANGULY", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 36689, postalVotes: 242, totalVotes: 36931, percentage: 15.5 },
+            { no: 3, name: "KANTI GANGULY", gender: "M", category: "GEN", party: "CPIM", generalVotes: 36689, postalVotes: 242, totalVotes: 36931, percentage: 15.5 },
             { no: 4, name: "GUNASINDHU HALDAR", gender: "M", category: "SC", party: "SUCI", generalVotes: 2818, postalVotes: 44, totalVotes: 2862, percentage: 1.2 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1457, postalVotes: 5, totalVotes: 1462, percentage: 0.6 },
             { no: 6, name: "MINTU MISTRI", gender: "M", category: "SC", party: "BSP", generalVotes: 793, postalVotes: 2, totalVotes: 795, percentage: 0.3 },
@@ -13496,7 +13496,7 @@ years: {
           candidates: [
             { no: 1, name: "Shampa Dhara", gender: "F", category: "SC", party: "AITC", generalVotes: 107918, postalVotes: 834, totalVotes: 108752, percentage: 47.5 },
             { no: 2, name: "Manik Roy", gender: "M", category: "SC", party: "BJP", generalVotes: 89999, postalVotes: 548, totalVotes: 90547, percentage: 39.5 },
-            { no: 3, name: "Basudeb Khan", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 25141, postalVotes: 191, totalVotes: 25332, percentage: 11.1 },
+            { no: 3, name: "Basudeb Khan", gender: "M", category: "SC", party: "CPIM", generalVotes: 25141, postalVotes: 191, totalVotes: 25332, percentage: 11.1 },
             { no: 4, name: "Pallab Biswas", gender: "M", category: "SC", party: "BSP", generalVotes: 1861, postalVotes: 10, totalVotes: 1871, percentage: 0.8 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1556, postalVotes: 7, totalVotes: 1563, percentage: 0.7 },
             { no: 6, name: "Rabi Routh", gender: "M", category: "SC", party: "BMUP", generalVotes: 1098, postalVotes: 3, totalVotes: 1101, percentage: 0.5 },
@@ -13602,7 +13602,7 @@ years: {
           candidates: [
             { no: 1, name: "ADITI MUNSHI", gender: "F", category: "GEN", party: "AITC", generalVotes: 87219, postalVotes: 431, totalVotes: 87650, percentage: 49.0 },
             { no: 2, name: "SAMIK BHATTACHARYA", gender: "M", category: "GEN", party: "BJP", generalVotes: 62092, postalVotes: 262, totalVotes: 62354, percentage: 34.9 },
-            { no: 3, name: "SUBHAJIT DASGUPTA", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 24333, postalVotes: 178, totalVotes: 24511, percentage: 13.7 },
+            { no: 3, name: "SUBHAJIT DASGUPTA", gender: "M", category: "GEN", party: "CPIM", generalVotes: 24333, postalVotes: 178, totalVotes: 24511, percentage: 13.7 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2251, postalVotes: 7, totalVotes: 2258, percentage: 1.3 },
             { no: 5, name: "JAGANMOY KARMAKAR", gender: "M", category: "GEN", party: "SUCI", generalVotes: 454, postalVotes: 1, totalVotes: 455, percentage: 0.3 },
             { no: 6, name: "RINA DEY", gender: "F", category: "GEN", party: "BNARP", generalVotes: 365, postalVotes: 5, totalVotes: 370, percentage: 0.2 },
@@ -13662,7 +13662,7 @@ years: {
           candidates: [
             { no: 1, name: "TAPASH CHATTERJEE", gender: "M", category: "GEN", party: "AITC", generalVotes: 126945, postalVotes: 429, totalVotes: 127374, percentage: 54.2 },
             { no: 2, name: "BHASKAR ROY S/O - DULAL ROY", gender: "M", category: "GEN", party: "BJP", generalVotes: 70658, postalVotes: 284, totalVotes: 70942, percentage: 30.2 },
-            { no: 3, name: "SAPTARSHI DEB", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 31419, postalVotes: 124, totalVotes: 31543, percentage: 13.4 },
+            { no: 3, name: "SAPTARSHI DEB", gender: "M", category: "GEN", party: "CPIM", generalVotes: 31419, postalVotes: 124, totalVotes: 31543, percentage: 13.4 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2028, postalVotes: 4, totalVotes: 2032, percentage: 0.9 },
             { no: 5, name: "SUBHENDU GHOSH", gender: "M", category: "GEN", party: "IND", generalVotes: 1310, postalVotes: 3, totalVotes: 1313, percentage: 0.6 },
             { no: 6, name: "BHASKAR ROY S/O - KRISHNA KANTA ROY", gender: "M", category: "SC", party: "BSP", generalVotes: 1127, postalVotes: 10, totalVotes: 1137, percentage: 0.5 },
@@ -13720,7 +13720,7 @@ years: {
           candidates: [
             { no: 1, name: "KHAGESWAR ROY", gender: "M", category: "SC", party: "AITC", generalVotes: 103587, postalVotes: 1054, totalVotes: 104641, percentage: 48.5 },
             { no: 2, name: "SUPEN ROY", gender: "M", category: "SC", party: "BJP", generalVotes: 87822, postalVotes: 1046, totalVotes: 88868, percentage: 41.2 },
-            { no: 3, name: "RATAN KUMAR ROY", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 11897, postalVotes: 211, totalVotes: 12108, percentage: 5.6 },
+            { no: 3, name: "RATAN KUMAR ROY", gender: "M", category: "SC", party: "CPIM", generalVotes: 11897, postalVotes: 211, totalVotes: 12108, percentage: 5.6 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3161, postalVotes: 14, totalVotes: 3175, percentage: 1.5 },
             { no: 5, name: "TAPATI ROY (BARMAN)", gender: "F", category: "SC", party: "KPPU", generalVotes: 1851, postalVotes: 9, totalVotes: 1860, percentage: 0.9 },
             { no: 6, name: "UDAY ROY", gender: "M", category: "SC", party: "SUCI", generalVotes: 1590, postalVotes: 15, totalVotes: 1605, percentage: 0.7 },
@@ -13775,7 +13775,7 @@ years: {
           candidates: [
             { no: 1, name: "AKHIL GIRI", gender: "M", category: "GEN", party: "AITC", generalVotes: 111870, postalVotes: 752, totalVotes: 112622, percentage: 50.7 },
             { no: 2, name: "SWADESH RANJAN NAYAK", gender: "M", category: "GEN", party: "BJP", generalVotes: 99477, postalVotes: 628, totalVotes: 100105, percentage: 45.1 },
-            { no: 3, name: "SABYASACHI JANA", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 6657, postalVotes: 94, totalVotes: 6751, percentage: 3.0 },
+            { no: 3, name: "SABYASACHI JANA", gender: "M", category: "GEN", party: "CPIM", generalVotes: 6657, postalVotes: 94, totalVotes: 6751, percentage: 3.0 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1230, postalVotes: 3, totalVotes: 1233, percentage: 0.6 },
             { no: 5, name: "ARATI PAHARI", gender: "F", category: "GEN", party: "SUCI", generalVotes: 942, postalVotes: 2, totalVotes: 944, percentage: 0.4 },
             { no: 6, name: "TRAYEE PRADHAN", gender: "F", category: "GEN", party: "RTORP", generalVotes: 399, postalVotes: 6, totalVotes: 405, percentage: 0.2 },
@@ -13826,7 +13826,7 @@ years: {
           candidates: [
             { no: 1, name: "ASISH BANERJEE", gender: "M", category: "GEN", party: "AITC", generalVotes: 102251, postalVotes: 1025, totalVotes: 103276, percentage: 47.5 },
             { no: 2, name: "SUBHASIS CHOUDHURY (KHOKAN)", gender: "M", category: "GEN", party: "BJP", generalVotes: 93574, postalVotes: 1230, totalVotes: 94804, percentage: 43.6 },
-            { no: 3, name: "SANJIB BARMAN (GOPI)", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 11578, postalVotes: 129, totalVotes: 11707, percentage: 5.4 },
+            { no: 3, name: "SANJIB BARMAN (GOPI)", gender: "M", category: "GEN", party: "CPIM", generalVotes: 11578, postalVotes: 129, totalVotes: 11707, percentage: 5.4 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3369, postalVotes: 12, totalVotes: 3381, percentage: 1.6 },
             { no: 5, name: "IBANE RASUL (ANGUR MIYA)", gender: "M", category: "GEN", party: "BAHUMP", generalVotes: 1607, postalVotes: 1, totalVotes: 1608, percentage: 0.7 },
             { no: 6, name: "BIPAD TARAN DOM", gender: "M", category: "SC", party: "BSP", generalVotes: 1587, postalVotes: 0, totalVotes: 1587, percentage: 0.7 },
@@ -13882,7 +13882,7 @@ years: {
           candidates: [
             { no: 1, name: "MUKUT MANI ADHIKARI", gender: "M", category: "SC", party: "BJP", generalVotes: 118374, postalVotes: 886, totalVotes: 119260, percentage: 49.3 },
             { no: 2, name: "BARNALI DEY ROY", gender: "F", category: "SC", party: "AITC", generalVotes: 101882, postalVotes: 863, totalVotes: 102745, percentage: 42.5 },
-            { no: 3, name: "RAMA BISWAS", gender: "F", category: "SC", party: "CPI(M)", generalVotes: 14921, postalVotes: 203, totalVotes: 15124, percentage: 6.3 },
+            { no: 3, name: "RAMA BISWAS", gender: "F", category: "SC", party: "CPIM", generalVotes: 14921, postalVotes: 203, totalVotes: 15124, percentage: 6.3 },
             { no: 4, name: "PRASANTA BISWAS", gender: "M", category: "SC", party: "BSP", generalVotes: 1654, postalVotes: 12, totalVotes: 1666, percentage: 0.7 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1561, postalVotes: 16, totalVotes: 1577, percentage: 0.7 },
             { no: 6, name: "NANIGOPAL MISTRI", gender: "M", category: "SC", party: "SUCI", generalVotes: 1313, postalVotes: 2, totalVotes: 1315, percentage: 0.5 },
@@ -13943,7 +13943,7 @@ years: {
             { no: 7, name: "RABINDRA NATH BISWAS", gender: "M", category: "GEN", party: "IND", generalVotes: 1125, postalVotes: 8, totalVotes: 1133, percentage: 0.5 },
             { no: 8, name: "ALPANA BANDYOPADHYAY", gender: "F", category: "GEN", party: "IND", generalVotes: 1064, postalVotes: 6, totalVotes: 1070, percentage: 0.5 },
             { no: 9, name: "APARNA GUHA", gender: "F", category: "GEN", party: "SUCI", generalVotes: 1062, postalVotes: 6, totalVotes: 1068, percentage: 0.5 },
-            { no: 10, name: "SOURAV CHAKRABORTY", gender: "M", category: "GEN", party: "SP(I)", generalVotes: 701, postalVotes: 0, totalVotes: 701, percentage: 0.3 },
+            { no: 10, name: "SOURAV CHAKRABORTY", gender: "M", category: "GEN", party: "SPI", generalVotes: 701, postalVotes: 0, totalVotes: 701, percentage: 0.3 },
           ],
         },
         2016: {
@@ -14046,7 +14046,7 @@ years: {
           candidates: [
             { no: 1, name: "Jyotsna Mandi", gender: "F", category: "ST", party: "AITC", generalVotes: 90064, postalVotes: 864, totalVotes: 90928, percentage: 43.1 },
             { no: 2, name: "Kshudiram Tudu", gender: "M", category: "ST", party: "BJP", generalVotes: 85922, postalVotes: 1067, totalVotes: 86989, percentage: 41.2 },
-            { no: 3, name: "Deblina Hembram", gender: "F", category: "ST", party: "CPI(M)", generalVotes: 19821, postalVotes: 236, totalVotes: 20057, percentage: 9.5 },
+            { no: 3, name: "Deblina Hembram", gender: "F", category: "ST", party: "CPIM", generalVotes: 19821, postalVotes: 236, totalVotes: 20057, percentage: 9.5 },
             { no: 4, name: "Biswanath Sardar", gender: "M", category: "ST", party: "IND", generalVotes: 4794, postalVotes: 13, totalVotes: 4807, percentage: 2.3 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 4215, postalVotes: 11, totalVotes: 4226, percentage: 2.0 },
             { no: 6, name: "Goutam Kumar Mudi", gender: "M", category: "ST", party: "SUCI", generalVotes: 1614, postalVotes: 19, totalVotes: 1633, percentage: 0.8 },
@@ -14103,7 +14103,7 @@ years: {
           candidates: [
             { no: 1, name: "TAPAS BANERJEE", gender: "M", category: "GEN", party: "AITC", generalVotes: 77528, postalVotes: 636, totalVotes: 78164, percentage: 42.9 },
             { no: 2, name: "DR. BIJAN MUKHERJEE", gender: "M", category: "GEN", party: "BJP", generalVotes: 74233, postalVotes: 375, totalVotes: 74608, percentage: 40.9 },
-            { no: 3, name: "HEMANT KUMAR PRABHAKAR", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 21434, postalVotes: 254, totalVotes: 21688, percentage: 11.9 },
+            { no: 3, name: "HEMANT KUMAR PRABHAKAR", gender: "M", category: "GEN", party: "CPIM", generalVotes: 21434, postalVotes: 254, totalVotes: 21688, percentage: 11.9 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1994, postalVotes: 12, totalVotes: 2006, percentage: 1.1 },
             { no: 5, name: "RAJ KUMAR", gender: "M", category: "GEN", party: "JDU", generalVotes: 1612, postalVotes: 0, totalVotes: 1612, percentage: 0.9 },
             { no: 6, name: "NILKANTHA BAURI", gender: "M", category: "SC", party: "BMUP", generalVotes: 1608, postalVotes: 1, totalVotes: 1609, percentage: 0.9 },
@@ -14440,7 +14440,7 @@ years: {
           candidates: [
             { no: 1, name: "BANKIM CHANDRA HAZRA", gender: "M", category: "GEN", party: "AITC", generalVotes: 127861, postalVotes: 1139, totalVotes: 129000, percentage: 54.0 },
             { no: 2, name: "KAMILA BIKASH", gender: "M", category: "GEN", party: "BJP", generalVotes: 98496, postalVotes: 658, totalVotes: 99154, percentage: 41.5 },
-            { no: 3, name: "SK MUKLESUR RAHAMAN", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 9033, postalVotes: 63, totalVotes: 9096, percentage: 3.8 },
+            { no: 3, name: "SK MUKLESUR RAHAMAN", gender: "M", category: "GEN", party: "CPIM", generalVotes: 9033, postalVotes: 63, totalVotes: 9096, percentage: 3.8 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1023, postalVotes: 2, totalVotes: 1025, percentage: 0.4 },
             { no: 5, name: "SWARAJ DAS", gender: "M", category: "GEN", party: "SUCI", generalVotes: 787, postalVotes: 5, totalVotes: 792, percentage: 0.3 },
           ],
@@ -14553,7 +14553,7 @@ years: {
           candidates: [
             { no: 1, name: "NILABATI SAHA", gender: "F", category: "SC", party: "AITC", generalVotes: 109041, postalVotes: 1531, totalVotes: 110572, percentage: 49.8 },
             { no: 2, name: "PIYA SAHA", gender: "F", category: "SC", party: "BJP", generalVotes: 94174, postalVotes: 1155, totalVotes: 95329, percentage: 43.0 },
-            { no: 3, name: "MAUSUMI KONAI", gender: "F", category: "SC", party: "CPI(M)", generalVotes: 10239, postalVotes: 130, totalVotes: 10369, percentage: 4.7 },
+            { no: 3, name: "MAUSUMI KONAI", gender: "F", category: "SC", party: "CPIM", generalVotes: 10239, postalVotes: 130, totalVotes: 10369, percentage: 4.7 },
             { no: 4, name: "TARAPADA BADYAKAR", gender: "M", category: "SC", party: "BSP", generalVotes: 2092, postalVotes: 6, totalVotes: 2098, percentage: 0.9 },
             { no: 5, name: "NABA KUMAR DAS", gender: "M", category: "SC", party: "SUCI", generalVotes: 1751, postalVotes: 5, totalVotes: 1756, percentage: 0.8 },
             { no: 6, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1727, postalVotes: 15, totalVotes: 1742, percentage: 0.8 },
@@ -14603,7 +14603,7 @@ years: {
           candidates: [
             { no: 1, name: "Srikanta Mahata", gender: "M", category: "GEN", party: "AITC", generalVotes: 125097, postalVotes: 923, totalVotes: 126020, percentage: 50.6 },
             { no: 2, name: "Rajib Kundu", gender: "M", category: "GEN", party: "BJP", generalVotes: 92415, postalVotes: 961, totalVotes: 93376, percentage: 37.5 },
-            { no: 3, name: "Ghosh Susanta", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 19650, postalVotes: 209, totalVotes: 19859, percentage: 8.0 },
+            { no: 3, name: "Ghosh Susanta", gender: "M", category: "GEN", party: "CPIM", generalVotes: 19650, postalVotes: 209, totalVotes: 19859, percentage: 8.0 },
             { no: 4, name: "Rasbihari Mahata", gender: "M", category: "GEN", party: "IND", generalVotes: 2632, postalVotes: 11, totalVotes: 2643, percentage: 1.1 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1956, postalVotes: 9, totalVotes: 1965, percentage: 0.8 },
             { no: 6, name: "Laksmi Kanta Murmu", gender: "M", category: "ST", party: "IND", generalVotes: 1643, postalVotes: 14, totalVotes: 1657, percentage: 0.7 },
@@ -14661,7 +14661,7 @@ years: {
           candidates: [
             { no: 1, name: "BAURI CHANDANA", gender: "F", category: "SC", party: "BJP", generalVotes: 91032, postalVotes: 616, totalVotes: 91648, percentage: 45.3 },
             { no: 2, name: "SONTOSH KUMAR MONDAL", gender: "M", category: "SC", party: "AITC", generalVotes: 86814, postalVotes: 689, totalVotes: 87503, percentage: 43.2 },
-            { no: 3, name: "NANDADULAL BAURI", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 13982, postalVotes: 102, totalVotes: 14084, percentage: 7.0 },
+            { no: 3, name: "NANDADULAL BAURI", gender: "M", category: "SC", party: "CPIM", generalVotes: 13982, postalVotes: 102, totalVotes: 14084, percentage: 7.0 },
             { no: 4, name: "ADITYA KUMAR BAURI", gender: "M", category: "SC", party: "BMUP", generalVotes: 3539, postalVotes: 15, totalVotes: 3554, percentage: 1.8 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3350, postalVotes: 13, totalVotes: 3363, percentage: 1.7 },
             { no: 6, name: "DIPEN BAURI", gender: "M", category: "SC", party: "SUCI", generalVotes: 2256, postalVotes: 5, totalVotes: 2261, percentage: 1.1 },
@@ -14712,7 +14712,7 @@ years: {
             { no: 1, name: "Amirul Islam", gender: "M", category: "GEN", party: "AITC", generalVotes: 96120, postalVotes: 297, totalVotes: 96417, percentage: 51.1 },
             { no: 2, name: "Zaidur Rahaman", gender: "M", category: "GEN", party: "INC", generalVotes: 70009, postalVotes: 29, totalVotes: 70038, percentage: 37.1 },
             { no: 3, name: "Milan Ghosh", gender: "M", category: "GEN", party: "BJP", generalVotes: 10777, postalVotes: 23, totalVotes: 10800, percentage: 5.7 },
-            { no: 4, name: "Md. Modassar Hossain", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 6145, postalVotes: 13, totalVotes: 6158, percentage: 3.3 },
+            { no: 4, name: "Md. Modassar Hossain", gender: "M", category: "GEN", party: "CPIM", generalVotes: 6145, postalVotes: 13, totalVotes: 6158, percentage: 3.3 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3062, postalVotes: 2, totalVotes: 3064, percentage: 1.6 },
             { no: 6, name: "Saumitra Singh", gender: "M", category: "GEN", party: "IND", generalVotes: 845, postalVotes: 1, totalVotes: 846, percentage: 0.4 },
             { no: 7, name: "Md. Alauddin Sk", gender: "M", category: "GEN", party: "SDPI", generalVotes: 785, postalVotes: 2, totalVotes: 787, percentage: 0.4 },
@@ -14827,7 +14827,7 @@ years: {
           candidates: [
             { no: 1, name: "PRIYA PAUL", gender: "F", category: "SC", party: "AITC", generalVotes: 111758, postalVotes: 130, totalVotes: 111888, percentage: 50.4 },
             { no: 2, name: "PROBHAKAR PANDIT", gender: "M", category: "SC", party: "BJP", generalVotes: 71333, postalVotes: 128, totalVotes: 71461, percentage: 32.2 },
-            { no: 3, name: "SAMIR MALICK", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 34077, postalVotes: 67, totalVotes: 34144, percentage: 15.4 },
+            { no: 3, name: "SAMIR MALICK", gender: "M", category: "SC", party: "CPIM", generalVotes: 34077, postalVotes: 67, totalVotes: 34144, percentage: 15.4 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1848, postalVotes: 2, totalVotes: 1850, percentage: 0.8 },
             { no: 5, name: "SAMIR SHIT", gender: "M", category: "SC", party: "IND", generalVotes: 1006, postalVotes: 0, totalVotes: 1006, percentage: 0.5 },
             { no: 6, name: "SUVOMAY KHELO", gender: "M", category: "SC", party: "IND", generalVotes: 522, postalVotes: 0, totalVotes: 522, percentage: 0.2 },
@@ -14920,7 +14920,7 @@ years: {
           totalVotes: 171189,
           candidates: [
             { no: 1, name: "AJOY DEY", gender: "M", category: "GEN", party: "INC", generalVotes: 98709, postalVotes: 193, totalVotes: 98902, percentage: 57.8 },
-            { no: 2, name: "IYAR MALLIK", gender: "M", category: "GEN", party: "RCPI(R)", generalVotes: 60528, postalVotes: 216, totalVotes: 60744, percentage: 35.5 },
+            { no: 2, name: "IYAR MALLIK", gender: "M", category: "GEN", party: "RCPIR", generalVotes: 60528, postalVotes: 216, totalVotes: 60744, percentage: 35.5 },
             { no: 3, name: "KANOJ BISWAS", gender: "M", category: "GEN", party: "BJP", generalVotes: 11539, postalVotes: 4, totalVotes: 11543, percentage: 6.7 },
           ],
         },
@@ -14995,7 +14995,7 @@ years: {
           candidates: [
             { no: 1, name: "MOHAN CHANDRA NASKAR", gender: "M", category: "SC", party: "AITC", generalVotes: 117974, postalVotes: 661, totalVotes: 118635, percentage: 50.4 },
             { no: 2, name: "CHANDAN PAL", gender: "M", category: "GEN", party: "BJP", generalVotes: 94927, postalVotes: 390, totalVotes: 95317, percentage: 40.5 },
-            { no: 3, name: "GOUTAM PAL", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 16134, postalVotes: 86, totalVotes: 16220, percentage: 6.9 },
+            { no: 3, name: "GOUTAM PAL", gender: "M", category: "GEN", party: "CPIM", generalVotes: 16134, postalVotes: 86, totalVotes: 16220, percentage: 6.9 },
             { no: 4, name: "SK RABIYAL", gender: "M", category: "GEN", party: "SUCI", generalVotes: 1622, postalVotes: 3, totalVotes: 1625, percentage: 0.7 },
             { no: 5, name: "SANJAY KUMAR SAH", gender: "M", category: "GEN", party: "BSP", generalVotes: 1377, postalVotes: 2, totalVotes: 1379, percentage: 0.6 },
             { no: 6, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1374, postalVotes: 3, totalVotes: 1377, percentage: 0.6 },
@@ -15228,7 +15228,7 @@ years: {
           candidates: [
             { no: 1, name: "Sankar Ghosh", gender: "M", category: "GEN", party: "BJP", generalVotes: 88580, postalVotes: 790, totalVotes: 89370, percentage: 50.0 },
             { no: 2, name: "Dr. Omprakash Mishra", gender: "M", category: "GEN", party: "AITC", generalVotes: 53153, postalVotes: 631, totalVotes: 53784, percentage: 30.1 },
-            { no: 3, name: "Asok Bhattacharya", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 28269, postalVotes: 566, totalVotes: 28835, percentage: 16.1 },
+            { no: 3, name: "Asok Bhattacharya", gender: "M", category: "GEN", party: "CPIM", generalVotes: 28269, postalVotes: 566, totalVotes: 28835, percentage: 16.1 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2035, postalVotes: 39, totalVotes: 2074, percentage: 1.2 },
             { no: 5, name: "Kakali Majumdar (Roy)", gender: "F", category: "GEN", party: "BSP", generalVotes: 1241, postalVotes: 14, totalVotes: 1255, percentage: 0.7 },
             { no: 6, name: "Habul Ghosh", gender: "M", category: "GEN", party: "IND", generalVotes: 951, postalVotes: 6, totalVotes: 957, percentage: 0.5 },
@@ -15292,7 +15292,7 @@ years: {
           candidates: [
             { no: 1, name: "BECHARAM MANNA", gender: "M", category: "GEN", party: "AITC", generalVotes: 99852, postalVotes: 1225, totalVotes: 101077, percentage: 48.1 },
             { no: 2, name: "RABINDRANATH BHATTACHARYA", gender: "M", category: "GEN", party: "BJP", generalVotes: 74595, postalVotes: 559, totalVotes: 75154, percentage: 35.8 },
-            { no: 3, name: "SRIJAN BHATTACHARYYA", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 29639, postalVotes: 377, totalVotes: 30016, percentage: 14.3 },
+            { no: 3, name: "SRIJAN BHATTACHARYYA", gender: "M", category: "GEN", party: "CPIM", generalVotes: 29639, postalVotes: 377, totalVotes: 30016, percentage: 14.3 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2335, postalVotes: 10, totalVotes: 2345, percentage: 1.1 },
             { no: 5, name: "SHANKAR JANA", gender: "M", category: "GEN", party: "SUCI", generalVotes: 1339, postalVotes: 7, totalVotes: 1346, percentage: 0.6 },
           ],
@@ -15399,7 +15399,7 @@ years: {
           candidates: [
             { no: 1, name: "Baren Chandra Barman", gender: "M", category: "SC", party: "BJP", generalVotes: 124120, postalVotes: 835, totalVotes: 124955, percentage: 50.8 },
             { no: 2, name: "Partha Pratim Ray", gender: "M", category: "SC", party: "AITC", generalVotes: 106527, postalVotes: 613, totalVotes: 107140, percentage: 43.6 },
-            { no: 3, name: "Sudhangshu Pramanik", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 6622, postalVotes: 98, totalVotes: 6720, percentage: 2.7 },
+            { no: 3, name: "Sudhangshu Pramanik", gender: "M", category: "SC", party: "CPIM", generalVotes: 6622, postalVotes: 98, totalVotes: 6720, percentage: 2.7 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2738, postalVotes: 5, totalVotes: 2743, percentage: 1.1 },
             { no: 5, name: "Hare Krishna Sarkar", gender: "M", category: "SC", party: "IND", generalVotes: 2018, postalVotes: 0, totalVotes: 2018, percentage: 0.8 },
             { no: 6, name: "Manik Chandra Barman", gender: "M", category: "SC", party: "KPPU", generalVotes: 970, postalVotes: 6, totalVotes: 976, percentage: 0.4 },
@@ -15457,7 +15457,7 @@ years: {
           candidates: [
             { no: 1, name: "DIBAKAR GHARAMI", gender: "M", category: "SC", party: "BJP", generalVotes: 97203, postalVotes: 958, totalVotes: 98161, percentage: 47.3 },
             { no: 2, name: "DR. SHYAMAL SANTRA", gender: "M", category: "SC", party: "AITC", generalVotes: 86451, postalVotes: 822, totalVotes: 87273, percentage: 42.0 },
-            { no: 3, name: "AJIT RAY", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 15479, postalVotes: 246, totalVotes: 15725, percentage: 7.6 },
+            { no: 3, name: "AJIT RAY", gender: "M", category: "SC", party: "CPIM", generalVotes: 15479, postalVotes: 246, totalVotes: 15725, percentage: 7.6 },
             { no: 4, name: "AVRANIL MANDAL", gender: "M", category: "SC", party: "SUCI", generalVotes: 2758, postalVotes: 14, totalVotes: 2772, percentage: 1.3 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2062, postalVotes: 14, totalVotes: 2076, percentage: 1.0 },
             { no: 6, name: "ASIM KUMAR MANDAL", gender: "M", category: "SC", party: "IND", generalVotes: 1725, postalVotes: 7, totalVotes: 1732, percentage: 0.8 },
@@ -15571,7 +15571,7 @@ years: {
           candidates: [
             { no: 1, name: "FIRDOUSI BEGUM", gender: "F", category: "GEN", party: "AITC", generalVotes: 119272, postalVotes: 685, totalVotes: 119957, percentage: 49.9 },
             { no: 2, name: "RANJAN BAIDYA", gender: "M", category: "SC", party: "BJP", generalVotes: 83523, postalVotes: 344, totalVotes: 83867, percentage: 34.9 },
-            { no: 3, name: "MONALISA SINHA", gender: "F", category: "GEN", party: "CPI(M)", generalVotes: 29152, postalVotes: 248, totalVotes: 29400, percentage: 12.2 },
+            { no: 3, name: "MONALISA SINHA", gender: "F", category: "GEN", party: "CPIM", generalVotes: 29152, postalVotes: 248, totalVotes: 29400, percentage: 12.2 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2105, postalVotes: 9, totalVotes: 2114, percentage: 0.9 },
             { no: 5, name: "SAMIR BHATTACHARYA", gender: "M", category: "GEN", party: "IND", generalVotes: 1520, postalVotes: 1, totalVotes: 1521, percentage: 0.6 },
             { no: 6, name: "AJIT BAUL", gender: "M", category: "SC", party: "BSP", generalVotes: 1351, postalVotes: 5, totalVotes: 1356, percentage: 0.6 },
@@ -15861,7 +15861,7 @@ years: {
           candidates: [
             { no: 1, name: "BINA MONDAL", gender: "F", category: "SC", party: "AITC", generalVotes: 99438, postalVotes: 346, totalVotes: 99784, percentage: 47.1 },
             { no: 2, name: "BRINDABAN SARKAR", gender: "M", category: "SC", party: "BJP", generalVotes: 64666, postalVotes: 318, totalVotes: 64984, percentage: 30.7 },
-            { no: 3, name: "BISWAJIT MANDAL", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 43164, postalVotes: 118, totalVotes: 43282, percentage: 20.4 },
+            { no: 3, name: "BISWAJIT MANDAL", gender: "M", category: "SC", party: "CPIM", generalVotes: 43164, postalVotes: 118, totalVotes: 43282, percentage: 20.4 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1254, postalVotes: 2, totalVotes: 1256, percentage: 0.6 },
             { no: 5, name: "MRINMOY MONDAL", gender: "M", category: "SC", party: "IND", generalVotes: 923, postalVotes: 0, totalVotes: 923, percentage: 0.4 },
             { no: 6, name: "DEBABRATA BISWAS", gender: "M", category: "SC", party: "SUCI", generalVotes: 820, postalVotes: 1, totalVotes: 821, percentage: 0.4 },
@@ -15913,7 +15913,7 @@ years: {
           candidates: [
             { no: 1, name: "ARUP CHAKRABORTY", gender: "M", category: "GEN", party: "AITC", generalVotes: 91146, postalVotes: 880, totalVotes: 92026, percentage: 45.3 },
             { no: 2, name: "SHYAMAL KUMAR SARKAR (BENU)", gender: "M", category: "GEN", party: "BJP", generalVotes: 78593, postalVotes: 1056, totalVotes: 79649, percentage: 39.2 },
-            { no: 3, name: "MANORANJAN PATRA", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 22961, postalVotes: 228, totalVotes: 23189, percentage: 11.4 },
+            { no: 3, name: "MANORANJAN PATRA", gender: "M", category: "GEN", party: "CPIM", generalVotes: 22961, postalVotes: 228, totalVotes: 23189, percentage: 11.4 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3509, postalVotes: 9, totalVotes: 3518, percentage: 1.7 },
             { no: 5, name: "SANDIP KUMAR DEY", gender: "M", category: "GEN", party: "IND Chalata", generalVotes: 1881, postalVotes: 8, totalVotes: 1889, percentage: 0.9 },
             { no: 6, name: "SUNIL MURMU", gender: "M", category: "ST", party: "IND", generalVotes: 1058, postalVotes: 11, totalVotes: 1069, percentage: 0.5 },
@@ -16086,7 +16086,7 @@ years: {
           candidates: [
             { no: 1, name: "RAMENDU SINHARAY", gender: "M", category: "GEN", party: "AITC", generalVotes: 95384, postalVotes: 1314, totalVotes: 96698, percentage: 47.0 },
             { no: 2, name: "Dr. Swapan Dasgupta", gender: "M", category: "GEN", party: "BJP", generalVotes: 88461, postalVotes: 753, totalVotes: 89214, percentage: 43.3 },
-            { no: 3, name: "SURAJIT GHOSH", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 14396, postalVotes: 199, totalVotes: 14595, percentage: 7.1 },
+            { no: 3, name: "SURAJIT GHOSH", gender: "M", category: "GEN", party: "CPIM", generalVotes: 14396, postalVotes: 199, totalVotes: 14595, percentage: 7.1 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2740, postalVotes: 12, totalVotes: 2752, percentage: 1.3 },
             { no: 5, name: "Sanju Chakraborty", gender: "M", category: "GEN", party: "RPPRINAT", generalVotes: 1690, postalVotes: 7, totalVotes: 1697, percentage: 0.8 },
             { no: 6, name: "Sukumar Khanra", gender: "M", category: "GEN", party: "IND", generalVotes: 954, postalVotes: 7, totalVotes: 961, percentage: 0.5 },
@@ -16135,7 +16135,7 @@ years: {
           candidates: [
             { no: 1, name: "Tapas Kumar Saha", gender: "M", category: "GEN", party: "AITC", generalVotes: 96249, postalVotes: 1599, totalVotes: 97848, percentage: 44.9 },
             { no: 2, name: "Ashutosh Paul", gender: "M", category: "GEN", party: "BJP", generalVotes: 89503, postalVotes: 1430, totalVotes: 90933, percentage: 41.7 },
-            { no: 3, name: "Subodh Chandra Biswas", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 22905, postalVotes: 334, totalVotes: 23239, percentage: 10.7 },
+            { no: 3, name: "Subodh Chandra Biswas", gender: "M", category: "GEN", party: "CPIM", generalVotes: 22905, postalVotes: 334, totalVotes: 23239, percentage: 10.7 },
             { no: 4, name: "Tarak Nath Biswas", gender: "M", category: "SC", party: "BSP", generalVotes: 1846, postalVotes: 30, totalVotes: 1876, percentage: 0.9 },
             { no: 5, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1726, postalVotes: 10, totalVotes: 1736, percentage: 0.8 },
             { no: 6, name: "Rabindranath Halder", gender: "M", category: "SC", party: "IND", generalVotes: 1437, postalVotes: 2, totalVotes: 1439, percentage: 0.7 },
@@ -16188,7 +16188,7 @@ years: {
           candidates: [
             { no: 1, name: "AROOP BISWAS", gender: "M", category: "GEN", party: "AITC", generalVotes: 100491, postalVotes: 949, totalVotes: 101440, percentage: 51.4 },
             { no: 2, name: "BABUL SUPRIYO", gender: "M", category: "GEN", party: "BJP", generalVotes: 51064, postalVotes: 296, totalVotes: 51360, percentage: 26.0 },
-            { no: 3, name: "DEBDUT GHOSH", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 40260, postalVotes: 337, totalVotes: 40597, percentage: 20.6 },
+            { no: 3, name: "DEBDUT GHOSH", gender: "M", category: "GEN", party: "CPIM", generalVotes: 40260, postalVotes: 337, totalVotes: 40597, percentage: 20.6 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 2297, postalVotes: 13, totalVotes: 2310, percentage: 1.2 },
             { no: 5, name: "DEBABRATA BERA", gender: "M", category: "GEN", party: "SUCI", generalVotes: 451, postalVotes: 3, totalVotes: 454, percentage: 0.2 },
             { no: 6, name: "SUDIPTA SOM", gender: "M", category: "GEN", party: "IND", generalVotes: 302, postalVotes: 1, totalVotes: 303, percentage: 0.2 },
@@ -16479,7 +16479,7 @@ years: {
           candidates: [
             { no: 1, name: "Dr. Nirmal Maji", gender: "M", category: "SC", party: "AITC", generalVotes: 91324, postalVotes: 177, totalVotes: 91501, percentage: 49.3 },
             { no: 2, name: "CHIRAN BERA", gender: "M", category: "SC", party: "BJP", generalVotes: 70378, postalVotes: 120, totalVotes: 70498, percentage: 37.9 },
-            { no: 3, name: "Ashok Dalui", gender: "M", category: "SC", party: "CPI(M)", generalVotes: 19259, postalVotes: 33, totalVotes: 19292, percentage: 10.4 },
+            { no: 3, name: "Ashok Dalui", gender: "M", category: "SC", party: "CPIM", generalVotes: 19259, postalVotes: 33, totalVotes: 19292, percentage: 10.4 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 1244, postalVotes: 4, totalVotes: 1248, percentage: 0.7 },
             { no: 5, name: "NIRAPADA PANDIT", gender: "M", category: "SC", party: "IND Glass", generalVotes: 1181, postalVotes: 0, totalVotes: 1181, percentage: 0.6 },
             { no: 6, name: "Avijit Das", gender: "M", category: "SC", party: "IND", generalVotes: 935, postalVotes: 0, totalVotes: 935, percentage: 0.5 },
@@ -16538,7 +16538,7 @@ years: {
           candidates: [
             { no: 1, name: "KANCHAN MULLICK", gender: "M", category: "GEN", party: "AITC", generalVotes: 93334, postalVotes: 544, totalVotes: 93878, percentage: 47.0 },
             { no: 2, name: "PRABIR KUMAR GHOSAL", gender: "M", category: "GEN", party: "BJP", generalVotes: 57603, postalVotes: 286, totalVotes: 57889, percentage: 29.0 },
-            { no: 3, name: "RAJAT BANERJEE (BAPPA)", gender: "M", category: "GEN", party: "CPI(M)", generalVotes: 42376, postalVotes: 342, totalVotes: 42718, percentage: 21.4 },
+            { no: 3, name: "RAJAT BANERJEE (BAPPA)", gender: "M", category: "GEN", party: "CPIM", generalVotes: 42376, postalVotes: 342, totalVotes: 42718, percentage: 21.4 },
             { no: 4, name: "NOTA", gender: "", category: "", party: "NOTA", generalVotes: 3342, postalVotes: 11, totalVotes: 3353, percentage: 1.7 },
             { no: 5, name: "SOURAV ROY", gender: "M", category: "GEN", party: "CPIMLL", generalVotes: 1217, postalVotes: 6, totalVotes: 1223, percentage: 0.6 },
             { no: 6, name: "RANJAN MUKHERJEE", gender: "M", category: "GEN", party: "IND", generalVotes: 826, postalVotes: 7, totalVotes: 833, percentage: 0.4 },
