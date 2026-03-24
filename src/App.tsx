@@ -177,8 +177,6 @@ export default function App() {
 
         setElectionData(allData);
       } catch (error) {
-        setElectionData(allData);
-      } catch (error) {
         console.error("Error loading election data:", error);
       } finally {
         setIsLoading(false);
