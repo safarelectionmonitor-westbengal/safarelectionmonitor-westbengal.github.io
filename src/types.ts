@@ -13,9 +13,14 @@ export interface PartyResult {
 }
 
 export interface CandidateResult {
+  no: number;
   name: string;
+  gender: string;
+  category: string;
   party: Party;
-  votes: number;
+  generalVotes: number;
+  postalVotes: number;
+  totalVotes: number;
   percentage: number;
 }
 
