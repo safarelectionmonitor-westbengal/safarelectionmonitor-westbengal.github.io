@@ -24,14 +24,16 @@ const YEARS = [2026, 2021, 2016, 2011];
 const PARTIES: Party[] = ['AITC', 'BJP', 'INC', 'CPIM', 'OTH'];
 
 interface CSVRow {
-  year: string;
-  constituency_id: string;
-  constituency_name: string;
-  district: string;
-  candidate_name: string;
-  party: string;
-  votes: string;
-  total_votes: string;
+  Constituency: string;
+  No: string;
+  Name: string;
+  Gender: string;
+  Category: string;
+  Party: string;
+  'General Vote': string;
+  'Postal Vote': string;
+  Total: string;
+  PctVotes: string;
 }
 
 export default function App() {
@@ -87,20 +89,30 @@ export default function App() {
             let totalYearVotes = 0;
 
             // Group by constituency
-            const constituencyGroups: Record<number, CSVRow[]> = {};
+            const constituencyGroups: Record<string, CSVRow[]> = {};
             parsed.data.forEach(row => {
-              const id = parseInt(row.constituency_id);
-              if (isNaN(id)) return;
-              if (!constituencyGroups[id]) constituencyGroups[id] = [];
-              constituencyGroups[id].push(row);
+              const name = row.Constituency;
+              if (!name) return;
+              if (!constituencyGroups[name]) constituencyGroups[name] = [];
+              constituencyGroups[name].push(row);
             });
 
-            Object.entries(constituencyGroups).forEach(([idStr, rows]) => {
-              const id = parseInt(idStr);
-              const sortedCandidates = rows.sort((a, b) => parseInt(b.votes) - parseInt(a.votes));
+            Object.entries(constituencyGroups).forEach(([name, rows]) => {
+              const matchedConstituency = WEST_BENGAL_CONSTITUENCIES.find(
+                c => c.name.toLowerCase() === name.toLowerCase()
+              );
+              
+              if (!matchedConstituency) {
+                console.warn(`Constituency ${name} not found in master list`);
+                return;
+              }
+              
+              const id = matchedConstituency.id;
+              const sortedCandidates = rows.sort((a, b) => parseInt(b.Total) - parseInt(a.Total));
               const winner = sortedCandidates[0];
               const runnerUp = sortedCandidates[1];
-              const totalVotes = parseInt(winner.total_votes);
+              
+              const totalVotes = rows.reduce((sum, r) => sum + parseInt(r.Total || '0'), 0);
               
               totalYearVotes += totalVotes;
               
@@ -108,33 +120,38 @@ export default function App() {
               if (!constituencyMap.has(id)) {
                 constituencyMap.set(id, {
                   id,
-                  name: winner.constituency_name,
-                  district: winner.district,
+                  name: matchedConstituency.name,
+                  district: matchedConstituency.district,
                   history: {}
                 });
               }
 
               const constituency = constituencyMap.get(id)!;
               constituency.history[year] = {
-                winner: winner.candidate_name,
-                party: winner.party as Party,
-                margin: parseInt(winner.votes) - (runnerUp ? parseInt(runnerUp.votes) : 0),
-                marginPercent: ((parseInt(winner.votes) - (runnerUp ? parseInt(runnerUp.votes) : 0)) / totalVotes) * 100,
+                winner: winner.Name,
+                party: winner.Party as Party,
+                margin: parseInt(winner.Total) - (runnerUp ? parseInt(runnerUp.Total) : 0),
+                marginPercent: ((parseInt(winner.Total) - (runnerUp ? parseInt(runnerUp.Total) : 0)) / totalVotes) * 100,
                 totalVotes,
-                candidates: sortedCandidates.map(c => ({
-                  name: c.candidate_name,
-                  party: c.party as Party,
-                  votes: parseInt(c.votes),
-                  percentage: (parseInt(c.votes) / totalVotes) * 100
+                candidates: sortedCandidates.map((c, index) => ({
+                  no: c.No ? parseInt(c.No) : index + 1,
+                  name: c.Name,
+                  gender: c.Gender || 'M',
+                  category: c.Category || 'GEN',
+                  party: c.Party as Party,
+                  generalVotes: c['General Vote'] ? parseInt(c['General Vote']) : parseInt(c.Total),
+                  postalVotes: c['Postal Vote'] ? parseInt(c['Postal Vote']) : 0,
+                  totalVotes: parseInt(c.Total),
+                  percentage: parseFloat(c.PctVotes) || ((parseInt(c.Total) / totalVotes) * 100)
                 }))
               };
 
               // Aggregate party stats
-              const winnerParty = winner.party;
+              const winnerParty = winner.Party;
               partySeats[winnerParty] = (partySeats[winnerParty] || 0) + 1;
               
               rows.forEach(r => {
-                partyVotes[r.party] = (partyVotes[r.party] || 0) + parseInt(r.votes);
+                partyVotes[r.Party] = (partyVotes[r.Party] || 0) + parseInt(r.Total);
               });
             });
 
@@ -541,42 +558,51 @@ export default function App() {
 
               {/* Candidate Comparison Table */}
               {selectedConstituency && selectedConstituency.history[selectedYear] && (
-                <section className="modern-card !p-0 overflow-hidden">
+                <section className="modern-card !p-0 overflow-hidden mt-8">
                   <div className="p-4 sm:p-6 border-b border-slate-200 bg-slate-50">
                     <h3 className="text-base sm:text-lg font-bold text-slate-900">Candidate Comparison</h3>
                   </div>
-                  <div className="p-4 sm:p-8">
-                    <div className="space-y-6 sm:space-y-8">
-                      {selectedConstituency.history[selectedYear].candidates
-                        .sort((a, b) => b.votes - a.votes)
-                        .map((candidate, idx) => (
-                          <div key={idx} className="space-y-2 sm:space-y-3">
-                            <div className="flex items-end justify-between">
-                              <div>
-                                <div className="flex items-center gap-1.5 sm:gap-2 mb-1 sm:mb-1.5">
-                                  <div className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full shadow-sm" style={{ backgroundColor: PARTY_COLORS[candidate.party] || PARTY_COLORS.OTH }} />
-                                  <span className="text-[9px] sm:text-[10px] font-bold text-slate-500 uppercase tracking-wider">{candidate.party}</span>
+                  <div className="overflow-x-auto">
+                    <table className="w-full text-left border-collapse">
+                      <thead>
+                        <tr className="bg-slate-50 border-b border-slate-200 text-xs sm:text-sm text-slate-500 font-semibold uppercase tracking-wider">
+                          <th className="p-3 sm:p-4 whitespace-nowrap">Constituency</th>
+                          <th className="p-3 sm:p-4 whitespace-nowrap">No</th>
+                          <th className="p-3 sm:p-4 whitespace-nowrap">Name</th>
+                          <th className="p-3 sm:p-4 whitespace-nowrap">Gender</th>
+                          <th className="p-3 sm:p-4 whitespace-nowrap">Category</th>
+                          <th className="p-3 sm:p-4 whitespace-nowrap">Party</th>
+                          <th className="p-3 sm:p-4 whitespace-nowrap text-right">General Votes</th>
+                          <th className="p-3 sm:p-4 whitespace-nowrap text-right">Postal Votes</th>
+                          <th className="p-3 sm:p-4 whitespace-nowrap text-right">Total Votes</th>
+                          <th className="p-3 sm:p-4 whitespace-nowrap text-right">%</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-slate-100">
+                        {selectedConstituency.history[selectedYear].candidates
+                          .sort((a, b) => b.totalVotes - a.totalVotes)
+                          .map((candidate, idx) => (
+                            <tr key={idx} className="hover:bg-slate-50 transition-colors">
+                              <td className="p-3 sm:p-4 text-sm text-slate-600">{selectedConstituency.name}</td>
+                              <td className="p-3 sm:p-4 text-sm text-slate-600">{candidate.no}</td>
+                              <td className="p-3 sm:p-4 text-sm font-bold text-slate-900">{candidate.name}</td>
+                              <td className="p-3 sm:p-4 text-sm text-slate-600">{candidate.gender}</td>
+                              <td className="p-3 sm:p-4 text-sm text-slate-600">{candidate.category}</td>
+                              <td className="p-3 sm:p-4">
+                                <div className="flex items-center gap-2">
+                                  <div className="w-2.5 h-2.5 rounded-full shadow-sm" style={{ backgroundColor: PARTY_COLORS[candidate.party] || PARTY_COLORS.OTH }} />
+                                  <span className="text-xs font-bold text-slate-700 uppercase tracking-wider">{candidate.party}</span>
                                 </div>
-                                <div className="text-base sm:text-lg font-bold text-slate-900">{candidate.name}</div>
-                              </div>
-                              <div className="text-right">
-                                <div className="text-lg sm:text-xl font-bold text-slate-900">{candidate.percentage.toFixed(1)}%</div>
-                                <div className="text-[10px] sm:text-xs font-medium text-slate-500 mt-0.5">{candidate.votes.toLocaleString()} Votes</div>
-                              </div>
-                            </div>
-                            <div className="h-2 sm:h-2.5 w-full bg-slate-100 rounded-full overflow-hidden shadow-inner">
-                              <div 
-                                className="h-full rounded-full transition-all duration-1000"
-                                style={{ 
-                                  width: `${candidate.percentage}%`,
-                                  backgroundColor: PARTY_COLORS[candidate.party] || PARTY_COLORS.OTH
-                                }}
-                              />
-                            </div>
-                          </div>
-                        ))
-                      }
-                    </div>
+                              </td>
+                              <td className="p-3 sm:p-4 text-sm text-slate-600 text-right font-mono">{candidate.generalVotes.toLocaleString()}</td>
+                              <td className="p-3 sm:p-4 text-sm text-slate-600 text-right font-mono">{candidate.postalVotes.toLocaleString()}</td>
+                              <td className="p-3 sm:p-4 text-sm font-bold text-slate-900 text-right font-mono">{candidate.totalVotes.toLocaleString()}</td>
+                              <td className="p-3 sm:p-4 text-sm font-bold text-slate-900 text-right">{candidate.percentage.toFixed(1)}%</td>
+                            </tr>
+                          ))
+                        }
+                      </tbody>
+                    </table>
                   </div>
                 </section>
               )}
