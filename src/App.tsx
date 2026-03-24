@@ -269,8 +269,6 @@ if (!currentYearSummary && view === 'summary') {
 
   return (
     <div className="min-h-screen pb-20 bg-slate-50">
-  return (
-    <div className="min-h-screen pb-20 bg-slate-50">
       {/* Global Header */}
       <header className="bg-white border-b border-slate-200 px-4 md:px-6 py-3 md:py-4 sticky top-0 z-50 shadow-sm">
         <div className="max-w-[1600px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4 md:gap-6">
